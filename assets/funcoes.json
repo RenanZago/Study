@@ -1,0 +1,88 @@
+[
+    {
+        "1": "Seja a função f definida por f(x) = 3x – 2, determine o valor de f(5) + f(0):",
+        "2": "Na produção de peças, uma fábrica tem um custo fixo de R$ 16,00 mais um custo variável de R$ 1,50 por unidade produzida. Sendo x o número de peças unitárias produzidas, determine a lei da função que fornece o custo da produção de x peças:",
+        "3": "Na produção de peças, uma fábrica tem um custo fixo de R$ 30,00 mais um custo variável de R$ 2,00 por unidade produzida. Sendo x o número de peças unitárias produzidas, determine o custo de produção de 100 peças:",
+        "4": "Um motorista de táxi cobra R$ 4,50 de bandeirada mais R$ 0,90 por quilômetro rodado. Sabendo que o preço a pagar é dado em função do número de quilômetros rodados, calcule o preço a ser pago por uma corrida em que se percorreu 22 quilômetros?",
+        "5": "Andréia possuía R$ 600,00 para fazer uma cirurgia que tinha um custo total de R$ 3.000,00. No mês de outubro ela passou a economizar do seu salário R$ 200,00 que será utilizado para pagar esta cirurgia. Qual a função que relaciona o tempo, em meses, com a quantia em reais?",
+        "6": "Suponha que você trabalhe como representante de uma firma que se dedica à criação de jogos para computador. Seu salário é de R$ 2000,00 fixos por mês acrescidos de R$ 20,00 por jogo vendido. Se em um mês você vender 15 jogos, quanto você receberá?",
+        "7": "Dadas as funções f(x) = x – 5 e g(x) = 3x + 1, o valor da soma de f(9) + g(2) é:",
+        "8": "Sobre a função f(x) = 6x + 5 é incorreto afirmar que:",
+        "9": "Sobre a função f(x) = 3x² – 2x + 4 é incorreto afirmar que:",
+        "10": "Considere as seguintes funções: f(x) = x - 4 e g(x) = 5x + 1. Qual é o valor da função composta g(f(3))?"
+    },
+    {
+        "1": {
+            "a": "10",
+            "b": "11",
+            "c": "12",
+            "d": "13"
+        },
+        "2": {
+            "a": "f(x) = 16x + 1,50",
+            "b": "f(x) = 1,50x – 16",
+            "c": "f(x) = 1,50x + 16",
+            "d": "f(x) = 17,50x"
+        },
+        "3": {
+            "a": "R$ 170,00",
+            "b": "R$ 200,00",
+            "c": "R$ 230,00",
+            "d": "R$ 260,00"
+        },
+        "4": {
+            "a": "R$ 23,40",
+            "b": "R$ 24,30",
+            "c": "R$ 25,20",
+            "d": "R$ 26,10"
+        },
+        "5": {
+            "a": "f(x) = 200x + 600",
+            "b": "f(x) = 200x - 600",
+            "c": "f(X) = 600x + 3200",
+            "d": "f(x) = 200x + 3600"
+        },
+        "6": {
+            "a": "R$ 2300,00",
+            "b": "R$ 2600,00",
+            "c": "R$ 2900,00",
+            "d": "R$ 3200,00"
+        },
+        "7": {
+            "a": "3",
+            "b": "5",
+            "c": "7",
+            "d": "11"
+        },
+        "8": {
+            "a": "Seu gráfico será representado por uma reta.",
+            "b": "Sua raiz tem valor positivo.",
+            "c": "A função é crescente.",
+            "d": "P(0, 5) é um ponto desta função."
+        },
+        "9": {
+            "a": "Seu gráfico será representado por uma parábola.",
+            "b": "A função não possui raizes reais.",
+            "c": "P(2, 0) é um ponto desta função.",
+            "d": "Q(0, 4) é um ponto desta função."
+        },
+        "10": {
+            "a": "-4",
+            "b": "-2",
+            "c": "0",
+            "d": "2"
+        }
+    },
+    {
+        "1": "11",
+        "2": "f(x) = 1,50x + 16",
+        "3": "R$ 230,00",
+        "4": "R$ 24,30",
+        "5": "f(x) = 200x + 600",
+        "6": "R$ 2300,00",
+        "7": "11",
+        "8": "Sua raiz tem valor positivo.",
+        "9": "P(2, 0) é um ponto desta função.",
+        "10": "-4"
+    }
+]

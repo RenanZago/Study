@@ -1,0 +1,88 @@
+[
+    {
+        "1": "Um arranjo experimental é formado por uma fonte de tensão F, um amperímetro A, um voltímetro V, três resistores, R1, R2 e R3, de resistências iguais, e fios de ligação.  Quando o amperímetro mede uma corrente de 2 A, e o voltímetro, uma tensão de 6 V, a potência dissipada em R2 é igual a",
+        "2": "Comumente se ouve falar dos perigos da alta voltagem em dispositivos elétricos. Todavia, uma alta voltagem pode não significar uma grande quantidade de energia se",
+        "3": "Em uma residência onde moram quatro pessoas há um chuveiro de potência 6 kW. Sabendo que cada morador toma dois banhos por dia de aproximadamente 10 min cada e que o chuveiro sempre permanece na posição inverno, determine a energia consumida pelo equipamento em kWh ao fim de 1 mês.",
+        "4": "A respeito da geração de energia elétrica por meio das hidroelétricas, marque a alternativa correta.",
+        "5": "Há muitos mitos em relação a como se proteger de raios, cobrir espelhos e não pegar em facas, garfos e outros objetos metálicos, por exemplo. Mas, de fato, se houver uma tempestade com raios, alguns cuidados são importantes, como evitar ambientes abertos. Um bom abrigo para proteção é o interior de um automóvel, desde que este não seja conversível.  Qual o motivo físico da proteção fornecida pelos automóveis, conforme citado no texto?",
+        "6": "Um cordão de 200 pequenas lâmpadas é utilizado em árvores de Natal. Uma pessoa verifica que, ao retirar somente uma lâmpada de qualquer posição, outras nove não acendem mais, porém as demais 190 lâmpadas permanecem em pleno funcionamento. Com base nessa informação, ela tenta identificar a estrutura do circuito e a relação entre os valores das quantidades físicas envolvidas, entre as quais a razão entre as intensidades da corrente elétrica em uma das lâmpadas e da corrente elétrica total no cordão com as 200 lâmpadas ligadas.  O valor dessa razão é igual a",
+        "7": "O desfibrilador salva vidas de pessoas que são acometidas por ataques cardíacos ou arritmias. Ele dispõe de um capacitor que pode ser carregado por uma fonte com uma alta tensão. Usando o desfibrilador, pode-se fornecer energia ao coração, por meio de um choque elétrico, para que ele volte a pulsar novamente em seu ritmo normal. Um socorrista dispõe deum desfibrilador com capacitor de 70 microfarads que pode armazenar cerca de 220 J de energia, quando conectado a uma tensão de 2 500 V.  O valor da carga armazenada por esse desfibrilador, em coulomb, é de",
+        "8": "Com o avanço das multifunções dos dispositivos eletrônicos portáteis, gerenciamento equipamentos torna-se cada vez mais crítico. O manual de um telefone celular diz que a quantidade de carga fornecida pela sua bateria é de 1 500 mAh. smartphones, como OS da duração da bateria desses A quantidade de carga fornecida por essa bateria, em coulomb, é de",
+        "9": "Em uma manhã ensolarada, uma jovem vai até um parque para acampar e ler. Ela monta sua barraca próxima de seu carro, de uma árvore e de um quiosque de madeira. Durante sua leitura, a jovem não percebe a aproximação de uma tempestade com muitos relâmpagos.  A melhor maneira de essa jovem se proteger dos relâmpagos é",
+        "10": "Uma lâmpada é conectada a duas pilhas de tensão nominal 1,5 V, ligadas em série. Um voltímetro, utilizado para medir a diferença de potencial na lâmpada, fornece uma leitura de 2,78 V e um amperímetro indica que a corrente no circuito é de 94,2 mA.  O valor da resistência interna das pilhas é mais próximo de"
+    },
+    {
+        "1": {
+            "a": "4W",
+            "b": "6W",
+            "c": "12 W",
+            "d": "18 W"
+        },
+        "2": {
+            "a": "o potencial elétrico envolvido for constante.",
+            "b": "a quantidade de carga envolvida for baixa.",
+            "c": "o campo elétrico envolvido for uniforme.",
+            "d": "a força elétrica envolvida for baixa."
+        },
+        "3": {
+            "a": "100",
+            "b": "120",
+            "c": "240",
+            "d": "280"
+        },
+        "4": {
+            "a": "A água deve ser armazenada o mais distante possível das turbinas para que possa existir a possibilidade de alta velocidade com força suficiente para girar as turbinas.",
+            "b": "A água gira as turbinas para que, por meio do fenômeno da indução eletromagnética, a energia elétrica possa ser gerada.",
+            "c": "No Brasil, as únicas formas de geração de energia são as hidroelétricas e as termoelétricas.",
+            "d": "Todas as alternativas estão incorretas."
+        },
+        "5": {
+            "a": "Isolamento elétrico dos pneus.",
+            "b": "Efeito de para-raios da antena.",
+            "c": "Blindagem pela carcaça metálica.",
+            "d": "Aterramento pelo fio terra da bateria."
+        },
+        "6": {
+            "a": "1/200",
+            "b": "1/100",
+            "c": "1/20",
+            "d": "1/10"
+        },
+        "7": {
+            "a": "0,015",
+            "b": "0,088",
+            "c": "0,175",
+            "d": "3,15"
+        },
+        "8": {
+            "a": "90",
+            "b": "1.500",
+            "c": "5.400",
+            "d": "90.000"
+        },
+        "9": {
+            "a": "entrar no carro.",
+            "b": "entrar na barraca.",
+            "c": "abrir um guarda-chuva.",
+            "d": "ficar embaixo da árvore."
+        },
+        "10": {
+            "a": "0,021 Ω",
+            "b": "0,22 Ω",
+            "c": "0,26 Ω",
+            "d": "2,3 Ω"
+        }
+    },
+    {
+        "1": "4W",
+        "2": "a quantidade de carga envolvida for baixa.",
+        "3": "240",
+        "4": "A água gira as turbinas para que, por meio do fenômeno da indução eletromagnética, a energia elétrica possa ser gerada.",
+        "5": "Blindagem pela carcaça metálica.",
+        "6": "1/20",
+        "7": "0,175",
+        "8": "5.400",
+        "9": "entrar no carro.",
+        "10": "2,3 Ω"
+    }
+]

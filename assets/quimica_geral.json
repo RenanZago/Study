@@ -1,0 +1,88 @@
+[
+    {
+        "1": "Na preparação do café, a água quente entra em contato com o pó e é separada no coador. As operações envolvidas nessa separação são, respectivamente:",
+        "2": "Numa das etapas do tratamento da água que abastece uma cidade, a água é mantida durante um certo tempo em tanques para que os sólidos em suspensão se depositem no fundo. A essa operação denominamos:",           
+        "3": "O núcleo de um átomo pode ser definido como",
+        "4": "Os estudos sobre a radioatividade levaram o cientista neozelandês Ernest Rutherford a identificar uma região do átomo constituída de grandes espaços vazios chamada de",
+        "5": "Considerando-se as propriedades dos elementos químicos e a tabela periódica, é incorreto afirmar:",
+        "6": "Para interpretar as propriedades das diversas substâncias é necessário conhecer as ligações entre os átomos e as ligações entre as respectivas moléculas. Em relação à ligação entre átomos pode afirmar-se que…",
+        "7": "A molécula do OF2 é polar e a molécula do BeF2 é apolar. Isto se deve à (ao):",
+        "8": "O dióxido de carbono, presente na atmosfera e nos extintores de incêndio, apresenta ligação entre os seus átomos do tipo....... e suas moléculas estão unidas por ....... .",
+        "9": "O naftaleno, comercialmente conhecido como naftalina, empregado para evitar baratas em roupas, funde em temperaturas superiores a 80°C. Sabe-se que bolinhas de naftalina, à temperatura ambiente, têm suas massas constantemente diminuídas, terminando por desaparecer sem deixar resíduo. Essa observação pode ser explicada pelo fenômeno da:",
+        "10": "Dentre as alternativas a seguir, a única que é uma mistura é:"
+    },
+    {
+        "1": {
+            "a": "destilação e decantação.",
+            "b": "filtração e destilação.",
+            "c": "destilação e coação.",
+            "d": "extração e filtração."
+        },
+        "2": {
+            "a": "filtração.",
+            "b": "sedimentação.",
+            "c": "sifonação.",
+            "d": "cristalização."
+        },
+        "3": {
+            "a": "Uma pequena e densa região central, que é responsável por praticamente toda a massa do átomo.",
+            "b": "Uma grande região carregada positivamente, pois é formada apenas por prótons.",
+            "c": "Uma região pequena e neutra, pois é constituída apenas das partículas chamadas de nêutrons.",
+            "d": "Uma região do átomo sem carga, visto que as partículas positivas e negativas se anulam neste espaço."
+        },
+        "4": {
+            "a": "Núcleo",
+            "b": "Orbital",
+            "c": "Eletrosfera",
+            "d": "Camada elétrica"
+        },
+        "5": {
+            "a": "um metal é uma substância que conduz a corrente elétrica, é dúctil e maleável.",
+            "b": "um não metal é uma substância que não conduz a corrente elétrica, não é dúctil nem maleável.",
+            "c": "os gases nobres são monoatômicos.",
+            "d": "a maioria dos elementos químicos é constituída de ametais."
+        },
+        "6": {
+            "a": "entre átomos ligados predominam as forças de atração.",
+            "b": "quando se forma uma ligação entre átomos o sistema formado atinge o máximo de energia.",
+            "c": "as atrações e repulsões numa molécula não são só de natureza eletrostática.",
+            "d": "entre átomos ligados há equilíbrio entre as atrações e as repulsões eletrostáticas."
+        },
+        "7": {
+            "a": "diferença de eletronegatividade entre os átomos nas respectivas moléculas.",
+            "b": "geometria molecular.",
+            "c": "grande reatividade do oxigênio em relação ao flúor.",
+            "d": "fato de o oxigênio e o flúor serem gases."
+        },
+        "8": {
+            "a": "covalente apolar - forças de Van der Waals",
+            "b": "covalente apolar - atração dipolo induzido-dipolo induzido",
+            "c": "covalente polar - ligações de hidrogênio",
+            "d": "covalente polar - forças de Van der Waals"
+        },
+        "9": {
+            "a": "fusão.",
+            "b": "sublimação.",
+            "c": "liquefação.",
+            "d": "ebulição."
+        },
+        "10": {
+            "a": "a glicose.",
+            "b": "o cloreto de sódio.",
+            "c": "o ar atmosférico.",
+            "d": "o iodo sólido."
+        }
+    },
+    {
+        "1": "extração e filtração.",
+        "2": "sedimentação.",
+        "3": "Uma pequena e densa região central, que é responsável por praticamente toda a massa do átomo.",
+        "4": "Eletrosfera",
+        "5": "a maioria dos elementos químicos é constituída de ametais.",
+        "6": "entre átomos ligados há equilíbrio entre as atrações e as repulsões eletrostáticas.",
+        "7": "geometria molecular.",
+        "8": "covalente polar - forças de Van der Waals",
+        "9": "sublimação.",
+        "10": "o ar atmosférico."
+    }
+]

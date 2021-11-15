@@ -1,0 +1,88 @@
+[
+    {
+        "1": "As ondas são formas de transferência de energia de uma região para outra. Existem ondas mecânicas – que precisam de meios materiais para se propagarem – e ondas eletromagnéticas – que podem se propagar tanto no vácuo como em alguns meios materiais. Sobre ondas, podemos afirmar corretamente que",
+        "2": "A respeito das características das ondas, marque a alternativa errada.",
+        "3": "O som mais grave que o ouvido humano é capaz de ouvir possui comprimento de onda igual a 17 m. Sendo assim, determine a mínima frequência capaz de ser percebida pelo ouvido humano.  Dados: Velocidade do som no ar = 340 m/s",
+        "4": "Uma pessoa toca no piano uma tecla correspondente à nota mi e, em seguida, a que corresponde a sol. Pode-se afirmar que serão ouvidos dois sons diferentes porque as ondas sonoras correspondentes a essas notas têm:",
+        "5": "Diante de uma grande parede vertical, um garoto bate palmas e recebe o eco um segundo depois. Se a velocidade do som no ar é 340 m/s, o garoto pode concluir que a parede está situada a uma distância aproximada de:",
+        "6": "A respeito da classificação das ondas, marque a alternativa incorreta:",
+        "7": "Uma determinada fonte gera 3600 ondas por minuto com comprimento de onda igual a 10 m. Determine a velocidade de propagação dessas ondas.",
+        "8": "Em relação às ondas e aos fenômenos ondulatórios, assinale a(s) proposição(ões) CORRETA(S).",
+        "9": "Um feixe de luz de comprimento de onda igual a 600x10-9 m, no vácuo, atravessa um bloco de vidro de índice de refração igual a 1,50. A velocidade e o comprimento de onda da luz no vidro são, respectivamente, iguais a:",
+        "10": "Quando uma onda sonora incide na superfície de um lago, uma parte dela é refletida e a outra é transmitida para a água. Sejam fI a freqüência da onda incidente, fR a freqüência da onda refletida e fT a freqüência da onda transmitida para a água. Considerando-se essas informações, é CORRETO afirmar que:"
+    },
+    {
+        "1": {
+            "a": "a energia transferida por uma onda eletromagnética é diretamente proporcional à frequência dessa onda.",
+            "b": "o som é uma espécie de onda eletromagnética e, por isso, pode ser transmitido de uma antena à outra, como ocorre nas transmissões de TV e rádio.",
+            "c": "a luz visível é uma onda mecânica que somente se propaga de forma transversal.",
+            "d": "existem ondas eletromagnéticas que são visíveis aos olhos humanos, como o ultravioleta, o infravermelho e as micro-ondas."
+        },
+        "2": {
+            "a": "Ondas sonoras e ondas sísmicas são exemplos de ondas mecânicas.",
+            "b": "A descrição do comportamento das ondas mecânicas é feita pelas leis de Newton.",
+            "c": "As ondas eletromagnéticas resultam da combinação de um campo elétrico com um campo magnético.",
+            "d": "Quanto à direção de propagação, as ondas geradas em um lago pela queda de uma pedra na água são classificadas como tridimensionais."
+        },
+        "3": {
+            "a": "10 Hz",
+            "b": "15 Hz",
+            "c": "20 Hz",
+            "d": "25 Hz"
+        },
+        "4": {
+            "a": "amplitudes diferentes",
+            "b": "frequências diferentes",
+            "c": "intensidades diferentes",
+            "d": "timbres diferentes"
+        },
+        "5": {
+            "a": "17 m",
+            "b": "34 m",
+            "c": "68 m",
+            "d": "170 m"
+        },
+        "6": {
+            "a": "As ondas classificadas como longitudinais possuem vibração paralela à propagação. Um exemplo desse tipo de onda é o som.",
+            "b": "A frequência representa o número de ondas geradas dentro de um intervalo de tempo específico. A unidade Hz (Hertz) significa ondas geradas por segundo.",
+            "c": "O som é uma onda mecânica, longitudinal e tridimensional.",
+            "d": "Quanto à sua natureza, as ondas podem ser classificadas em mecânicas, eletromagnéticas, transversais e longitudinais."
+        },
+        "7": {
+            "a": "360 m/s",
+            "b": "500 m/s",
+            "c": "600 m/s",
+            "d": "800 m/s"
+        },
+        "8": {
+            "a": "A  velocidade  de  uma  onda  em  um determinado meio é de 120 m/s, para uma frequência de 60 Hz. Dobrando a frequência, a velocidade da onda neste meio também dobra.",
+            "b": "Dois instrumentos musicais, emitindo a mesma nota musical, são diferenciados um do outro pela altura do som.",
+            "c": "A refração é caracterizada pela mudança de direção de propagação da onda ao mudar de meio.",
+            "d": "Uma onda, que se propaga em determinado meio, terá uma velocidade que depende deste meio e uma frequência definida pela fonte da onda."
+        },
+        "9": {
+            "a": "2,0x108 m/s e 400x10-9 m",
+            "b": "2,0x108 m/s e 900x10-9 m",
+            "c": "3,0x108 m/s e 4,0x10-7 m",
+            "d": "5,0x107 m/s e 900x10-9 m"
+        },
+        "10": {
+            "a": "fR = fI e fT > fI",
+            "b": "fR < fI e fT > fI",
+            "c": "fR < fI e fT = fI",
+            "d": "fR = fI e fT = fI"
+        }
+    },
+    {
+        "1": "a energia transferida por uma onda eletromagnética é diretamente proporcional à frequência dessa onda.",
+        "2": "Quanto à direção de propagação, as ondas geradas em um lago pela queda de uma pedra na água são classificadas como tridimensionais.",
+        "3": "20 Hz",
+        "4": "frequências diferentes",
+        "5": "170 m",
+        "6": "Quanto à sua natureza, as ondas podem ser classificadas em mecânicas, eletromagnéticas, transversais e longitudinais.",
+        "7": "600 m/s",
+        "8": "Uma onda, que se propaga em determinado meio, terá uma velocidade que depende deste meio e uma frequência definida pela fonte da onda.",
+        "9": "2,0x108 m/s e 400x10-9 m",
+        "10": "fR = fI e fT = fI"
+    }
+]

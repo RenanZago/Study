@@ -1,0 +1,88 @@
+[
+    {
+        "1": "Mário pretende realizar uma viagem utilizando um veículo cujo consumo médio de combustível é de 10 Km/L. Sabendo que percorrerá 300 000 m, é correto afirmar que o volume de combustível a ser consumido será de:",
+        "2": "Duas empreiteiras farão conjuntamente a pavimentação de uma estrada, cada uma trabalhando a partir de uma das extremidades. Se uma delas pavimentar 2/5 da estrada e a outra os 81 km restantes, a extensão dessa estrada é de:",
+        "3": "O artigo 33 da lei brasileira sobre drogas prevê a pena de reclusão de 5 a 15 anos para qualquer pessoa que seja condenada por tráfico ilícito ou produção não autorizada de drogas. Entretanto, caso o condenado seja réu primário, com bons antecedentes criminais, essa pena pode sofrer uma redução de um sexto a dois terços.  Suponha que um réu primário, com bons antecedentes criminais, foi condenado pelo artigo 33 da lei brasileira sobre drogas.  Após o benefício da redução de pena, sua pena poderá variar de",
+        "4": "O piso de uma sala retangular, medindo 3,52 m × 4,16 m, será revestido com ladrilhos quadrados, de mesma dimensão, inteiros, de forma que não fique espaço vazio entre ladrilhos vizinhos. Os ladrilhos serão escolhido de modo que tenham a maior dimensão possível. Na situação apresentada, o lado do ladrilho deverá medir:",
+        "5": "O valor de (0,2)³ + (0,16)² é:",
+        "6": "Por qual número devemos multiplicar o número 0,75 de modo que a raiz quadrada do produto obtido seja igual a 45?",
+        "7": "Numa progressão geométrica de quatro termos positivos, a soma dos dois primeiros vale 1 e a soma dos dois últimos vale 9. calcule a razão da progressão.",
+        "8": "Uma pessoa tomou um empréstimo de R$ 1.200,00 no sistema de capitalização simples, quitando-o em uma única parcela, após 4 meses, no valor de R$ 1.260,00. A que taxa anual de correção este empréstimo foi concedido?",
+        "9": "Uma empresa tem 750 empregados e comprou marmitas individuais congeladas suficientes para o almoço deles durante 25 dias. Se essa empresa tivesse mais 500 empregados, a quantidade de marmitas adquiridas seria suficiente para quantos dias? ",
+        "10": "Três pessoas A, B e C vão participar de um concurso num programa de televisão. O apresentador faz um sorteio entre A e B e, em seguida, faz um sorteio, para decidir quem iniciará o concurso. Se em cada sorteio as duas pessoas têm a mesma “chance” de ganhar, qual é a probabilidade de A iniciar o concurso?"
+    },
+    {
+        "1": {
+            "a": "10 litros.",
+            "b": "12 litros.",
+            "c": "15 litros.",
+            "d": "30 litros."
+        },
+        "2": {
+            "a": "125 km.",
+            "b": "135 km.",
+            "c": "142 km.",
+            "d": "145 km."
+        },
+        "3": {
+            "a": "1 ano e 8 meses a 12 anos e 6 meses.",
+            "b": "1 ano e 8 meses a 5 anos.",
+            "c": "3 anos e 4 meses a 10 anos.",
+            "d": "4 anos e 2 meses a 5 anos."
+        },
+        "4": {
+            "a": "mais de 30 cm.",
+            "b": "menos de 15 cm.",
+            "c": "mais de 15 cm e menos de 20 cm.",
+            "d": "mais de 20 cm e menos de 25 cm."
+        },
+        "5": {
+            "a": "0,0264.",
+            "b": "0,0336.",
+            "c": "0,1056.",
+            "d": "0,2568."
+        },
+        "6": {
+            "a": "2700.",
+            "b": "2800.",
+            "c": "2900.",
+            "d": "3000."
+        },
+        "7": {
+            "a": "3.",
+            "b": "5.",
+            "c": "7.",
+            "d": "9."
+        },
+        "8": {
+            "a": "5% a.a.",
+            "b": "12% a.a.",
+            "c": "15% a.a.",
+            "d": "18% a.a."
+        },
+        "9": {
+            "a": "11.",
+            "b": "15.",
+            "c": "17.",
+            "d": "20."
+        },
+        "10": {
+            "a": "12,5%.",
+            "b": "25%.",
+            "c": "50%.",
+            "d": "75%."
+        }
+    },
+    {
+        "1": "30 litros.",
+        "2": "135 km.",
+        "3": "1 ano e 8 meses a 12 anos e 6 meses.",
+        "4": "mais de 30 cm.",
+        "5": "0,0336.",
+        "6": "2700.",
+        "7": "type",
+        "8": "15% a.a.",
+        "9": "15.",
+        "10": "25%."
+    }
+]

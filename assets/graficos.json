@@ -1,0 +1,88 @@
+[
+    {
+        "1": "O que são gráficos?",
+        "2": "Qual é um elemento dos gráficos?",
+        "3": "Um gráfico de colunas:",
+        "4": "Um gráfico de linhas:",
+        "5": "Um gráfico de pizza:",
+        "6": "Um gráfico de área:",
+        "7": "Um Histograma:",
+        "8": "Um infográfico:",
+        "9": "Um diagrama:",
+        "10": "As tabelas:"
+    },
+    {
+        "1": {
+            "a": "São representações visuais que visam exibir dados.",
+            "b": "São textos que visam expor dados.",
+            "c": "São imagens de funcionalidade estética.",
+            "d": "São vídeos informativos."
+        },
+        "2": {
+            "a": "Área",
+            "b": "Legenda",
+            "c": "Proporção",
+            "d": "Dimensão"
+        },
+        "3": {
+            "a": "É apenas horizontal.",
+            "b": "Pode ser horizontal ou vertical.",
+            "c": "É apenas vertical.",
+            "d": "Não tem sentido. "
+        },
+        "4": {
+            "a": "Também é conhecido como gráfico de retas.",
+            "b": "Pode analisar somente dois dados diferentes.",
+            "c": "É utilizado para apresentar evoluções ou diminuições.",
+            "d": "Tem a mesma função de um diagrama."
+        },
+        "5": {
+            "a": "Recebe esse nome por analisar dados relacionados somente à alimentos.",
+            "b": "Ele também é denominado de gráfico de setores.",
+            "c": "Não utiliza divisões entre os dados.",
+            "d": "É dividido necessariamente em 8 partes."
+        },
+        "6": {
+            "a": "É muito utilizado para encontrar tendências ao longo do tempo.",
+            "b": "Se assemelha ao gráfico de pizza.",
+            "c": "Não avalia amplitude.",
+            "d": "Não tem sombreamento abaixo das linhas."
+        },
+        "7": {
+            "a": "Mostra a unificação de dados.",
+            "b": "Analisa somente horas e percentuais.",
+            "c": "Tem similiaridade com os infográficos.",
+            "d": "É muito similar ao gráfico de barras."
+        },
+        "8": {
+            "a": "Tem a predominância de elementos audiovisuais.",
+            "b": "É utilizado dificilmente.",
+            "c": "Necessita ser estático.",
+            "d": "Só pode ser encontrado em revistas."
+        },
+        "9": {
+            "a": "Demonstra um esquema complexo.",
+            "b": "Exibe um resumo sobre determinado assunto.",
+            "c": "Não é uma representação gráfica.",
+            "d": "Assemelha-se ao gráfico de linhas."
+        },
+        "10": {
+            "a": "Não são representações gráficas.",
+            "b": "Não organizam dados, apenas exibem os mesmos.",
+            "c": "São utilizadas para organizar dados em linhas e colunas.",
+            "d": "São utilizadas apenas em situações específicas."
+        }
+    },
+    {
+        "1": "São representações visuais que visam exibir dados.",
+        "2": "Legenda",
+        "3": "Pode ser horizontal ou vertical.",
+        "4": "É utilizado para apresentar evoluções ou diminuições.",
+        "5": "Ele também é denominado de gráfico de setores.",
+        "6": "É muito utilizado para encontrar tendências ao longo do tempo.",
+        "7": "É muito similar ao gráfico de barras.",
+        "8": "Tem a predominância de elementos visuais.",
+        "9": "Exibe um resumo sobre determinado assunto.",
+        "10": "São utilizadas para organizar dados em linhas e colunas."
+    }
+]

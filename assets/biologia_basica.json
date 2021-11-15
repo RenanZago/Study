@@ -1,0 +1,88 @@
+[
+    {
+        "1": "Ao analisar uma lâmina histológica, um aluno do curso de Biologia percebeu que a lâmina apresentava células de formato cúbico que estavam muito próximas a outras com uma quantidade de substância intercelular extremamente reduzida. Diante dessas características, fica claro que o tecido em questão era:",
+        "2": "Existem diferentes glândulas no organismo. Algumas são responsáveis por lançar secreções para fora do corpo, como é o caso das glândulas sudoríparas, e outras lançam secreção diretamente no sangue, como é o caso da tireoide. Apesar das diferenças, todas são formadas a partir de tecido:",
+        "3": "As reações metabólicas são classificadas em dois grandes grupos. A respiração celular pode ser considerada como uma reação chamada de",
+        "4": "Que nome recebe a molécula considerada como a moeda energética dos seres vivos?",
+        "5": "Quais as características presentes nos indivíduos de uma espécie afim de que possamos afirmar que os mesmos são mais adaptados em comparação a outros indivíduos da mesma espécie:",
+        "6": "A bactéria não possui:",
+        "7": "Segundo a teoria da abiogênese, os primeiros seres que surgiram no planeta teriam sido:",
+        "8": "Um grupo de estudantes realizou uma aula de campo com seu professor de Biologia para aprender na prática sobre os grupos de planta. Ao chegar ao local, um aluno observou uma espécie e disse que se tratava de uma angiosperma. Que característica pode ter dado ao aluno a certeza de que se tratava desse grupo de planta?",
+        "9": "Identifique qual a afirmativa verdadeira quanto às características animais.",
+        "10": "Piolhos do couro cabeludo são animais que infestam a região da cabeça, provocando coceira. Eles se alimentam do sangue das pessoas nas quais eles estão se desenvolvendo. A relação ecológica existente entre piolhos e seres humanos é de:"
+    },
+    {
+        "1": {
+            "a": "conjuntivo.",
+            "b": "epitelial.",
+            "c": "muscular.",
+            "d": "nervoso."
+        },
+        "2": {
+            "a": "conjuntivo.",
+            "b": "cartilaginoso.",
+            "c": "sanguíneo.",
+            "d": "epitelial."
+        },
+        "3": {
+            "a": "Catabolismo.",
+            "b": "Anaerobiose.",
+            "c": "Anabolismo.",
+            "d": "Metabolismo construtivo."
+        },
+        "4": {
+            "a": "ADP.",
+            "b": "DNA.",
+            "c": "ATP.",
+            "d": "RNA."
+        },
+        "5": {
+            "a": "são maiores e solitários.",
+            "b": "comem mais e apresentam cores vibrantes.",
+            "c": "vivem mais e reproduzem mais.",
+            "d": "são mais fortes."
+        },
+        "6": {
+            "a": "Membrana plasmática.",
+            "b": "Ribossomo.",
+            "c": "Parede celular.",
+            "d": "Carioteca."
+        },
+        "7": {
+            "a": "gerados pelo desenvolvimento de um complexo ativado na matéria inanimada.",
+            "b": "gerados espontaneamente a partir de um “princípio ativo” contido na matéria não viva.",
+            "c": "gerados pela junção de conglomerados e condições favoráveis.",
+            "d": "gerados individualmente por uma entidade superior."
+        },
+        "8": {
+            "a": "Presença de sementes.",
+            "b": "Presença de vasos condutores, o que garante que essas plantas sejam maiores.",
+            "c": "Presença de folhas e outros órgãos com tecidos verdadeiros.",
+            "d": "Presença de frutos envolvendo a semente."
+        },
+        "9": {
+            "a": "Todos os vertebrados são cordados",
+            "b": "Todos os vertebrados são mamíferos",
+            "c": "Os anfíbios e répteis são invertebrados",
+            "d": "As aves são vertebrados, mas não são cordados"
+        },
+        "10": {
+            "a": "comensalismo.",
+            "b": "mutualismo.",
+            "c": "parasitismo.",
+            "d": "predatismo."
+        }
+    },
+    {
+        "1": "epitelial.",
+        "2": "epitelial.",
+        "3": "Catabolismo.",
+        "4": "ATP.",
+        "5": "vivem mais e reproduzem mais.",
+        "6": "Carioteca.",
+        "7": "gerados espontaneamente a partir de um “princípio ativo” contido na matéria não viva.",
+        "8": "Presença de frutos envolvendo a semente.",
+        "9": "Todos os vertebrados são cordados",
+        "10": "parasitismo."
+    }
+]

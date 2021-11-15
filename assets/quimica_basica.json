@@ -1,0 +1,88 @@
+[
+    {
+        "1": "Abaixo são citadas quatro propriedades da matéria: I. Densidade II. Volume III. Temperatura de ebulição IV. Massa  Quais delas correspondem à extensão de espaço e à quantidade de matéria que existe em um corpo, respectivamente?",
+        "2": "Foi realizada uma festa de formatura do terceiro ano do ensino médio de uma escola de Uberaba. Dois formandos estavam muito entusiasmados com a festa, que aconteceu em um dia quente de primavera. Percebendo os fenômenos químicos e físicos que ocorriam ao seu redor, afirmaram:  I) O gelo, que está nos copos, após a ingestão dos sucos, está derretendo com muita facilidade.  II) A carne do churrasco está ao ponto.  III) Para acender o fogo na churrasqueira foi utilizado um pouco de etanol em gel, facilitando, assim, o processo. IV) A água da piscina não estava quente, porém visivelmente evaporava com facilidade devido à alta temperatura ambiente.   Assinale a alternativa que contém a(s) afirmação(ções) em que há presença de um fenômeno químico:",
+        "3": "Considera-se um sistema homogêneo ou heterogêneo qualquer porção do universo que seja submetida a uma observação, sendo que a mesma pode ser uma substância pura ou uma mistura. São exemplos de sistemas homogêneos e heterogêneos, respectivamente,",
+        "4": "A Química é uma ciência que estuda as transformações e a composição de toda matéria. O termo matéria pode ser substituído por corpo ou objeto de acordo com a situação que estivermos analisando. Se estamos estudando a composição de uma porção limitada (um pedaço ou uma parte) da matéria, por exemplo, estamos estudando um corpo. Já se estivermos estudando a composição de uma porção da matéria que possui uma utilização (uso) específica para o homem, estaremos estudando um objeto. Dentro dessa perspectiva, marque a alternativa que apresenta, respectivamente, exemplos de matéria, corpo e objeto:",
+        "5": "Sabe-se que energia é a medida da capacidade de realizar um trabalho e que ela pode ser de diversos tipos diferentes, dependendo do trabalho que foi realizado. Assim sendo, marque a alternativa na qual o tipo de energia não corresponde ao trabalho realizado:",
+        "6": "Embora não apareça entre os grandes fornecedores mundiais de diamantes, o Brasil pode voltar em breve ao clube dos exportadores da gema. O Brasil foi o maior produtor mundial de diamantes durante 150 anos, mas perdeu a posição em 1866, com a descoberta das minas primárias de diamante na África do Sul. Em 2015, será feita a primeira operação de lavra na rocha primária no município de Braúnas, na Bahia, controlada por uma empresa canadense. Sobre o assunto tratado acima, é CORRETO afirmar que:",
+        "7": "A Organização Mundial de Saúde recomenda a ingestão de, no máximo, 2 g de sódio por dia, mas o brasileiro consome, em média, mais do que o dobro desta quantidade. O sódio está atrelado à regulação da pressão sanguínea e, em excesso, sobrecarrega o sistema circulatório, causando problemas renais e cardiovasculares.",
+        "8": "Pauling é reconhecido como um cientista muito versátil, devido às suas contribuições em diversos campos, incluindo a química quântica, química inorgânica e orgânica, metalurgia, imunologia, psicologia, desintegração radioativa, entre outros.",
+        "9": "O mercúrio foi responsável pela poluição de alguns rios brasileiros em virtude de sua utilização no garimpo de ouro. Sua sigla é:",
+        "10": "As propriedades dos elementos são função periódica de sua (seu):"
+    },
+    {
+        "1": {
+            "a": "I e II",
+            "b": "I e III",
+            "c": "II e IV",
+            "d": "II e III"
+        },
+        "2": {
+            "a": "I, apenas",
+            "b": "II, apenas",
+            "c": "I e IV, apenas",
+            "d": "II e III, apenas"
+        },
+        "3": {
+            "a": "água potável e água com álcool etílico.",
+            "b": "água com gelo e água barrenta.",
+            "c": "água destilada com gelo e água potável com sal.",
+            "d": "água destilada e água com óleo de soja."
+        },
+        "4": {
+            "a": "ar, vento, ar comprimido",
+            "b": "vento, ar, ar comprimido",
+            "c": "ar comprimido, vento e ar",
+            "d": "vento, ar comprimido e ar"
+        },
+        "5": {
+            "a": "Energia térmica: troca de calor entre o gelo e a água líquida em um copo",
+            "b": "Energia cinética: quando um corpo está em repouso",
+            "c": "Energia mecânica: capacidade de colocar um corpo em movimento",
+            "d": "Energia química: formação de uma ligação química"
+        },
+        "6": {
+            "a": "decantação, filtração e flotação são processos de separação de misturas heterogêneas nos quais não é necessária nenhuma transformação física.",
+            "b": "em uma mistura homogênea mantida sob temperatura e pressão constantes, observam-se fases distintas.",
+            "c": "quando uma substância pura muda de estado físico à pressão constante, a temperatura varia com o tempo enquanto a mudança se processa.",
+            "d": "a cristalização é um processo de separação e purificação de misturas homogêneas sem que ocorra mudança de estado físico."
+        },
+        "7": {
+            "a": "o cloreto de sódio será mais solúvel em 200 mL de óleo de soja do que em 200 mL de uma bebida refrigerante.",
+            "b": "ao adicionar sal de cozinha na água para cozimento de uma porção de macarrão, ocorre uma reação de oxirredução, na qual são produzidos sódio na forma metálica (reduzida) e cloro na forma de gás (Cℓ2).",
+            "c": "o raio do átomo neutro de sódio é menor que o raio do átomo neutro de cloro.",
+            "d": "o raio do átomo neutro de sódio é maior que o raio do respectivo cátion."
+        },
+        "8": {
+            "a": "na molécula de ácido metanoico, o hidrogênio ionizável interage por meio de uma ligação iônica com o átomo de carbono.",
+            "b": "a eletronegatividade do bromo é maior que a do flúor, o que explica o fato de a molécula de HF ser mais polar que a molécula de HBr.",
+            "c": "no benzeno (C6H6), a inexistência de híbridos de ressonância sugere que os elétrons que participam das ligações covalentes entre átomos de carbono estão dispostos em orbitais σ.",
+            "d": "na molécula de etanol, o polo negativo encontra-se sobre o átomo de oxigênio, que possui maior eletronegatividade que o átomo de carbono e o de hidrogênio."
+        },
+        "9": {
+            "a": "Mg",
+            "b": "K",
+            "c": "Hg",
+            "d": "At"
+        },
+        "10": {
+            "a": "massa atômica",
+            "b": "número atômico",
+            "c": "diâmetro atômico",
+            "d": "número de oxidação"
+        }
+    },
+    {
+        "1": "II e IV",
+        "2": "II e III, apenas",
+        "3": "água destilada e água com óleo de soja.",
+        "4": "ar, vento, ar comprimido",
+        "5": "Energia cinética: quando um corpo está em repouso",
+        "6": "decantação, filtração e flotação são processos de separação de misturas heterogêneas nos quais não é necessária nenhuma transformação física.",
+        "7": "o raio do átomo neutro de sódio é maior que o raio do respectivo cátion.",
+        "8": "na molécula de etanol, o polo negativo encontra-se sobre o átomo de oxigênio, que possui maior eletronegatividade que o átomo de carbono e o de hidrogênio.",
+        "9": "Hg",
+        "10": "número atômico"
+    }
+]

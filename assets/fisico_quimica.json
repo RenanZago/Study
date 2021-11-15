@@ -1,0 +1,88 @@
+[
+    {
+        "1": "Numa aula de química experimental, o professor mostrou aos alunos que numa tabela específica sobre os principais coeficientes de solubilidade encontra-se o do Cloreto de Sódio (NaCl) e que a 15ºC solubilizam-se 380g deste sal em 1 (um) litro de água. Uma equipe de alunos recebeu uma amostra de 20g de uma solução saturada de NaCl. Com estas informações, determine a massa do resíduo que aparece ao se evaporar toda a água da amostra.",
+        "2": "Chegando ao apartamento dos pais em Florianópolis, Carlos resolve fazer um café. Coloca água para ferver e aguarda. Algum tempo depois comenta: “- Essa água parece que demora mais para ferver aqui do que em Urubici!”.  Com base nas propriedades físicas das substâncias, é CORRETO afirmar que:",
+        "3": "Adicionando-se um pouco de cloreto de cálcio, CaCl2, a uma solução saturada de hidróxido de cálcio, Ca(OH)2, pode-se afirmar que:",
+        "4": "Ao chegar a um posto de gasolina, um motorista vai ao calibrador e infla os pneus do seu carro, colocando uma pressão de 30bars (considere 1 bar igual a 105N/m2). Nesse momento, o motorista verifica que a temperatura dos pneus é de 270C. Depois de dirigir por algum tempo, a temperatura dos pneus sobe para 810C. Desprezando-se o pequeno aumento no volume dos pneus e tratando o ar no seu interior como um gás ideal, é correto afirmar que, em bar, a pressão nos pneus passará a ser:",
+        "5": "Em uma experiência envolvendo gases, quatro mols de um gás diatômico são aquecidos à pressão constante, a partir de uma temperatura , fazendo com que o seu volume quadruplique. Sabendo-se que o calor molar à pressão constante do gás é (7R)/2, é correto afirmar que a energia transmitida para esse gás, em forma de calor, é:",
+        "6": "A água mineral com gás pode ser fabricada pela introdução de gás carbônico na água, sob pressão de aproximadamente 4 atm.  Sobre esse processo, qual afirmação está correta?.",
+        "7": "A resolução nº 430, de 13 de maio de 2011, do Conselho Nacional do Meio Ambiente, estabelece como limite máximo para descarte de soluções contendo cobre, a concentração de 1 mg L-1; caso a concentração seja superior a esse limite, o resíduo deve ser tratado antes do descarte. Uma empresa, ao final de seu processo produtivo, gera como resíduo 3000 litros de solução de cobre com concentração de 0,005 mol L-1, por mês.  Com base na informação, assinale a alternativa correta em relação ao resíduo.",
+        "8": "A água pode ser encontrada na natureza nos estados sólido, líquido ou gasoso. Conforme as condições, a água pode passar de um estado para outro através de processos que recebem nomes específicos. Um desses casos é quando ela muda do estado gasoso para o líquido. Assinale a alternativa que apresenta o nome correto dessa transformação.",
+        "9": "Uma companhia de reciclagem comprou algumas toneladas de garrafas PETs (poli (etileno tereftalato)) de uma Cooperativa de catadores de materiais recicláveis. Antes de o material ser usado, o laboratório físico-químico desta companhia colheu uma amostra e a submeteu a uma série de testes. Um desses testes consiste em colocar uma fração da amostra em um equipamento e aquecê-la até o plástico derreter.  Assinale a alternativa que descreve a transformação que ocorreu com a amostra.",
+        "10": "As empresas que fabricam produtos de limpeza têm se preocupado cada vez mais com a satisfação do consumidor e a preservação dos materiais que estão sujeitos ao processo de limpeza. No caso do vestuário, é muito comum encontrarmos a recomendação para fazer o teste da firmeza das cores para garantir que a roupa não será danificada no processo de lavagem. Esse teste consiste em molhar uma pequena parte da roupa e colocá-la sobre uma superfície plana; em seguida, coloca-se um pano branco de algodão sobre sua superfície e passa-se com um ferro bem quente. Se o pano branco ficar manchado, sugere-se que essa roupa deve ser lavada separadamente, pois durante esse teste ocorreu um processo de:"
+    },
+    {
+        "1": {
+            "a": "5g",
+            "b": "5,5g",
+            "c": "50g",
+            "d": "55g"
+        },
+        "2": {
+            "a": "a pressão de vapor de um líquido não é dependente da temperatura.",
+            "b": "um líquido entra em ebulição quando sua pressão de vapor é menor que a pressão atmosférica.",
+            "c": "uma mistura de água com açúcar tem ponto de ebulição maior que água pura.",
+            "d": "devido às forças intermoleculares, o ponto de ebulição da água é menor que o do H2S."
+        },
+        "3": {
+            "a": "Ocorrerá aumento do pH dessa solução.",
+            "b": "Ocorrerá diminuição do pH dessa solução.",
+            "c": "Não ocorrerá alteração do pH.",
+            "d": "Não ocorrerá precipitação de Ca(OH)2."
+        },
+        "4": {
+            "a": "35,4",
+            "b": "45,5",
+            "c": "54,5",
+            "d": "70,0"
+        },
+        "5": {
+            "a": "14 RT",
+            "b": "42 RT",
+            "c": "56 RT",
+            "d": "64 RT"
+        },
+        "6": {
+            "a": "Quando o gás carbônico é introduzido na água mineral, provoca a diminuição na basicidade do sistema.",
+            "b": "Quando a garrafa é aberta, parte do gás carbônico se perde e o pH da água mineral fica mais baixo.",
+            "c": "Como o gás carbônico é introduzido na forma gasosa, não ocorre interferência na acidez da água mineral.",
+            "d": "Todas estão corretas."
+        },
+        "7": {
+            "a": "Pode ser descartado sem tratamento, pois apresenta concentração inferior ao limite da lei.",
+            "b": "No volume total dele são encontrados 1,5 kg de cobre.",
+            "c": "A concentração dele é de 0,005 g L-1.",
+            "d": "Não pode ser descartado, pois tem concentração superior ao limite estabelecido pela lei."
+        },
+        "8": {
+            "a": "Sublimação.",
+            "b": "Vaporização.",
+            "c": "Condensação.",
+            "d": "Fusão."
+        },
+        "9": {
+            "a": "A amostra sofreu solidificação, cujo fenômeno é classificado como químico.",
+            "b": "A amostra foi fundida, cujo fenômeno é classificado como físico.",
+            "c": "A amostra entrou em ebulição, que é um fenômeno classificado como físico.",
+            "d": "A amostra sofreu um fenômeno físico denominado condensação."
+        },
+        "10": {
+            "a": "fusão do corante, e o ferro quente é utilizado para aumentar a pressão sobre o tecido.",
+            "b": "liquefação do corante, e o ferro quente é utilizado para acelerar o processo.",
+            "c": "condensação do corante, e o ferro quente é utilizado para ajudar a sua transferência para o pano branco.",
+            "d": "dissolução do corante, e o ferro quente é utilizado para acelerar o processo."
+        }
+    },
+    {
+        "1": "5,5g",
+        "2": "uma mistura de água com açúcar tem ponto de ebulição maior que água pura.",
+        "3": "Ocorrerá diminuição do pH dessa solução.",
+        "4": "45,5",
+        "5": "42 RT",
+        "6": "Quando o gás carbônico é introduzido na água mineral, provoca a diminuição na basicidade do sistema.",
+        "7": "Não pode ser descartado, pois tem concentração superior ao limite estabelecido pela lei.",
+        "8": "Condensação.",
+        "9": "A amostra foi fundida, cujo fenômeno é classificado como físico.",
+        "10": "dissolução do corante, e o ferro quente é utilizado para acelerar o processo."
+    }
+]

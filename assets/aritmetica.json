@@ -1,0 +1,88 @@
+[
+    {
+        "1": "Para o reflorestamento de uma área, deve-se cercar totalmente, com tela, os lados de um terreno, exceto o lado margeado pelo rio, conforme a figura. Cada rolo de tela que será comprado para confecção da cerca contém 48 metros de comprimento. A quantidade mínima de rolos que deve ser comprada para cercar esse terreno é",
+        "2": "Maria e Paula estão atendendo pessoas na realização de matrículas na FURB. Analisando o desempenho das duas, percebe-se que Maria é mais rápida que Paula nos atendimentos e consegue atender duas pessoas a cada 1 que Paula atende. Sabendo que Paula demora, em média, 18 minutos para atender cada pessoa e que há 30 pessoas para serem atendidas, pode-se afirmar que o tempo total de atendimento será, em horas, de:",
+        "3": "Mário pretende realizar uma viagem utilizando um veículo cujo consumo médio de combustível é de 10 Km/L. Sabendo que percorrerá 300 km, é correto afirmar que o volume de combustível a ser consumido será de:",
+        "4": "Calcule a porcentagem abaixo: 35 % de 150",
+        "5": "Para construir uma piscina, cuja área total da superfície interna é igual a 40 m², uma construtora apresentou o seguinte orçamento:  • R$ 10 000,00 pela elaboração do projeto; • R$ 40 000,00 pelos custos fixos;• R$ 2 500,00 por metro quadrado para construção da área interna da piscina. O percentual de desconto que a construtora deverá conceder nos custos fixos é de",
+        "6": "Resolva a Expressão Numérica abaixo: 67 + { 50 . [ 70 ÷ ( 27 + 8 ) + 18 ÷ 2 ] + 21 }",
+        "7": "Daniel comercializava cada unidade do produto A por R$ 100 e cada unidade do produto B por R$ 200. No dia 8/4/2021, Daniel aumentou o preço da unidade do produto A em 10% e o preço da unidade do produto B em 30%. No dia 15/4/2021, pressionado pelos seus clientes, Daniel reduziu os preços então vigentes, tanto do produto A quanto do produto B, em 20%. Nessa situação, se Ernesto adquiriu de Daniel uma unidade do produto A e uma unidade do produto B no dia 16/4/2021, ele pagou por esses produtos um valor",
+        "8": "Patrícia saiu de casa para ir ao médico e ao mercado. Depois de 30 minutos chegou ao consultório onde ficou por mais 70 minutos. Saindo dali, Patrícia levou 20 minutos até o mercado e fez suas compras durante 50 minutos. Entre o mercado e sua casa foram mais 25 minutos. Quantas horas Patrícia ficou fora de casa?",
+        "9": "Se 2/3 de uma obra foi avaliado em R$ 15.800,00, então o valor de 3/5 da mesma obra será igual a:",
+        "10": "Numa reunião social havia 42 pessoas. Sendo que 4/7 eram do sexo feminino, quantos homens estavam no local?"
+    },
+    {
+        "1": {
+            "a": "6",
+            "b": "7",
+            "c": "8",
+            "d": "11"
+        },
+        "2": {
+            "a": "1,5",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        },
+        "3": {
+            "a": "10 litros",
+            "b": "15 litros",
+            "c": "25 litros",
+            "d": "30 litros"
+        },
+        "4": {
+            "a": "25,5",
+            "b": "0,35",
+            "c": "53",
+            "d": "52,5"
+        },
+        "5": {
+            "a": "23,3",
+            "b": "25,0",
+            "c": "50,0",
+            "d": "87,5"
+        },
+        "6": {
+            "a": "185",
+            "b": "598",
+            "c": "825",
+            "d": "638"
+        },
+        "7": {
+            "a": "inferior a R$ 300.",
+            "b": "entre R$ 300 e R$ 310.",
+            "c": "entre R$ 311 e R$ 340.",
+            "d": "superior a R$ 350."
+        },
+        "8": {
+            "a": "3h15min",
+            "b": "3h25min",
+            "c": "3h30min",
+            "d": "2h15min"
+        },
+        "9": {
+            "a": "R$ 14.220,00",
+            "b": "R$ 9.480,00",
+            "c": "R$ 27.700,00",
+            "d": "R$ 25.000,00"
+        },
+        "10": {
+            "a": "10",
+            "b": "18",
+            "c": "20",
+            "d": "32"
+        }
+    },
+    {
+        "1": "8",
+        "2": "3",
+        "3": "30 litros",
+        "4": "52,5",
+        "5": "87,5",
+        "6": "638",
+        "7": "inferior a R$ 300.",
+        "8": "3h15min",
+        "9": "R$ 14.220,00",
+        "10": "18"
+    }
+]

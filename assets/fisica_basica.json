@@ -1,0 +1,88 @@
+[
+    {
+        "1": "A ____________ é uma das áreas da(o) ___________ responsável pelo estudo do movimento dos corpos, sem levar em conta suas causas. A ___________ de um corpo é uma das mais importantes grandezas da Cinemática e representa a razão entre a(o) _________ por um corpo e a(o) ____________ decorrido(a) desse movimento.",
+        "2": "A Termodinâmica é uma das mais importantes áreas da Física. Uma de suas leis, conhecida como 1ª lei da Termodinâmica, estabelece que:",
+        "3": "Charles Coulomb foi o responsável pela determinação da lei matemática que nos permite calcular o módulo da força exercida mutuamente pelos corpos eletricamente carregados. Tal lei afirma que:",
+        "4": "James Clerk Maxwell foi um dos mais importantes nomes da Física. Assinale a alternativa que não representa uma de suas contribuições:",
+        "5": "Dois raios de luz, que se propagam em um meio homogêneo e transparente, interceptam-se em certo ponto. A partir desse ponto, pode-se afirmar que:",
+        "6": "Dizer que a carga elétrica é quantizada significa que ela:",
+        "7": "Quando navega a favor da correnteza, um barco desenvolve 40 km/h; navegando contra, faz 30 km/h. Para ir de A até B, pontos situados na mesma margem, gasta três horas menos que na volta. A distância entre Ae B é de",
+        "8": "Ana Maria, modelo profissional, costuma fazer ensaios fotográficos e participar de desfiles de moda. Em trabalho recente, ela usou um vestido que apresentava cor vermelha quando iluminado pela luz do sol. Ana Maria irá desfilar novamente usando o mesmo vestido. Sabendo-se que a passarela onde Ana Maria vai desfilar será iluminada agora com luz monocromática verde, podemos afirmar que o público perceberá seu vestido como sendo:",
+        "9": "Um veículo parte do repouso em movimento retilíneo e acelera com aceleração escalar constante e igual a 2,0 m/s2. Pode-se dizer que sua velocidade escalar e a distância percorrida após 3,0 segundos, valem, respectivamente:",
+        "10": "O uso de hélices para propulsão de aviões ainda é muito frequente. Quando em movimento, essas hélices empurram o ar para trás; por isso, o avião se move para frente. Esse fenômeno é explicado pelo(a):"
+    },
+    {
+        "1": {
+            "a": "Dinâmica; Física; aceleração; variação de velocidade; intervalo de tempo",
+            "b": "Cinemática; Física; velocidade; deslocamento sofrido; intervalo de tempo",
+            "c": "Hidrostática; Física; pressão; força aplicada; energia",
+            "d": "Relatividade; Mecânica; aceleração; dilatação sofrida; mudança de comprimento"
+        },
+        "2": {
+            "a": "o zero absoluto é inalcançável.",
+            "b": "a transferência de calor para um sistema termodinâmico fechado aumenta o módulo de sua entropia.",
+            "c": "o estado termodinâmico de qualquer sistema depende de variáveis como pressão, volume e temperatura.",
+            "d": "a energia total em um sistema fechado é mantida constante, podendo sofrer transformações sem alterar seu módulo inicial"
+        },
+        "3": {
+            "a": "o módulo da força magnética, seja ela atrativa, seja ela repulsiva, é dado pela razão do módulo das cargas elétricas dividida pelo quadrado da distância entre essas cargas.",
+            "b": "a força de atração exercida entre cargas elétricas é maior para o corpo carregado com maior carga elétrica.",
+            "c": "o módulo da força elétrica, seja ela atrativa, seja ela repulsiva, é dado pelo produto do módulo das cargas elétricas dividido pelo quadrado da distância entre essas cargas.",
+            "d": "a força elétrica exercida mutuamente por cargas elétricas depende exclusivamente do módulo dessas cargas."
+        },
+        "4": {
+            "a": "Cálculo da velocidade da luz",
+            "b": "Confirmação da natureza ondulatória da luz",
+            "c": "Unificação entre magnetismo e eletricidade",
+            "d": "Descoberta dos raios X"
+        },
+        "5": {
+            "a": "mudam a direção de propagação",
+            "b": "propagam-se em trajetórias curvas",
+            "c": "os raios luminosos cancelam-se",
+            "d": "continuam propagando-se na mesma direção e sentindo que antes"
+        },
+        "6": {
+            "a": "pode ser isolada em qualquer quantidade",
+            "b": "só pode existir como múltipla de uma quantidade mínima definida",
+            "c": "pode ser positiva ou negativa",
+            "d": "só pode ser positiva"
+        },
+        "7": {
+            "a": "6 km/h",
+            "b": "9 km/h",
+            "c": "10 km/h",
+            "d": "12 km/h"
+        },
+        "8": {
+            "a": "preto, porque o vestido só reflete a cor vermelha.",
+            "b": "de cor entre vermelha e verde devido à mistura das cores.",
+            "c": "verde, pois é a cor que incidiu sobre o vestido.",
+            "d": "vermelho, pois a cor do vestido independe da radiação incidente."
+        },
+        "9": {
+            "a": "2,0 m/s e 12 m",
+            "b": "3,0 m/s e 12m",
+            "c": "6,0 m/s e 9,0m",
+            "d": "6,0m/s e 18m"
+        },
+        "10": {
+            "a": "1ª Lei de Newton.",
+            "b": "2ª Lei de Newton.",
+            "c": "3ª Lei de Newton.",
+            "d": "Princípio de conservação de energia. "
+        }
+    },
+    {
+        "1": "Cinemática; Física; velocidade; deslocamento sofrido; intervalo de tempo",
+        "2": "a energia total em um sistema fechado é mantida constante, podendo sofrer transformações sem alterar seu módulo inicial",
+        "3": "o módulo da força elétrica, seja ela atrativa, seja ela repulsiva, é dado pelo produto do módulo das cargas elétricas dividido pelo quadrado da distância entre essas cargas.",
+        "4": "Descoberta dos raios X",
+        "5": "continuam propagando-se na mesma direção e sentindo que antes",
+        "6": "só pode existir como múltipla de uma quantidade mínima definida",
+        "7": "6 km/h",
+        "8": "preto, porque o vestido só reflete a cor vermelha.",
+        "9": "6,0 m/s e 9,0m",
+        "10": "3ª Lei de Newton."
+    }
+]

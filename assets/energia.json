@@ -1,0 +1,88 @@
+[
+    {
+        "1": "Antigamente, em lugares com invernos rigorosos, as pessoas acendiam fogueiras dentro de uma sala fechada para se aquecerem do frio. O risco no uso desse recurso ocorria quando as pessoas adormeciam antes de apagarem totalmente a fogueira, o que poderia levá-las a óbito, mesmo sem a ocorrência de incêndio.  A causa principal desse risco era o(a)",
+        "2": "Em 2014, iniciou-se em São Paulo uma séria crise hídrica que também afetou o setor energético, agravada pelo aumento do uso de ar-condicionado e ventiladores. Com isso, intensifica-se a discussão sobre a matriz energética adotada nas diversas regiões do país. Sendo assim, há necessidade de se buscarem fontes alternativas de energia renovável que impliquem menores impactos ambientais.  Considerando essas informações, qual fonte poderia ser utilizada?",
+        "3": "O petróleo é uma fonte de energia de baixo custo e de larga utilização como matéria-prima para uma grande variedade de produtos. É um óleo formado de várias substâncias de origem orgânica, em sua maioria hidrocarbonetos de diferentes massas molares. São utilizadas técnicas de separação para obtenção dos componentes comercializáveis do petróleo. Além disso, para aumentar a quantidade de frações comercializáveis, otimizando o produto de origem fóssil, utiliza-se o processo de craqueamento.  O que ocorre nesse processo?",
+        "4": "A elevação da temperatura das águas de rios, lagos e mares diminui a solubilidade do oxigênio, pondo em risco as diversas formas de vida aquática que dependem desse gás. Se essa elevação de temperatura acontece por meios artificiais, dizemos que existe poluição térmica. As usinas nucleares, pela própria natureza do processo de geração de energia, podem causar esse tipo de poluição.  Que parte do ciclo de geração de energia das usinas nucleares está associada a esse tipo de poluição?",
+        "5": "O potencial brasileiro para transformar lixo em energia permanece subutilizado — apenas pequena parte dos resíduos brasileiros é utilizada para gerar energia. Contudo, bons exemplos são os aterros sanitários, que utilizam a principal fonte de energia ali produzida. Alguns aterros vendem créditos de carbono com base no Mecanismo de Desenvolvimento Limpo (MDL), do Protocolo de Kyoto.  Essa fonte de energia subutilizada, citada no texto, é o",
+        "6": "Química Verde pode ser definida como a criação, o desenvolvimento e a aplicação de produtos e processos químicos para reduzir ou eliminar o uso e a geração de substâncias nocivas à saúde humana e ao ambiente. Sabe-se que algumas fontes energéticas desenvolvidas pelo homem exercem, ou têm potenciai para exercer, em algum nível, impactos ambientais negativos.  À luz da Química Verde, métodos devem ser desenvolvidos para eliminar ou reduzir a poluição do ar causada especialmente pelas",
+        "7": "Suponha que você seja um consultor e foi contratado para assessorar a implantação de uma matriz energética em um pequeno país com as seguintes características: região plana, chuvosa e com ventos constantes, dispondo de poucos recursos hídricos e sem reservatórios de combustíveis fósseis.  De acordo com as características desse país, a matriz energética de menor impacto e riscos ambientais é a baseada na energia",
+        "8": "Um problema ainda não resolvido da geração nuclear de eletricidade é a destinação dos rejeitos radiativos, o chamado “lixo atômico”. Os rejeitos mais ativos ficam por um período em piscinas de aço inoxidável nas próprias usinas antes de ser, como os demais rejeitos, acondicionados em tambores que são dispostos em áreas cercadas ou encerrados em depósitos subterrâneos secos, como antigas minas de sal. A complexidade do problema do lixo atômico, comparativamente a outros lixos com substâncias tóxicas, se deve ao fato de",
+        "9": "Qual das seguintes fontes de produção de energia é a mais recomendável para a diminuição dos gases causadores do aquecimento global?",
+        "10": "Uma empresa vai fornecer 230 turbinas para o segundo complexo de energia à base de ventos, no sudeste da Bahia. O Complexo Eólico Alto Sertão, em 2014, terá capacidade para gerar 375 MW (megawatts), total suficiente para abastecer uma cidade de 3 milhões de habitantes."
+    },
+    {
+        "1": {
+            "a": "produção de fuligem pela fogueira.",
+            "b": "liberação de calor intenso pela fogueira.",
+            "c": "consumo de todo o oxigênio pelas pessoas.",
+            "d": "geração de monóxido de carbono pela combustão incompleta da lenha."
+        },
+        "2": {
+            "a": "Carvão mineral.",
+            "b": "Gás natural.",
+            "c": "Óleo diesel.",
+            "d": "Biomassa."
+        },
+        "3": {
+            "a": "Transformação das frações do petróleo em outras moléculas menores.",
+            "b": "Reação de óxido-redução com transferência de elétrons entre as moléculas.",
+            "c": "Solubilização das frações do petróleo com a utilização de diferentes solventes.",
+            "d": "Decantação das moléculas com diferentes massas molares pelo uso de centrífugas."
+        },
+        "4": {
+            "a": "Fissão do material radioativo.",
+            "b": "Condensação do vapor-d’água no final do processo.",
+            "c": "Conversão de energia das turbinas pelos geradores.",
+            "d": "Lançamento do vapor-d'água sobre as pás das turbinas."
+        },
+        "5": {
+            "a": "etanol, obtido a partir da decomposição da matéria orgânica por bactérias.",
+            "b": "gás natural, formado pela ação de fungos decompositores da matéria orgânica.",
+            "c": "óleo de xisto, obtido pela decomposição da matéria orgânica pelas bactérias anaeróbias.",
+            "d": "gás metano, obtido pela atividade de bactérias anaeróbias na decomposição da matéria orgânica."
+        },
+        "6": {
+            "a": "hidrelétricas.",
+            "b": "termelétricas.",
+            "c": "usinas geotérmicas.",
+            "d": "fontes de energia solar.  "
+        },
+        "7": {
+            "a": "dos biocombustíveis, pois tem menor impacto ambiental e maior disponibilidade.",
+            "b": "nuclear, por ter menor risco ambiental e ser adequada a locais com menor extensão territorial.",
+            "c": "hidráulica, devido ao relevo, à extensão territorial do país e aos recursos naturais disponíveis.",
+            "d": "eólica, pelas características do país e por não gerar gases do efeito estufa nem resíduos de operação."
+        },
+        "8": {
+            "a": "emitir radiações nocivas, por milhares de anos, em um processo que não tem como ser interrompido artificialmente.",
+            "b": "acumular-se em quantidades bem maiores do que o lixo industrial convencional, faltando assim locais para reunir tanto material.",
+            "c": "ser constituído de materiais orgânicos que podem contaminar muitas espécies vivas, incluindo os próprios seres humanos.",
+            "d": "emitir radiações e gases que podem destruir a camada de ozônio e agravar o efeito estufa."
+        },
+        "9": {
+            "a": "Gasolina.",
+            "b": "Carvão mineral.",
+            "c": "Gás natural.",
+            "d": "Vento."
+        },
+        "10": {
+            "a": "Redução da utilização elétrica.",
+            "b": "Ampliação do uso bioenergético.",
+            "c": "Expansão das fontes renováveis.",
+            "d": "Contenção da demanda urbano-industrial."
+        }
+    },
+    {
+        "1": "geração de monóxido de carbono pela combustão incompleta da lenha.",
+        "2": "Biomassa.",
+        "3": "Transformação das frações do petróleo em outras moléculas menores.",
+        "4": "Condensação do vapor-d’água no final do processo.",
+        "5": "gás metano, obtido pela atividade de bactérias anaeróbias na decomposição da matéria orgânica.",
+        "6": "termelétricas.",
+        "7": "eólica, pelas características do país e por não gerar gases do efeito estufa nem resíduos de operação.",
+        "8": "emitir radiações nocivas, por milhares de anos, em um processo que não tem como ser interrompido artificialmente.",
+        "9": "Vento.",
+        "10": "Expansão das fontes renováveis."
+    }
+]

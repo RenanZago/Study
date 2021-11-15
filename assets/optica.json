@@ -1,0 +1,88 @@
+[
+    {
+        "1": "A luz branca incide sobre um meio transparente cujo índice de refração é igual a 1,2. Assinale a alternativa correta em relação à velocidade da luz nesse meio:",
+        "2": "Quando a luz branca atravessa um prisma transparente, ela decompõe-se, tornando evidente o espectro de cores que se unem para formá-la. O fenômeno descrito refere-se à:",
+        "3": "A luz visível é um tipo de onda eletromagnética. As ondas eletromagnéticas são capazes de propagarem-se no vácuo com uma velocidade de aproximadamente 3.108 m/s. São exemplos de ondas eletromagnéticas:",
+        "4": "A correção de defeitos visuais é feita com base em uma das áreas da Óptica. Para tanto, usam-se sistemas ópticos corretivos, como as lentes delgadas. A área da Óptica que corresponde às correções aplicadas à visão é conhecida como:",
+        "5": "Algumas crianças, ao brincarem de esconde- esconde, tapam os olhos com as mãos, acreditando que, ao adotarem tal procedimento, não poderão ser vistas. Essa percepção da criança contraria o conhecimento científico porque, para serem vistos, os objetos",
+        "6": "Considere uma fibra ótica distendida ao longo de uma trajetória sinuosa. Uma das extremidades recebe luz que, através da fibra, sai pela outra extremidade. Note que a fibra não segue uma trajetória retilínea. Essa aparente violação dos conceitos de ótica geométrica, a respeito da propagação retilínea da luz, pode ser explicada da seguinte forma:",
+        "7": "Nos meios homogêneos e transparentes, a luz se propaga em linha reta. Essa propriedade pode ser evidenciada pelo fenômeno da",
+        "8": "Marque a alternativa correta a respeito dos fenômenos da reflexão, refração e absorção da luz.",
+        "9": "A invenção do microscópio óptico é atribuída aos holandeses Zacharias Janssen e seu pai, por volta do ano 1590. O microscópio eletrônico de transmissão foi inventado no início dos anos 1930 pelo alemão Ernest Ruska. Mais importante que a capacidade de aumento de um microscópio é o seu poder de resolução, ou seja, a capacidade de distinguir dois pontos próximos como se estivessem separados. Com relação a estes instrumentos, é CORRETO afirmar que:",
+        "10": "Em 2017, Carlos Mastrangelo, da Universidade de Utah, nos EUA, divulgou seus estudos sobre a criação de óculos formados por lentes líquidas, para fazer o foco automático. Seu objetivo foi resolver o problema de quem tem presbiopia e miopia, por exemplo, para não precisar trocar de óculos. Mastrangelo conta que os óculos possuem uma câmera infravermelha entre as lentes que serve para identificar a distância entre o rosto do usuário e o objeto que ele está olhando e, assim, fazer o foco correto.  Sobre o assunto abordado e com base no exposto acima, é correto afirmar que:"
+    },
+    {
+        "1": {
+            "a": "A velocidade da luz nesse meio é 1,2 vezes mais rápida do que no vácuo.",
+            "b": "A velocidade da luz nesse meio é 1,2 vezes mais lenta do que no vácuo.",
+            "c": "A velocidade da luz nesse meio é igual à velocidade da luz no vácuo.",
+            "d": "A velocidade da luz nesse meio depende da velocidade do seu observador."
+        },
+        "2": {
+            "a": "dispersão da luz.",
+            "b": "reflexão da luz.",
+            "c": "difração da luz.",
+            "d": "polarização da luz."
+        },
+        "3": {
+            "a": "Luz visível, infravermelho, infrassom",
+            "b": "Micro-ondas, ultrassom, radiação gama",
+            "c": "Raios X, ondas de rádio, radiação gama",
+            "d": "Raios X, ondas de rádio, radiação beta"
+        },
+        "4": {
+            "a": "Óptica Ondulatória",
+            "b": "Oftalmologia",
+            "c": "Óptica Geométrica",
+            "d": "Optometria"
+        },
+        "5": {
+            "a": "refletem partículas de luz (fótons), que atingem os olhos.",
+            "b": "refletem partículas de luz (fótons), que se chocam com os fótons emitidos pelos olhos.",
+            "c": "geram partículas de luz (fótons), convertidas pela fonte externa.",
+            "d": "são atingidos por partículas de luz (fótons), emitidas pelos olhos."
+        },
+        "6": {
+            "a": "a luz no interior da fibra viola os princípios da ótica geométrica.",
+            "b": "a luz percorre trajetórias retilíneas no interior da fibra, sofrendo múltiplas reflexões na superfície da fibra até a saída.",
+            "c": "a luz no interior da fibra somente se propaga se a fibra estiver disposta em linha reta.",
+            "d": "a luz sofre refrações múltiplas durante sua propagação, havendo apenas uma reflexão total na saída da fibra."
+        },
+        "7": {
+            "a": "formação de eclipses.",
+            "b": "interferência.",
+            "c": "polarização.",
+            "d": "difração."
+        },
+        "8": {
+            "a": "Um único raio de luz incidente não pode sofrer os três fenômenos ópticos ao mesmo tempo.",
+            "b": "As leis da reflexão se aplicam tanto à reflexão regular quanto à reflexão difusa.",
+            "c": "A reflexão de um espelho plano é difusa.",
+            "d": "Todas as alternativas anteriores estão incorretas."
+        },
+        "9": {
+            "a": "na microscopia óptica, a observação com uma objetiva de 40 x e uma ocular de 10 x resulta em um aumento final de 400 x.",
+            "b": "para a observação de células com o microscópio eletrônico de transmissão, é preciso apenas garantir que elas estejam bem separadas entre si.",
+            "c": "microscópios ópticos permitem aumentos da ordem de 5.000 x, o que torna possível visualizar, por exemplo, a estrutura da membrana nuclear.",
+            "d": "um objeto que mede 0,01 mm, visualizado através de uma lente objetiva de 100 x e uma lente ocular de 10 x, terá sua imagem ampliada para 1,0 mm."
+        },
+        "10": {
+            "a": "o defeito da visão chamado hipermetropia provoca o mesmo efeito que a miopia, ou seja, o indivíduo tem dificuldades em enxergar objetos próximos.",
+            "b": "uma das formas de ajustar o foco da lente é alterando sua curvatura.",
+            "c": "uma causa do defeito da visão chamado presbiopia está relacionada com um globo ocular mais achatado.",
+            "d": "a lente utilizada para corrigir o defeito da visão chamado miopia é a lente convergente."
+        }
+    },
+    {
+        "1": "A velocidade da luz nesse meio é 1,2 vezes mais lenta do que no vácuo.",
+        "2": "dispersão da luz.",
+        "3": "Raios X, ondas de rádio, radiação gama",
+        "4": "Óptica Geométrica",
+        "5": "refletem partículas de luz (fótons), que atingem os olhos.",
+        "6": "a luz percorre trajetórias retilíneas no interior da fibra, sofrendo múltiplas reflexões na superfície da fibra até a saída.",
+        "7": "formação de eclipses.",
+        "8": "Todas as alternativas anteriores estão incorretas.",
+        "9": "na microscopia óptica, a observação com uma objetiva de 40 x e uma ocular de 10 x resulta em um aumento final de 400 x.",
+        "10": "uma das formas de ajustar o foco da lente é alterando sua curvatura."
+    }
+]

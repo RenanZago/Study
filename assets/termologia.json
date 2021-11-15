@@ -1,0 +1,88 @@
+[
+    {
+        "1": "O Brasil é reconhecidamente um país de contrastes. Entre eles, podemos apontar a variação de temperatura das capitais brasileiras. Palmas, por exemplo, atingiu, em 1º de julho de 1998, a temperatura de 13 ºC e, em 19 de setembro de 2013, a temperatura de 42 ºC (com sensação térmica de 50 ºC). Na escala Kelvin, a variação da temperatura na capital do Tocantins, entre os dois registros realizados, corresponde a:",
+        "2": "A queima de 1,000 g de gás de cozinha fornece 6000 cal. A massa de gás que deve ser queimada para elevar a temperatura de meio litro de água de 25,00 ºC até 100,0 ºC, e ainda produzir a evaporação de 100,0 ml de água, é:",
+        "3": "Em 2016, os termômetros da cidade de Goiânia indicaram 34,7 °C, maior temperatura registrada desde 1961. No ano de 1938, a cidade registrou 1,2 °C, a menor registrada na história da cidade. Determine a variação entre as temperaturas máxima e mínima, em °F, registradas em Goiânia.",
+        "4": "Calor é uma forma de energia em trânsito que surge entre corpos que apresentam diferentes temperaturas. Uma das formas de transferência de calor surge quando há movimentação interna das correntes de um fluido aquecido. Assinale o nome desse tipo de transferência de calor:",
+        "5": "Em um dia muito quente, é possível observar que um fio condutor que conecta dois postes aparenta ter um comprimento maior que em dias frios. Isso acontece em decorrência de um fenômeno chamado:",
+        "6": "Um gás ideal confinado em um recipiente de paredes rígidas sofre um processo termodinâmico no qual variam sua pressão e temperatura, mantendo-se constante seu volume. O tipo de processo sofrido pelo gás foi:",
+        "7": "Um corpo que sofre mudanças de temperatura sem sofrer quaisquer mudanças de fase foi exposto ao calor do tipo:",
+        "8": "Ao comprar um termômetro em um país estrangeiro, um estudante de Física percebeu que a temperatura medida era de 86 ºF. Qual seria o valor dessa medida em ºC?",
+        "9": "Determine qual deve ser a quantidade de calor sensível, em calorias, necessária para se variar em 50 ºC a temperatura de um corpo de 500 g de calor específico igual a 0,7 cal/gºC.",
+        "10": "Sobre os conceitos de temperatura e calor podemos dizer que:"
+    },
+    {
+        "1": {
+            "a": "13 K",
+            "b": "29 K",
+            "c": "42 K",
+            "d": "50 K"
+        },
+        "2": {
+            "a": "15,23 g",
+            "b": "15,24 g",
+            "c": "15,25 g",
+            "d": "15,26 g"
+        },
+        "3": {
+            "a": "30,5",
+            "b": "33,5",
+            "c": "55,8",
+            "d": "60,3"
+        },
+        "4": {
+            "a": "Condução",
+            "b": "Convecção",
+            "c": "Fluxo de calor",
+            "d": "Radiação"
+        },
+        "5": {
+            "a": "Dilatação linear",
+            "b": "Aquecimento",
+            "c": "Dilatação superficial",
+            "d": "Dilatação volumétrica"
+        },
+        "6": {
+            "a": "isotérmico.",
+            "b": "adiabático.",
+            "c": "isocórico.",
+            "d": "isobárico."
+        },
+        "7": {
+            "a": "latente.",
+            "b": "sensível.",
+            "c": "específico.",
+            "d": "quente."
+        },
+        "8": {
+            "a": "12 ºC",
+            "b": "25 ºC",
+            "c": "30 ºC",
+            "d": "60 ºC"
+        },
+        "9": {
+            "a": "15.000 cal",
+            "b": "17.500 cal",
+            "c": "150.000 cal",
+            "d": "175.000 cal"
+        },
+        "10": {
+            "a": "Temperatura e calor são a mesma coisa;",
+            "b": "Temperatura corresponde a energia transferida de um corpo a outro e calor corresponde a uma forma de realização de trabalho;",
+            "c": "Temperatura corresponde a uma medida precisa da ideia intuitiva de quente ou frio e calor corresponde a uma transmissão não-mecânica de energia entre dois sistemas podendo estar associado com diferença de temperatura entre eles;",
+            "d": "Calor representa uma medida do estado de quentura do um corpo e temperatura representa a energia das moléculas do corpo;"
+        }
+    },
+    {
+        "1": "29 K",
+        "2": "15,25 g",
+        "3": "60,3",
+        "4": "Convecção",
+        "5": "Dilatação linear",
+        "6": "isocórico.",
+        "7": "sensível.",
+        "8": "30 ºC",
+        "9": "17.500 cal",
+        "10": "Temperatura corresponde a uma medida precisa da ideia intuitiva de quente ou frio e calor corresponde a uma transmissão não-mecânica de energia entre dois sistemas podendo estar associado com diferença de temperatura entre eles;"
+    }
+]

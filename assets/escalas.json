@@ -1,0 +1,88 @@
+[
+    {
+        "1": "Assinale, a seguir, a alternativa que melhor apresenta o conceito de escala:",
+        "2": "Em um mapa de uma pequena cidade, destaca-se a presença de uma rodovia, cuja extensão é de 15 quilômetros. No mapa em questão, sua medida está em 10 centímetros, o que nos permite concluir que a sua escala é de:",
+        "3": "Uma razão pode ser definida como a comparação entre duas grandezas. Se a e b são grandezas, sendo b diferente de 0, então a divisão a/b ou a:b é uma razão.  São exemplos de razões que utilizamos, EXCETO:",
+        "4": "Um concurso para preencher 200 vagas recebeu 1600 inscrições. Quantos candidatos há para cada vaga?",
+        "5": "Gustavo estava treinando pênaltis caso precisasse na final dos jogos de futebol escolares. Sabendo que de 14 chutes ao gol ele acertou 6, qual a razão do número de acertos para o total de chutes?",
+        "6": "Em uma seleção, a razão entre o número de homens e mulheres candidatos a vaga é 4/7. Sabendo que 32 candidatos são do sexo masculino, o número total de participantes na seleção é:",
+        "7": "Em uma maquete de um condomínio, um de seus prédios de 80 metros de altura está com apenas 48 centímetros. A altura de um outro prédio de 110 metros nessa maquete, mantidas as devidas proporções, em centímetros, será de:",
+        "8": "A razão entre o peso de uma pessoa na Terra e o seu peso em Netuno é 5/7. Dessa forma, o peso de uma pessoa que na terra pesa 60 kg, em Netuno, está no intervalo",
+        "9": "Sabe-se que a distância real, em linha reta, de uma cidade A, localizada no estado de São Paulo, a uma cidade B, localizada no estado de Alagoas, é igual a 2 000 km. Um estudante, ao analisar um mapa, verificou com sua régua que a distância entre essas duas cidades, A e B, era 8 cm.  Os dados nos indicam que o mapa observado pelo estudante está na escala de",
+        "10": "Duas impressoras funcionando simultaneamente imprimem certa quantidade de páginas em 36 segundos. Sozinha, uma delas imprime a mesma quantidade de páginas em 90 segundos. Funcionando sozinha, para imprimir a mesma quantidade de páginas, a outra impressora gastaria:?"
+    },
+    {
+        "1": {
+            "a": "é a relação não proporcional entre o mapa e as suas variações gráficas.",
+            "b": "representa o conjunto de orientações cardeais de um mapa, cartograma ou planta.",
+            "c": "indica a proporção entre uma área da superfície e a sua representação.",
+            "d": "é a relação não proporcional entre o mapa e as suas variações gráficas"
+        },
+        "2": {
+            "a": "1:15'000",
+            "b": "1:150'000",
+            "c": "1:1'500",
+            "d": "1:15"
+        },
+        "3": {
+            "a": "Velocidade média",
+            "b": "Densidade",
+            "c": "Pressão",
+            "d": "Temperatura"
+        },
+        "4": {
+            "a": "4",
+            "b": "6",
+            "c": "8",
+            "d": "12"
+        },
+        "5": {
+            "a": "3/5",
+            "b": "3/7",
+            "c": "7/3",
+            "d": "5/3"
+        },
+        "6": {
+            "a": "56",
+            "b": "72",
+            "c": "88",
+            "d": "94"
+        },
+        "7": {
+            "a": "56",
+            "b": "60",
+            "c": "66",
+            "d": "72"
+        },
+        "8": {
+            "a": "[40 kg; 45 kg]",
+            "b": "[55 kg; 60 kg]",
+            "c": "[75 kg; 80 kg]",
+            "d": "[80 kg; 85 kg]"
+        },
+        "9": {
+            "a": "1 : 250",
+            "b": "1 : 2 500",
+            "c": "1 : 250 000",
+            "d": "1 : 25 000 000"
+        },
+        "10": {
+            "a": "48 segundos.",
+            "b": "54 segundos.",
+            "c": "60 segundos.",
+            "d": "72 segundos."
+        }
+    },
+    {
+        "1": "indica a proporção entre uma área da superfície e a sua representação.",
+        "2": "1:150'000",
+        "3": "Temperatura",
+        "4": "8",
+        "5": "3/7",
+        "6": "88",
+        "7": "66",
+        "8": "[80 kg; 85 kg]",
+        "9": "1 : 25 000 000",
+        "10": "60 segundos."
+    }
+]

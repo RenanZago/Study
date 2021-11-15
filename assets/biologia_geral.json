@@ -1,0 +1,88 @@
+[
+    {
+        "1": "Indique a alternativa que lista somente doenças que têm artrópodes como transmissores ou hospedeiros intermediários do agente causador:",
+        "2": "Analise estas características de um animal na fase adulta: • Hábitat: brejos • Trocas gasosas: pele e/ou pulmões • Nutrição: carnívoros • Anatomia da boca: ausência de dentes e presença de língua protátil Considerando-se tais características, é INCORRETO afirmar que esse animal",
+        "3": "As raízes desempenham importantes funções para a sobrevivência da planta e ocupam um espaço muito maior que a parte aérea da planta. Com relação ao sistema radicular, sabe-se que",
+        "4": "Os frutos são importantes estruturas relacionadas com a dispersão e proteção da semente. Eles são encontrados apenas nas:",
+        "5": "As bactérias podem ser encontradas tanto no solo, quanto na água e, além disso, também podem existir dentro de outros seres vivos numa relação harmoniosa. Entretanto, existem bactérias causadoras de doenças. São exemplos de bacterioses, EXCETO:",
+        "6": "Plantas, algas, cianobactérias e um grupo de bactérias têm capacidade de realizar o processo de fotossíntese.  A respeito desse processo nesses organismos, é correto afirmar que",
+        "7": "Marque a alternativa que indica corretamente o nome da unidade básica da hereditariedade.",
+        "8": "São descritas a seguir algumas situações analisadas no estudo do corpo humano. Qual dessas situações não representa um estudo relacionado à Fisiologia?",
+        "9": "Os rins são importantes órgãos do nosso corpo, sendo responsáveis:",
+        "10": "Consideramos uma vacina um material que contém:"
+    },
+    {
+        "1": {
+            "a": "amarelão, doença de Chagas, esquistossomose e teníase.",
+            "b": "dengue, esquistossomose, febre amarela e malária.",
+            "c": "amarelão, doença de Chagas, filariose e malária.",
+            "d": "dengue, febre amarela, filariose e malária."
+        },
+        "2": {
+            "a": "apresenta variação de temperatura corporal. ",
+            "b": "se alimenta de insetos capturados com a língua. ",
+            "c": "se reproduz por fecundação interna e possui ovo com casca. ",
+            "d": "utiliza o oxigênio presente no ar ou dissolvido na água."
+        },
+        "3": {
+            "a": "As eucotiledôneas possuem sistema radicular fasciculado ou em cabeleira.",
+            "b": "As funções primordiais das raízes são a fotossíntese e o armazenamento de matéria orgânica.  ",
+            "c": "O ápice da raiz é recoberto pela coifa, uma massa de células parenquimáticas vivas que revestem e protegem o ápice.",
+            "d": "As monocotiledôneas possuem sistema radicular pivotante."
+        },
+        "4": {
+            "a": "Briófitas.",
+            "b": "Pteridófitas.",
+            "c": "Gimnospermas.",
+            "d": "Angiospermas."
+        },
+        "5": {
+            "a": "Botulismo",
+            "b": "Cólera",
+            "c": "AIDS",
+            "d": "Hanseníase"
+        },
+        "6": {
+            "a": "todos utilizam o gás carbônico e a água como matéria-prima.",
+            "b": "somente as plantas e as algas produzem o gás oxigênio.",
+            "c": "somente as plantas apresentam as clorofilas a e b.",
+            "d": "somente as plantas e as algas apresentam as clorofilas localizadas no interior dos plastos."
+        },
+        "7": {
+            "a": "gene.",
+            "b": "cromossomo.",
+            "c": "RNA.",
+            "d": "nucléolo."
+        },
+        "8": {
+            "a": "Estudo do processo de digestão.",
+            "b": "Análise do funcionamento do transporte de nutrientes.",
+            "c": "Estudo dos processos que envolvem a produção de anticorpos.",
+            "d": "Análise das estruturas do coração."
+        },
+        "9": {
+            "a": "pela formação da urina.",
+            "b": "pelo armazenamento da urina.",
+            "c": "pela filtração do sangue e formação da linfa.",
+            "d": "pelo transporte da urina para fora do corpo."
+        },
+        "10": {
+            "a": "anticorpos contra determinado patógeno, que estimulam a resposta imunológica do indivíduo.",
+            "b": "anticorpos contra determinado patógeno produzidos por outro animal e que fornecem proteção imunológica.",
+            "c": "soro de indivíduos previamente imunizados contra aquele patógeno.",
+            "d": "um patógeno vivo enfraquecido ou partes dele para estimular a resposta imunológica, mas não causar a doença."
+        }
+    },
+    {
+        "1": "dengue, febre amarela, filariose e malária.",
+        "2": "se reproduz por fecundação interna e possui ovo com casca. ",
+        "3": "As monocotiledôneas possuem sistema radicular pivotante.",
+        "4": "Angiospermas.",
+        "5": "AIDS",
+        "6": "somente as plantas e as algas apresentam as clorofilas localizadas no interior dos plastos.",
+        "7": "gene.",
+        "8": "Análise das estruturas do coração.",
+        "9": "pela formação da urina.",
+        "10": "um patógeno vivo enfraquecido ou partes dele para estimular a resposta imunológica, mas não causar a doença."
+    }
+]

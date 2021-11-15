@@ -1,0 +1,88 @@
+[
+    {
+        "1": "A Cinemática é a área da Mecânica que estuda o movimento dos corpos sem levar em consideração as suas causas. Calcule a velocidade média de um corpo, em m/s, que percorre uma avenida de 18 km, durante um intervalo de tempo de 6 minutos.",
+        "2": "Um corpo de massa igual a 10 kg move-se pela ação de uma força resultante F, com aceleração de 2,5 m/s². O módulo da força resultante sobre esse corpo deve ser igual a",
+        "3": "Um corpo de 5,0 kg move-se com velocidade de 72 km/h. Determine o módulo de sua energia cinética em Joules.",
+        "4": "Para que um corpo extenso se encontre em condição de equilíbrio estático ou cinético é necessário que",
+        "5": "Deixa-se cair um objeto de massa 500g de uma altura de 5m acima do solo. Assinale a alternativa que representa a velocidade do objeto, imediatamente, antes de tocar o solo, desprezando-se a resistência do ar.",
+        "6": "Um atleta de salto com vara, durante sua corrida para transpor o obstáculo a sua frente, transforma a sua energia _____________ em energia ____________ devido ao ganho de altura e consequentemente ao/à _____________ de sua velocidade.",
+        "7": "O Beach Park, localizado em Fortaleza-CE, é o maior parque aquático da América Latina situado na beira do mar. Uma das suas principais atrações é um toboágua chamado “Insano”. Descendo esse toboágua, uma pessoa atinge sua parte mais baixa com velocidade módulo 28 m/s. Considerando-se a aceleração da gravidade com módulo g = 10 m/s² e desprezando-se os atritos, estima-se que a altura do toboágua, em metros, é de:",
+        "8": "Um caminhão de 1500 kg desloca-se, a 10 m/s, sobre um viaduto de 10 m, construído acima de uma avenida movimentada. Determine o módulo da energia mecânica do caminhão em relação à avenida.",
+        "9": "Uma caixa d'água cúbica, de 10.000 l, está preenchida até a metade de seu volume total e posicionada a 15 m de altura em relação ao solo. Determine a energia mecânica dessa caixa d'água.",
+        "10": "A respeito da energia mecânica de um sistema conservativo, livre de forças dissipativas, assinale a alternativa correta:"
+    },
+    {
+        "1": {
+            "a": "45 m/s",
+            "b": "50 m/s",
+            "c": "30 m/s",
+            "d": "54 m/s"
+        },
+        "2": {
+            "a": "4 N",
+            "b": "25 N",
+            "c": "10 N",
+            "d": "2,5 N"
+        },
+        "3": {
+            "a": "100 J",
+            "b": "360 J",
+            "c": "1000 J",
+            "d": "20 J"
+        },
+        "4": {
+            "a": "a soma de todos os momentos das forças deve ser nula.",
+            "b": "a soma de todas as forças externas deve ser nula.",
+            "c": "a soma das forças e a soma dos momentos das forças devem ser nulos.",
+            "d": "o centro de massa do corpo deve coincidir com o seu centro geométrico."
+        },
+        "5": {
+            "a": "10 m/s",
+            "b": "7,0 m/s",
+            "c": "5,0 m/s",
+            "d": "15 m/s"
+        },
+        "6": {
+            "a": "potencial – cinética – aumento.",
+            "b": "térmica – potencial – diminuição.",
+            "c": "cinética – potencial – diminuição.",
+            "d": "cinética – térmica – aumento."
+        },
+        "7": {
+            "a": "28",
+            "b": "274,4",
+            "c": "40",
+            "d": "2,86"
+        },
+        "8": {
+            "a": "1,25.104 J",
+            "b": "7,25.105 J",
+            "c": "1,5105 J",
+            "d": "2,25.105 J"
+        },
+        "9": {
+            "a": "7,5.105 J",
+            "b": "1,5.105 J",
+            "c": "1,5.106 J",
+            "d": "7,5.103 J"
+        },
+        "10": {
+            "a": "Na presença de atrito, ou de outras forças dissipativas, a energia mecânica de um corpo em movimento aumenta.",
+            "b": "A energia mecânica de um corpo que se move livre da ação de quaisquer forças dissipativas mantém-se constante.",
+            "c": "Para que a energia mecânica de um corpo permaneça constante, é necessário que, quando houver aumento de energia cinética, também haja aumento de energia potencial.",
+            "d": "A energia potencial é a parte da energia mecânica relacionada à velocidade com o que o corpo desloca-se."
+        }
+    },
+    {
+        "1": "50 m/s",
+        "2": "25 N  ",
+        "3": "1000 J",
+        "4": "a soma das forças e a soma dos momentos das forças devem ser nulos.",
+        "5": "10 m/s",
+        "6": "cinética – potencial – diminuição.",
+        "7": "40",
+        "8": "2,25.105 J",
+        "9": "7,5.105 J",
+        "10": "A energia mecânica de um corpo que se move livre da ação de quaisquer forças dissipativas mantém-se constante."
+    }
+]

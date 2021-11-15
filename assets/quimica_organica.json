@@ -1,0 +1,88 @@
+[
+    {
+        "1": "Na Química orgânica, os compostos são reconhecidos pelas cadeias formadas por carbono e hidrogênio. Entretanto, outros elementos podem fazer parte da estrutura química desses compostos, como o oxigênio.  Selecione a alternativa em que os dois compostos orgânicos apresentam funções orgânicas oxigenadas.",
+        "2": "Tem-se uma amostra gasosa formada por um dos seguintes compostos: CH4; C2H4; C2H6; C3H6 ou C3H8. Se 22 g dessa amostra ocupam o volume de 24,6 L à pressão de 0,5 atm e temperatura de 27 °C (Dado: R = 0,082 L .atm.K–1.mol–1), conclui-se que se trata do gás:",
+        "3": "Um método para determinação do teor de etanol na gasolina consiste em mistura volumes conhecidos de água e de gasolina em um frasco específico. Após agitar o frasco e aguardar um período de tempo, medem-se os volumes das duas fases imiscíveis que são obtidas: uma orgânica e outra aquosa. O etanol, antes miscível com a gasolina, encontra-se agora miscível com a água.  Para explicar o comportamento do etanol antes e depois da adição de água, é necessário conhecer",
+        "4": "A China comprometeu-se a indenizar a Rússia pelo derramamento de benzeno de uma indústria petroquímica chinesa no rio Songhua, um afluente do rio Amur, que faz parte da fronteira entre os dois países. O presidente da Agência Federal de Recursos de Água da Rússia garantiu que o benzeno não chegará aos dutos de água potável, mas pediu à população que fervesse a água corrente e evitasse a pesca no rio Amur e seus afluentes. As autoridades locais estão armazenando centenas de toneladas de carvão, já que o mineral é considerado eficaz absorvente de benzeno. Internet: (com adaptações). Levando-se em conta as medidas adotadas para a minimização dos danos ao ambiente e à população, é correto afirmar que",
+        "5": "Os representantes dos compostos dessa função orgânica são oxigenados. Têm caráter relativamente ácido, porém, menos ácido que os ácidos carboxílicos. Em geral, eles são pouco solúveis ou insolúveis em água, mas os seus sais são bem mais solúveis. Alguns são utilizados como desinfetantes e na produção de resinas. As características apontadas anteriormente estão associadas à função:",
+        "6": "Qual das afirmativas a seguir sobre funções orgânicas está incorreta?",
+        "7": "Pesticidas são substâncias utilizadas para promover o controle de pragas. No entanto, após sua aplicação em ambientes abertos, alguns pesticidas organoclorados são arrastados pela água até lagos e rios e, ao passar pelas guelras dos peixes, podem difundir-se para seus tecidos lipídicos e lá se acumularem. A característica desses compostos, responsável pelo processo descrito no texto, é o(a):",
+        "8": "Alguns materiais poliméricos não podem ser utilizados para a produção de certos tipos de artefatos, seja por limitações das propriedades mecânicas, seja pela facilidade com que sofrem degradação, gerando subprodutos indesejáveis para aquela aplicação. Torna-se importante, então, a fiscalização, para determinar a natureza do polímero utilizado na fabricação do artefato. Um dos métodos possíveis baseia-se na decomposição do polímero para a geração dos monômeros que lhe deram origem. A decomposição controlada de um artefato gerou a diamina H2N(CH2 )6NH2 e o diácido HO2C(CH2 )4CO2H. Logo, o artefato era feito de",
+        "9": "Em uma planície, ocorreu um acidente ambiental em decorrência do derramamento de grande quantidade de um hidrocarboneto que se apresenta na forma pastosa à temperatura ambiente. Um químico ambiental utilizou uma quantidade apropriada de uma solução de para-dodecil-benzenossulfonato de sódio, um agente tensoativo sintético, para diminuir os impactos desse acidente. Essa intervenção produz resultados positivos para o ambiente porque",
+        "10": "O estudo de compostos orgânicos permite aos analistas definir propriedades físicas e químicas responsáveis pelas características de cada substância descoberta. Um laboratório investiga moléculas quirais cuja cadeia carbônica seja insaturada, heterogênea e ramificada. A fórmula que se enquadra nas características da molécula investigada é"
+    },
+    {
+        "1": {
+            "a": "clorofórmio e metanoato de etila",
+            "b": "propanol e ácido propanoico",
+            "c": "eteno e etanodiol",
+            "d": "etanamida e benzeno   "
+        },
+        "2": {
+            "a": "etano.",
+            "b": "metano.",
+            "c": "propano.",
+            "d": "propeno."
+        },
+        "3": {
+            "a": "a densidade dos líquidos.",
+            "b": "o tamanho das moléculas.",
+            "c": "os átomos presentes nas moléculas.",
+            "d": "o tipo de interação entre as moléculas."
+        },
+        "4": {
+            "a": "o carvão mineral, ao ser colocado na água, reage com o benzeno, eliminando-o.",
+            "b": "o benzeno é mais volátil que a água e, por isso, é necessário que esta seja fervida.",
+            "c": "a orientação para se evitar a pesca deve-se à necessidade de preservação dos peixes.",
+            "d": "o benzeno não contaminaria os dutos de água potável, porque seria decantado naturalmente no fundo do rio."
+        },
+        "5": {
+            "a": "álcool.",
+            "b": "aldeído.",
+            "c": "éter.",
+            "d": "fenol."
+        },
+        "6": {
+            "a": "Todo hidrocarboneto possui apenas carbono e hidrogênio.",
+            "b": "Os haletos orgânicos são derivados da substituição de um ou mais hidrogênios por átomos de halogênios.",
+            "c": "Os aldeídos possuem o grupo carbonila entre dois átomos de carbono.",
+            "d": "Tanto as cetonas quanto os aldeídos possuem o grupo carbonila."
+        },
+        "7": {
+            "a": "baixa polaridade.",
+            "b": "baixa massa molecular.",
+            "c": "tamanho pequeno das moléculas.",
+            "d": "presença de hidroxilas nas cadeias."
+        },
+        "8": {
+            "a": "poliéster.",
+            "b": "poliamida.",
+            "c": "polietileno.",
+            "d": "polipropileno."
+        },
+        "9": {
+            "a": "promove uma reação de substituição no hidrocarboneto, tornando-o menos letal ao ambiente.",
+            "b": "a hidrólise do para-dodecil-benzenossulfonato de sódio produz energia térmica suficiente para vaporizar o hidrocarboneto.",
+            "c": "a mistura desses reagentes provoca a combustão do hidrocarboneto, o que diminui a quantidade dessa substância na natureza.",
+            "d": "a solução de para-dodecil-benzenossulfonato possibilita a solubilização do hidrocarboneto."
+        },
+        "10": {
+            "a": "CH3–(CH)2–CH(OH)–CO–NH–CH3.",
+            "b": "CH3–(CH)2–CH(CH3 )–CO–NH–CH3.",
+            "c": "CH3–(CH)2–CH(CH3 )–CO–NH2.",
+            "d": "CH3–CH2–CH(CH3 )–CO–NH–CH3."
+        }
+    },
+    {
+        "1": "propanol e ácido propanoico",
+        "2": "propano.",
+        "3": "o tipo de interação entre as moléculas.",
+        "4": "o benzeno é mais volátil que a água e, por isso, é necessário que esta seja fervida.",
+        "5": "fenol.",
+        "6": "Os aldeídos possuem o grupo carbonila entre dois átomos de carbono.",
+        "7": "baixa polaridade.",
+        "8": "poliamida.",
+        "9": "a solução de para-dodecil-benzenossulfonato possibilita a solubilização do hidrocarboneto.    ",
+        "10": "CH3–(CH)2–CH(CH3 )–CO–NH–CH3."
+    }
+]
