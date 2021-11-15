@@ -1,7 +1,7 @@
 # study
 
 A new Flutter project.
-[TCC ETEC ELIAS NECHAR]
+
 
 ## Getting Started
 
