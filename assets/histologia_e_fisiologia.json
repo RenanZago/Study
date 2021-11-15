@@ -1,0 +1,88 @@
+[
+    {
+        "1": "O corpo humano é constituído por aproximadamente 240 diferentes tipos de células, organizadas em quatro principais tecidos: epitelial, conjuntivo, muscular e nervoso. Sobre esses tecidos, assinale a alternativa errada:",
+        "2": "Os tendões são estruturas formadas, principalmente, por tecido:",
+        "3": "Analise as alternativas a seguir e marque aquela que indica corretamente o nome do único tecido que apresenta capacidade de contrair-se e alongar-se.",
+        "4": "Um tecido animal formado por células e substância intercelular com predomínio de fibras colágenas tem como principal função:",
+        "5": "O tecido que desempenha as funções de revestimento de superfícies e cavidades, absorção, secreção e percepção sensorial é denominado",
+        "6": "Na história do estudo da Fisiologia, sabemos que diversas pessoas foram essenciais para o desenvolvimento desse ramo da Biologia. Uma das mais influentes foi um médico que tratava de gladiadores e dizia que o corpo era formado por quatro fluidos: sangue, fleuma, bile amarela e bile negra. Analise as alternativas a seguir e marque o nome desse importante médico:",
+        "7": "São descritas a seguir algumas situações analisadas no estudo do corpo humano. Qual dessas situações não representa um estudo relacionado à Fisiologia?",
+        "8": "A partir do conhecimento da Fisiologia, pela qual se pode entender o funcionamento do corpo humano, julgue os itens que se seguem.",
+        "9": "Os trilhões de células que constituem o corpo humano precisam de água e de variados tipos de nutrientes, além de um suprimento ininterrupto de gás oxigênio. Os nutrientes absorvidos nas células intestinais e o gás oxigênio absorvido nos pulmões são distribuídos às células do corpo pelo sistema cardiovascular, uma vasta rede de vasos sanguíneos, pela qual circula o sangue impulsionado pelo coração. Sobre esse assunto, assinale a alternativa correta.",
+        "10": "O processo de digestão nos humanos é composto por duas fases: uma mecânica, na qual a correta mastigação é essencial, e outra enzimática, controlada por hormônios da digestão. Sobre estes hormônios, analise as afirmações a seguir e marque a alternativa correta."
+    },
+    {
+        "1": {
+            "a": "O tecido epitelial tem origem ectodérmica e é formado por células fortemente aderidas umas às outras, o que lhes permite conferir proteção contra o atrito e contra a entrada de micro-organismos no corpo.",
+            "b": "O tecido conjuntivo tem origem ectodérmica e mesodérmica e compreende uma grande variedade de tipos celulares, como os fibroblastos, osteoclastos e plaquetas, envolvidos por uma matriz extracelular abundante e diversificada.",
+            "c": "O tecido muscular tem origem mesodérmica e é formado por três tipos diferentes de fibras musculares, que em comum têm o fato de conterem grande quantidade de proteínas do tipo actina e miosina em seus citoplasmas.",
+            "d": "O tecido nervoso tem origem ectodérmica e sua principal célula é o neurônio. Estes neurônios frequentemente apresentam bainha de mielina produzida por dois outros tipos celulares, os oligodendrócitos e as células de Schwann."
+        },
+        "2": {
+            "a": "Ósseo",
+            "b": "Muscular",
+            "c": "Conjuntivo",
+            "d": "Cartilaginoso"
+        },
+        "3": {
+            "a": "Tecido epitelial.",
+            "b": "Tecido muscular.",
+            "c": "Tecido conjuntivo.",
+            "d": "Tecido nervoso."
+        },
+        "4": {
+            "a": "armazenar reservas.",
+            "b": "receber estímulos.",
+            "c": "produzir contrações.",
+            "d": "dar resistência."
+        },
+        "5": {
+            "a": "muscular.",
+            "b": "epitelial.",
+            "c": "nervoso.",
+            "d": "conjuntivo."
+        },
+        "6": {
+            "a": "Andreas Vesalius",
+            "b": "Cláudio Galeno",
+            "c": "William Harvey",
+            "d": "Robet Hooke"
+        },
+        "7": {
+            "a": "Estudo do processo de digestão.",
+            "b": "Análise do funcionamento do transporte de nutrientes.",
+            "c": "Estudo dos processos que envolvem a produção de anticorpos.",
+            "d": "Análise das estruturas do coração."
+        },
+        "8": {
+            "a": "A gastrina e a secretina são hormônios com funções semelhantes e ambas estimulam a motilidade gástrica.",
+            "b": "As fibras alimentares, como celulose e lignina, sofrem ação da amilase pancreática no intestino, sendo degradadas em maltose e dextrinas.",
+            "c": "A absorção das gorduras é auxiliada pelos sais biliares com a formação de micelas, que são permeáveis à borda em escova.",
+            "d": "Para um paciente com alimentação via jejunostomia, não pode-se utilizar fórmula com osmolaridade semelhante à do organismo, composta por maltodextrina, peptídeos e triglicerídios de cadeia média, que são fontes de carboidrato, proteína e lipídios, respectivamente."
+        },
+        "9": {
+            "a": "A artéria pulmonar conduz sangue, rico em oxigênio, do coração para todo o corpo.",
+            "b": "As veias pulmonares conduzem o sangue arterial, rico em oxigênio, dos pulmões ao coração.",
+            "c": "A absorção e distribuição dos nutrientes são facilitadas pela digestão completa do amido no estômago.",
+            "d": "Os capilares da circulação sistêmica distribuem o gás carbônico aos tecidos, de onde recebem o gás oxigênio."
+        },
+        "10": {
+            "a": "A secreção do suco gástrico é estimulada por impulsos nervosos e pelo hormônio gastrina, produzido no estômago.",
+            "b": "As gorduras parcialmente digeridas, presentes no quimo, estimulam as células do duodeno a liberarem o hormônio secretina, que provoca a eliminação da bile pela vesícula biliar.",
+            "c": "A digestão de proteínas inicia-se no estômago e completa-se no duodeno por ação de três proteases secretadas pelo pâncreas: enteroquinase, pepsina e procarboxipeptidase.",
+            "d": "A acidez do quimo, que chega ao duodeno, estimula certas células da parede intestinal a liberarem, especialmente, o hormônio colecistoquinina, que agirá no pâncreas, estimulando-o a liberar, principalmente, bicarbonato de sódio."
+        }
+    },
+    {
+        "1": "O tecido epitelial tem origem ectodérmica e é formado por células fortemente aderidas umas às outras, o que lhes permite conferir proteção contra o atrito e contra a entrada de micro-organismos no corpo.",
+        "2": "Conjuntivo",
+        "3": "Tecido muscular.",
+        "4": "dar resistência.",
+        "5": "epitelial.",
+        "6": "Cláudio Galeno",
+        "7": "Análise das estruturas do coração.",
+        "8": "A absorção das gorduras é auxiliada pelos sais biliares com a formação de micelas, que são permeáveis à borda em escova.",
+        "9": "As veias pulmonares conduzem o sangue arterial, rico em oxigênio, dos pulmões ao coração.",
+        "10": "A secreção do suco gástrico é estimulada por impulsos nervosos e pelo hormônio gastrina, produzido no estômago."
+    }
+]
