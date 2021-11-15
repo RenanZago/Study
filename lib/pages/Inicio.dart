@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 // ignore: implementation_imports
 import 'package:provider/src/provider.dart';
 import 'package:study/controllers/BotaoDeNavegacao.dart';
@@ -31,10 +32,8 @@ class _HomePageState extends State<HomePage> {
       child: InkWell(
         onTap: () {
           if (telas == 'Questões')
-          
             Navigator.push(
                 context,
-
                 MaterialPageRoute(
                     builder: (BuildContext context) => Questoes()));
           if (telas == 'Simulados')
@@ -100,6 +99,8 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setPreferredOrientations(
+        [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
     return Scaffold(
       appBar: AppBar(
         title: Text(

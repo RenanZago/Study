@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:study/services/authservice.dart';
 
@@ -65,6 +66,8 @@ class _LoginPageState extends State<LoginPage> {
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setPreferredOrientations(
+        [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
     return Scaffold(
       body: SingleChildScrollView(
         child: Form(
@@ -120,7 +123,6 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                 ),
-                
                 Expanded(
                   flex: 5,
                   child: Container(
