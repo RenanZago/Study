@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:study/components/Resultado.dart';
 
 //ignore: must_be_immutable
@@ -140,11 +141,11 @@ class QuizPageState extends State<QuizPage> {
     Timer(Duration(seconds: 1), nextquestion);
   }
 
-  Widget choicebutton(String k) {
+   Widget choicebutton(String k) {
     return Padding(
       padding: EdgeInsets.symmetric(
-        vertical: 15.0,
-        horizontal: 30.0,
+        vertical: 10.0,
+        horizontal: 20.0,
       ),
       child: MaterialButton(
         onPressed: () => checkanswer(k),
@@ -155,49 +156,39 @@ class QuizPageState extends State<QuizPage> {
             fontFamily: "Alike",
             fontSize: 16.0,
           ),
-          maxLines: 3,
         ),
         color: btncolor[k],
-        splashColor: Colors.indigo[700],
-        highlightColor: Colors.indigo[700],
         minWidth: 200.0,
         height: 45.0,
         shape:
-            RoundedRectangleBorder(borderRadius: BorderRadius.circular(17.0)),
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setPreferredOrientations(
+        [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
     return Scaffold(
-      backgroundColor: Color(0xffffffff),
-      appBar: AppBar(
-        title: Text(
-          "Study",
-          style: TextStyle(
-            fontFamily: "Quando",
-          ),
-        ),
-      ),
-      body: Column(
+      body: ListView(
         children: <Widget>[
           Expanded(
             flex: 3,
             child: Container(
-              padding: EdgeInsets.all(5.0),
-              alignment: Alignment.topCenter,
+              padding: EdgeInsets.only(bottom: 20.0,top:60, left: 16, right: 16),
+              alignment: Alignment.bottomLeft,
               child: Text(
                 mydata[0][i.toString()],
                 style: TextStyle(
-                  fontSize: 14.0,
+                  fontSize: 16.0,
                   fontFamily: "Quando",
                 ),
               ),
             ),
           ),
           Expanded(
-            flex: 4,
+            flex: 6,
             child: AbsorbPointer(
               absorbing: disableAnswer,
               child: Container(

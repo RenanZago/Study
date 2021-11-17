@@ -157,8 +157,6 @@ class QuizPageState extends State<QuizPage> {
           maxLines: 3,
         ),
         color: btncolor[k],
-        splashColor: Colors.indigo[700],
-        highlightColor: Colors.indigo[700],
         minWidth: 200.0,
         height: 45.0,
         shape:
@@ -171,14 +169,6 @@ class QuizPageState extends State<QuizPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xffffffff),
-      appBar: AppBar(
-        title: Text(
-          "Study",
-          style: TextStyle(
-            fontFamily: "Quando",
-          ),
-        ),
-      ),
       body: Column(
         children: <Widget>[
           Expanded(
