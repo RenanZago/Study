@@ -1,0 +1,488 @@
+[
+    {
+        "1": "Mário pretende realizar uma viagem utilizando um veículo cujo consumo médio de combustível é de 10 Km/L. Sabendo que percorrerá 300 000 m, é correto afirmar que o volume de combustível a ser consumido será de:",
+        "2": "Duas empreiteiras farão conjuntamente a pavimentação de uma estrada, cada uma trabalhando a partir de uma das extremidades. Se uma delas pavimentar 2/5 da estrada e a outra os 81 km restantes, a extensão dessa estrada é de:",
+        "3": "O artigo 33 da lei brasileira sobre drogas prevê a pena de reclusão de 5 a 15 anos para qualquer pessoa que seja condenada por tráfico ilícito ou produção não autorizada de drogas. Entretanto, caso o condenado seja réu primário, com bons antecedentes criminais, essa pena pode sofrer uma redução de um sexto a dois terços.  Suponha que um réu primário, com bons antecedentes criminais, foi condenado pelo artigo 33 da lei brasileira sobre drogas.  Após o benefício da redução de pena, sua pena poderá variar de",
+        "4": "O piso de uma sala retangular, medindo 3,52 m × 4,16 m, será revestido com ladrilhos quadrados, de mesma dimensão, inteiros, de forma que não fique espaço vazio entre ladrilhos vizinhos. Os ladrilhos serão escolhido de modo que tenham a maior dimensão possível. Na situação apresentada, o lado do ladrilho deverá medir:",
+        "5": "O valor de (0,2)³ + (0,16)² é:",
+        "6": "Por qual número devemos multiplicar o número 0,75 de modo que a raiz quadrada do produto obtido seja igual a 45?",
+        "7": "Numa progressão geométrica de quatro termos positivos, a soma dos dois primeiros vale 1 e a soma dos dois últimos vale 9. calcule a razão da progressão.",
+        "8": "Uma pessoa tomou um empréstimo de R$ 1.200,00 no sistema de capitalização simples, quitando-o em uma única parcela, após 4 meses, no valor de R$ 1.260,00. A que taxa anual de correção este empréstimo foi concedido?",
+        "9": "Uma empresa tem 750 empregados e comprou marmitas individuais congeladas suficientes para o almoço deles durante 25 dias. Se essa empresa tivesse mais 500 empregados, a quantidade de marmitas adquiridas seria suficiente para quantos dias? ",
+        "10": "Três pessoas A, B e C vão participar de um concurso num programa de televisão. O apresentador faz um sorteio entre A e B e, em seguida, faz um sorteio, para decidir quem iniciará o concurso. Se em cada sorteio as duas pessoas têm a mesma “chance” de ganhar, qual é a probabilidade de A iniciar o concurso?",
+        "11": "Assinale a medida do lado de um quadrado, sabendo-se que o número que representa o seu perímetro é o mesmo que representa sua área.",
+        "12": "A rampa de um hospital tem na sua parte mais elevada uma altura de 2,2 metros. Um paciente ao caminhar sobre a rampa percebe que se deslocou 3,2 metros e alcançou uma altura de 0,8 metro. A distância em metros que o paciente ainda deve caminhar para atingir o ponto mais alto da rampa é",
+        "13": "Quatro estações distribuidoras de energia A, B, C e D estão dispostas como vértices de um quadrado de 40km de lado. Deseja-se construir uma estação central que seja ao mesmo tempo equidistante das estações A e B e da estrada (reta) que liga as estações C e D. A nova estação deve ser localizada",
+        "14": "Uma praça pública em forma de circunferência tem raio de 18 metros. Diante do exposto, assinale a alternativa que apresenta sua área.",
+        "15": "Para facilitar o cálculo de quantas pessoas participam de eventos públicos, geralmente, considera-se que um metro quadrado é ocupado por quatro pessoas. Para comemorar o aniversário de uma cidade, a prefeitura contratou uma banda para tocar na praça localizada no centro, que possui uma área de 4000 m2. Sabendo que a praça ficou lotada, quantas pessoas aproximadamente compareceram ao evento?",
+        "16": "Sabendo apenas que a distância entre os pontos A e B é de 8 cm e que a distância entre os pontos B e C é de 6 cm, qual dos valores abaixo NÃO pode corresponder a distância entre os pontos A e C?",
+        "17": "Um terreno retangular tem o comprimento medindo 20 metros e largura medindo 12 metros. Qual será a área deste terreno?",
+        "18": "Geometria é o ramo da Matemática que se preocupa, entre outras coisas, em estudar as medições e as formas das coisas do mundo em que vivemos. Os conceitos básicos da Geometria são:",
+        "19": "Assinale a sentença matematicamente correta.",
+        "20": "Triângulo é um polígono de três lados. Classificando-o de acordo com a medida dos lados, podemos afirmar que:",
+        "21": "Assinale, a seguir, a alternativa que melhor apresenta o conceito de escala:",
+        "22": "Em um mapa de uma pequena cidade, destaca-se a presença de uma rodovia, cuja extensão é de 15 quilômetros. No mapa em questão, sua medida está em 10 centímetros, o que nos permite concluir que a sua escala é de:",
+        "23": "Uma razão pode ser definida como a comparação entre duas grandezas. Se a e b são grandezas, sendo b diferente de 0, então a divisão a/b ou a:b é uma razão.  São exemplos de razões que utilizamos, EXCETO:",
+        "24": "Um concurso para preencher 200 vagas recebeu 1600 inscrições. Quantos candidatos há para cada vaga?",
+        "25": "Gustavo estava treinando pênaltis caso precisasse na final dos jogos de futebol escolares. Sabendo que de 14 chutes ao gol ele acertou 6, qual a razão do número de acertos para o total de chutes?",
+        "26": "Em uma seleção, a razão entre o número de homens e mulheres candidatos a vaga é 4/7. Sabendo que 32 candidatos são do sexo masculino, o número total de participantes na seleção é:",
+        "27": "Em uma maquete de um condomínio, um de seus prédios de 80 metros de altura está com apenas 48 centímetros. A altura de um outro prédio de 110 metros nessa maquete, mantidas as devidas proporções, em centímetros, será de:",
+        "28": "A razão entre o peso de uma pessoa na Terra e o seu peso em Netuno é 5/7. Dessa forma, o peso de uma pessoa que na terra pesa 60 kg, em Netuno, está no intervalo",
+        "29": "Sabe-se que a distância real, em linha reta, de uma cidade A, localizada no estado de São Paulo, a uma cidade B, localizada no estado de Alagoas, é igual a 2 000 km. Um estudante, ao analisar um mapa, verificou com sua régua que a distância entre essas duas cidades, A e B, era 8 cm.  Os dados nos indicam que o mapa observado pelo estudante está na escala de",
+        "30": "Duas impressoras funcionando simultaneamente imprimem certa quantidade de páginas em 36 segundos. Sozinha, uma delas imprime a mesma quantidade de páginas em 90 segundos. Funcionando sozinha, para imprimir a mesma quantidade de páginas, a outra impressora gastaria:?",
+        "31": "Para o reflorestamento de uma área, deve-se cercar totalmente, com tela, os lados de um terreno, exceto o lado margeado pelo rio, conforme a figura. Cada rolo de tela que será comprado para confecção da cerca contém 48 metros de comprimento. A quantidade mínima de rolos que deve ser comprada para cercar esse terreno é",
+        "32": "Maria e Paula estão atendendo pessoas na realização de matrículas na FURB. Analisando o desempenho das duas, percebe-se que Maria é mais rápida que Paula nos atendimentos e consegue atender duas pessoas a cada 1 que Paula atende. Sabendo que Paula demora, em média, 18 minutos para atender cada pessoa e que há 30 pessoas para serem atendidas, pode-se afirmar que o tempo total de atendimento será, em horas, de:",
+        "33": "Mário pretende realizar uma viagem utilizando um veículo cujo consumo médio de combustível é de 10 Km/L. Sabendo que percorrerá 300 km, é correto afirmar que o volume de combustível a ser consumido será de:",
+        "34": "Calcule a porcentagem abaixo: 35 % de 150",
+        "35": "Para construir uma piscina, cuja área total da superfície interna é igual a 40 m², uma construtora apresentou o seguinte orçamento:  • R$ 10 000,00 pela elaboração do projeto; • R$ 40 000,00 pelos custos fixos;• R$ 2 500,00 por metro quadrado para construção da área interna da piscina. O percentual de desconto que a construtora deverá conceder nos custos fixos é de",
+        "36": "Resolva a Expressão Numérica abaixo: 67 + { 50 . [ 70 ÷ ( 27 + 8 ) + 18 ÷ 2 ] + 21 }",
+        "37": "Daniel comercializava cada unidade do produto A por R$ 100 e cada unidade do produto B por R$ 200. No dia 8/4/2021, Daniel aumentou o preço da unidade do produto A em 10% e o preço da unidade do produto B em 30%. No dia 15/4/2021, pressionado pelos seus clientes, Daniel reduziu os preços então vigentes, tanto do produto A quanto do produto B, em 20%. Nessa situação, se Ernesto adquiriu de Daniel uma unidade do produto A e uma unidade do produto B no dia 16/4/2021, ele pagou por esses produtos um valor",
+        "38": "Patrícia saiu de casa para ir ao médico e ao mercado. Depois de 30 minutos chegou ao consultório onde ficou por mais 70 minutos. Saindo dali, Patrícia levou 20 minutos até o mercado e fez suas compras durante 50 minutos. Entre o mercado e sua casa foram mais 25 minutos. Quantas horas Patrícia ficou fora de casa?",
+        "39": "Se 2/3 de uma obra foi avaliado em R$ 15.800,00, então o valor de 3/5 da mesma obra será igual a:",
+        "40": "Numa reunião social havia 42 pessoas. Sendo que 4/7 eram do sexo feminino, quantos homens estavam no local?",
+        "41": "O que são gráficos?",
+        "42": "Qual é um elemento dos gráficos?",
+        "43": "Um gráfico de colunas:",
+        "44": "Um gráfico de linhas:",
+        "45": "Um gráfico de pizza:",
+        "46": "Um gráfico de área:",
+        "47": "Um Histograma:",
+        "48": "Um infográfico:",
+        "49": "Um diagrama:",
+        "50": "As tabelas:",
+        "51": "Seja a função f definida por f(x) = 3x – 2, determine o valor de f(5) + f(0):",
+        "52": "Na produção de peças, uma fábrica tem um custo fixo de R$ 16,00 mais um custo variável de R$ 1,50 por unidade produzida. Sendo x o número de peças unitárias produzidas, determine a lei da função que fornece o custo da produção de x peças:",
+        "53": "Na produção de peças, uma fábrica tem um custo fixo de R$ 30,00 mais um custo variável de R$ 2,00 por unidade produzida. Sendo x o número de peças unitárias produzidas, determine o custo de produção de 100 peças:",
+        "54": "Um motorista de táxi cobra R$ 4,50 de bandeirada mais R$ 0,90 por quilômetro rodado. Sabendo que o preço a pagar é dado em função do número de quilômetros rodados, calcule o preço a ser pago por uma corrida em que se percorreu 22 quilômetros?",
+        "55": "Andréia possuía R$ 600,00 para fazer uma cirurgia que tinha um custo total de R$ 3.000,00. No mês de outubro ela passou a economizar do seu salário R$ 200,00 que será utilizado para pagar esta cirurgia. Qual a função que relaciona o tempo, em meses, com a quantia em reais?",
+        "56": "Suponha que você trabalhe como representante de uma firma que se dedica à criação de jogos para computador. Seu salário é de R$ 2000,00 fixos por mês acrescidos de R$ 20,00 por jogo vendido. Se em um mês você vender 15 jogos, quanto você receberá?",
+        "57": "Dadas as funções f(x) = x – 5 e g(x) = 3x + 1, o valor da soma de f(9) + g(2) é:",
+        "58": "Sobre a função f(x) = 6x + 5 é incorreto afirmar que:",
+        "59": "Sobre a função f(x) = 3x² – 2x + 4 é incorreto afirmar que:",
+        "60": "Considere as seguintes funções: f(x) = x - 4 e g(x) = 5x + 1. Qual é o valor da função composta g(f(3))?"
+    },
+    {
+        "1": {
+            "a": "4.",
+            "b": "5.",
+            "c": "6.",
+            "d": "8."
+        },
+        "2": {
+            "a": "1,16 metros.",
+            "b": "3,0 metros.",
+            "c": "5,4 metros.",
+            "d": "5,6 metros."
+        },
+        "3": {
+            "a": "no centro do quadrado.",
+            "b": "no vértice de um triângulo equilátero de base AB, oposto a essa base.",
+            "c": "na perpendicular à estrada que liga C e D passando por seu ponto médio, a 25km dessa estrada.",
+            "d": "no ponto médio da estrada que liga as estações A e B."
+        },
+        "4": {
+            "a": "1.017,36 m2",
+            "b": "1.254,98 m2",
+            "c": "1.589,77 m2",
+            "d": "1.698,44 m2"
+        },
+        "5": {
+            "a": "16 mil pessoas.",
+            "b": "32 mil pessoas.",
+            "c": "40 mil pessoas.",
+            "d": "50 mil pessoas."
+        },
+        "6": {
+            "a": "3.",
+            "b": "6.",
+            "c": "12.",
+            "d": "15."
+        },
+        "7": {
+            "a": "60 m².",
+            "b": "100 m².",
+            "c": "120 m².",
+            "d": "240 m²."
+        },
+        "8": {
+            "a": "Ponto, ângulo e plano.",
+            "b": "Ângulo, plano e elementos.",
+            "c": "Ponto, reta e plano.",
+            "d": "Ângulo, reta e plano."
+        },
+        "9": {
+            "a": "Todo ângulo agudo tem medida igual a 40º.",
+            "b": "Todo ângulo reto mede 90º.",
+            "c": "Todo ângulo obtuso tem medida menor que 90º",
+            "d": "Todo ângulo agudo tem medida maior que 90º."
+        },
+        "10": {
+            "a": "O triângulo escaleno tem os três lados com medidas diferentes. ",
+            "b": "O triângulo isósceles tem os três lados com a mesma medida.",
+            "c": "O triângulo equilátero tem somente dois lados com medidas iguais.",
+            "d": "O triângulo retângulo tem todos os lados com a mesma medida."
+        },
+        "11": {
+            "a": "10 litros.",
+            "b": "12 litros.",
+            "c": "15 litros.",
+            "d": "30 litros."
+        },
+        "12": {
+            "a": "125 km.",
+            "b": "135 km.",
+            "c": "142 km.",
+            "d": "145 km."
+        },
+        "13": {
+            "a": "1 ano e 8 meses a 12 anos e 6 meses.",
+            "b": "1 ano e 8 meses a 5 anos.",
+            "c": "3 anos e 4 meses a 10 anos.",
+            "d": "4 anos e 2 meses a 5 anos."
+        },
+        "14": {
+            "a": "mais de 30 cm.",
+            "b": "menos de 15 cm.",
+            "c": "mais de 15 cm e menos de 20 cm.",
+            "d": "mais de 20 cm e menos de 25 cm."
+        },
+        "15": {
+            "a": "0,0264.",
+            "b": "0,0336.",
+            "c": "0,1056.",
+            "d": "0,2568."
+        },
+        "16": {
+            "a": "2700.",
+            "b": "2800.",
+            "c": "2900.",
+            "d": "3000."
+        },
+        "17": {
+            "a": "3.",
+            "b": "5.",
+            "c": "7.",
+            "d": "9."
+        },
+        "18": {
+            "a": "5% a.a.",
+            "b": "12% a.a.",
+            "c": "15% a.a.",
+            "d": "18% a.a."
+        },
+        "19": {
+            "a": "11.",
+            "b": "15.",
+            "c": "17.",
+            "d": "20."
+        },
+        "20": {
+            "a": "12,5%.",
+            "b": "25%.",
+            "c": "50%.",
+            "d": "75%."
+        },
+        "21": {
+            "a": "é a relação não proporcional entre o mapa e as suas variações gráficas.",
+            "b": "representa o conjunto de orientações cardeais de um mapa, cartograma ou planta.",
+            "c": "indica a proporção entre uma área da superfície e a sua representação.",
+            "d": "é a relação não proporcional entre o mapa e as suas variações gráficas"
+        },
+        "22": {
+            "a": "1:15'000",
+            "b": "1:150'000",
+            "c": "1:1'500",
+            "d": "1:15"
+        },
+        "23": {
+            "a": "Velocidade média",
+            "b": "Densidade",
+            "c": "Pressão",
+            "d": "Temperatura"
+        },
+        "24": {
+            "a": "4",
+            "b": "6",
+            "c": "8",
+            "d": "12"
+        },
+        "25": {
+            "a": "3/5",
+            "b": "3/7",
+            "c": "7/3",
+            "d": "5/3"
+        },
+        "26": {
+            "a": "56",
+            "b": "72",
+            "c": "88",
+            "d": "94"
+        },
+        "27": {
+            "a": "56",
+            "b": "60",
+            "c": "66",
+            "d": "72"
+        },
+        "28": {
+            "a": "[40 kg; 45 kg]",
+            "b": "[55 kg; 60 kg]",
+            "c": "[75 kg; 80 kg]",
+            "d": "[80 kg; 85 kg]"
+        },
+        "29": {
+            "a": "1 : 250",
+            "b": "1 : 2 500",
+            "c": "1 : 250 000",
+            "d": "1 : 25 000 000"
+        },
+        "30": {
+            "a": "48 segundos.",
+            "b": "54 segundos.",
+            "c": "60 segundos.",
+            "d": "72 segundos."
+        },
+        "31": {
+            "a": "6",
+            "b": "7",
+            "c": "8",
+            "d": "11"
+        },
+        "32": {
+            "a": "1,5",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        },
+        "33": {
+            "a": "10 litros",
+            "b": "15 litros",
+            "c": "25 litros",
+            "d": "30 litros"
+        },
+        "34": {
+            "a": "25,5",
+            "b": "0,35",
+            "c": "53",
+            "d": "52,5"
+        },
+        "35": {
+            "a": "23,3",
+            "b": "25,0",
+            "c": "50,0",
+            "d": "87,5"
+        },
+        "36": {
+            "a": "185",
+            "b": "598",
+            "c": "825",
+            "d": "638"
+        },
+        "37": {
+            "a": "inferior a R$ 300.",
+            "b": "entre R$ 300 e R$ 310.",
+            "c": "entre R$ 311 e R$ 340.",
+            "d": "superior a R$ 350."
+        },
+        "38": {
+            "a": "3h15min",
+            "b": "3h25min",
+            "c": "3h30min",
+            "d": "2h15min"
+        },
+        "39": {
+            "a": "R$ 14.220,00",
+            "b": "R$ 9.480,00",
+            "c": "R$ 27.700,00",
+            "d": "R$ 25.000,00"
+        },
+        "40": {
+            "a": "10",
+            "b": "18",
+            "c": "20",
+            "d": "32"
+        },
+        "41": {
+            "a": "São representações visuais que visam exibir dados.",
+            "b": "São textos que visam expor dados.",
+            "c": "São imagens de funcionalidade estética.",
+            "d": "São vídeos informativos."
+        },
+        "42": {
+            "a": "Área",
+            "b": "Legenda",
+            "c": "Proporção",
+            "d": "Dimensão"
+        },
+        "43": {
+            "a": "É apenas horizontal.",
+            "b": "Pode ser horizontal ou vertical.",
+            "c": "É apenas vertical.",
+            "d": "Não tem sentido. "
+        },
+        "44": {
+            "a": "Também é conhecido como gráfico de retas.",
+            "b": "Pode analisar somente dois dados diferentes.",
+            "c": "É utilizado para apresentar evoluções ou diminuições.",
+            "d": "Tem a mesma função de um diagrama."
+        },
+        "45": {
+            "a": "Recebe esse nome por analisar dados relacionados somente à alimentos.",
+            "b": "Ele também é denominado de gráfico de setores.",
+            "c": "Não utiliza divisões entre os dados.",
+            "d": "É dividido necessariamente em 8 partes."
+        },
+        "46": {
+            "a": "É muito utilizado para encontrar tendências ao longo do tempo.",
+            "b": "Se assemelha ao gráfico de pizza.",
+            "c": "Não avalia amplitude.",
+            "d": "Não tem sombreamento abaixo das linhas."
+        },
+        "47": {
+            "a": "Mostra a unificação de dados.",
+            "b": "Analisa somente horas e percentuais.",
+            "c": "Tem similiaridade com os infográficos.",
+            "d": "É muito similar ao gráfico de barras."
+        },
+        "48": {
+            "a": "Tem a predominância de elementos audiovisuais.",
+            "b": "É utilizado dificilmente.",
+            "c": "Necessita ser estático.",
+            "d": "Só pode ser encontrado em revistas."
+        },
+        "49": {
+            "a": "Demonstra um esquema complexo.",
+            "b": "Exibe um resumo sobre determinado assunto.",
+            "c": "Não é uma representação gráfica.",
+            "d": "Assemelha-se ao gráfico de linhas."
+        },
+        "50": {
+            "a": "Não são representações gráficas.",
+            "b": "Não organizam dados, apenas exibem os mesmos.",
+            "c": "São utilizadas para organizar dados em linhas e colunas.",
+            "d": "São utilizadas apenas em situações específicas."
+        },
+        "51": {
+            "a": "10",
+            "b": "11",
+            "c": "12",
+            "d": "13"
+        },
+        "52": {
+            "a": "f(x) = 16x + 1,50",
+            "b": "f(x) = 1,50x – 16",
+            "c": "f(x) = 1,50x + 16",
+            "d": "f(x) = 17,50x"
+        },
+        "53": {
+            "a": "R$ 170,00",
+            "b": "R$ 200,00",
+            "c": "R$ 230,00",
+            "d": "R$ 260,00"
+        },
+        "54": {
+            "a": "R$ 23,40",
+            "b": "R$ 24,30",
+            "c": "R$ 25,20",
+            "d": "R$ 26,10"
+        },
+        "55": {
+            "a": "f(x) = 200x + 600",
+            "b": "f(x) = 200x - 600",
+            "c": "f(X) = 600x + 3200",
+            "d": "f(x) = 200x + 3600"
+        },
+        "56": {
+            "a": "R$ 2300,00",
+            "b": "R$ 2600,00",
+            "c": "R$ 2900,00",
+            "d": "R$ 3200,00"
+        },
+        "57": {
+            "a": "3",
+            "b": "5",
+            "c": "7",
+            "d": "11"
+        },
+        "58": {
+            "a": "Seu gráfico será representado por uma reta.",
+            "b": "Sua raiz tem valor positivo.",
+            "c": "A função é crescente.",
+            "d": "P(0, 5) é um ponto desta função."
+        },
+        "59": {
+            "a": "Seu gráfico será representado por uma parábola.",
+            "b": "A função não possui raizes reais.",
+            "c": "P(2, 0) é um ponto desta função.",
+            "d": "Q(0, 4) é um ponto desta função."
+        },
+        "60": {
+            "a": "-4",
+            "b": "-2",
+            "c": "0",
+            "d": "2"
+        }
+    },
+    {
+        "1": "4.",
+        "2": "5,6 metros.",
+        "3": "na perpendicular à estrada que liga C e D passando por seu ponto médio, a 25km dessa estrada.",
+        "4": "1.017,36 m2",
+        "5": "16 mil pessoas.",
+        "6": "15.",
+        "7": "240 m².",
+        "8": "Ponto, reta e plano.",
+        "9": "Todo ângulo reto mede 90º.",
+        "10": "O triângulo escaleno tem os três lados com medidas diferentes. ",
+        "11": "30 litros.",
+        "12": "135 km.",
+        "13": "1 ano e 8 meses a 12 anos e 6 meses.",
+        "14": "mais de 30 cm.",
+        "15": "0,0336.",
+        "16": "2700.",
+        "17": "type",
+        "18": "15% a.a.",
+        "19": "15.",
+        "20": "25%.",
+        "21": "indica a proporção entre uma área da superfície e a sua representação.",
+        "22": "1:150'000",
+        "23": "Temperatura",
+        "24": "8",
+        "25": "3/7",
+        "26": "88",
+        "27": "66",
+        "28": "[80 kg; 85 kg]",
+        "29": "1 : 25 000 000",
+        "30": "60 segundos.",
+        "31": "8",
+        "32": "3",
+        "33": "30 litros",
+        "34": "52,5",
+        "35": "87,5",
+        "36": "638",
+        "37": "inferior a R$ 300.",
+        "38": "3h15min",
+        "39": "R$ 14.220,00",
+        "40": "18",   
+        "41": "São representações visuais que visam exibir dados.",
+        "42": "Legenda",
+        "43": "Pode ser horizontal ou vertical.",
+        "44": "É utilizado para apresentar evoluções ou diminuições.",
+        "45": "Ele também é denominado de gráfico de setores.",
+        "46": "É muito utilizado para encontrar tendências ao longo do tempo.",
+        "47": "É muito similar ao gráfico de barras.",
+        "48": "Tem a predominância de elementos visuais.",
+        "49": "Exibe um resumo sobre determinado assunto.",
+        "50": "São utilizadas para organizar dados em linhas e colunas.",
+        "51": "11",
+        "52": "f(x) = 1,50x + 16",
+        "53": "R$ 230,00",
+        "54": "R$ 24,30",
+        "55": "f(x) = 200x + 600",
+        "56": "R$ 2300,00",
+        "57": "11",
+        "58": "Sua raiz tem valor positivo.",
+        "59": "P(2, 0) é um ponto desta função.",
+        "60": "-4"
+    }
+]
