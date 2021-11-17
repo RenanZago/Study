@@ -1,0 +1,88 @@
+[
+    {
+        "1": "As pirâmides ecológicas são uma forma de representação das cadeias alimentares. Elas podem ser de números, de biomassa e de energia. A respeito das pirâmides de energia, marque a alternativa correta:",
+        "2": "A ecologia é uma parte da biologia que estuda a relação dos organismos com o meio que os cerca. Os organismos interagem entre si e com todas as partes não vivas do ambiente, tais como solo, água, temperatura e umidade. Essas partes não vivas são chamadas de:",
+        "3": "Alguns organismos alimentam-se de quase tudo que acham pela frente, outros, no entanto, possuem uma dieta restrita. Animais que não possuem muita restrição conseguem viver melhor em ambientes que sofrem constantes modificações.  Entre as alternativas a seguir, marque aquela que indica corretamente o termo usado para espécies que possuem um nicho ecológico amplo.",
+        "4": "Considerando a poluição de um ecossistema aquático por produtos clorados, a exemplo de DDT, o componente biótico da cadeia que deverá apresentar maior concentração do produto será",
+        "5": "Piolhos do couro cabeludo são animais que infestam a região da cabeça, provocando coceira. Eles se alimentam do sangue das pessoas nas quais eles estão se desenvolvendo. A relação ecológica existente entre piolhos e seres humanos é de:",
+        "6": "Certas espécies de acácias abrigam formigas em seus espinhos. As acácias fornecem alimento às formigas, enquanto as formigas, que são bastante agressivas, fornecem proteção contra a herbivoria. A relação existente entre elas é de:",
+        "7": "Ao dizer onde uma espécie pode ser encontrada e o que faz no lugar onde vive, estamos informando respectivamente,",
+        "8": "O cogumelo shitake é cultivado em troncos, onde suas hifas nutrem-se das moléculas orgânicas componentes da madeira. Uma pessoa, ao comer cogumelo shitake, está se comportando como:",
+        "9": "Uma grande área de vegetação foi devastada e esse fato provocou a emigração de diversas espécies de consumidores primários para uma comunidade vizinha em equilíbrio. Espera-se que, nesta comunidade, em um primeiro momento:",
+        "10": "Marque a alternativa que contenha os organismos indispensáveis para manter um ecossistema:"
+    },
+    {
+        "1": {
+            "a": "A cada nível trófico, a energia obtida do nível anterior é maior.",
+            "b": "A pirâmide de energia nunca poderá ser invertida.",
+            "c": "A pirâmide de energia representa o número total de indivíduos de uma cadeia alimentar.",
+            "d": "A quantidade de energia em cada nível trófico é calculada multiplicando o número de indivíduos pela sua massa."
+        },
+        "2": {
+            "a": "fatores abióticos.",
+            "b": "fatores bióticos.",
+            "c": "biosfera.",
+            "d": "nicho ecológico."
+        },
+        "3": {
+            "a": "espécies especialistas.",
+            "b": "espécies consumistas.",
+            "c": "espécies amplas.",
+            "d": "espécies generalistas."
+        },
+        "4": {
+            "a": "o fitoplâncton",
+            "b": "o zooplâncton",
+            "c": "as aves piscívoras",
+            "d": "os peixes carnívoros"
+        },
+        "5": {
+            "a": "parasitismo.",
+            "b": "mutualismo.",
+            "c": "comensalismo.",
+            "d": "competição."
+        },
+        "6": {
+            "a": "comensalismo.",
+            "b": "mutualismo.",
+            "c": "parasitismo.",
+            "d": "competição."
+        },
+        "7": {
+            "a": "Habitat e nicho ecológico.",
+            "b": "Nicho ecológico e habitat.",
+            "c": "Habitat e biótopo.",
+            "d": "Nicho ecológico e ecossistema."
+        },
+        "8": {
+            "a": "Produtor.",
+            "b": "Consumidor primário.",
+            "c": "Consumidor secundário.",
+            "d": "Consumidor terciário."
+        },
+        "9": {
+            "a": "Aumente o número de consumidores secundários e diminua a competição entre os herbívoros.",
+            "b": "Diminua o número de produtores e não se alterem as populações de consumidores.",
+            "c": "Aumente o número de herbívoros e aumente a competição entre os carnívoros.",
+            "d": "Diminua o número de produtores e aumente a competição entre os herbívoros."
+        },
+        "10": {
+            "a": "Carnívoros e herbívoros.",
+            "b": "Produtores e herbívoros.",
+            "c": "Produtores e decompositores.",
+            "d": "Produtores, herbívoros e decompositores."
+        }
+    },
+    {
+        "1": "A pirâmide de energia nunca poderá ser invertida.",
+        "2": "fatores abióticos.",
+        "3": "espécies generalistas.",
+        "4": "as aves piscívoras",
+        "5": "parasitismo.",
+        "6": "mutualismo.",
+        "7": "Habitat e nicho ecológico.",
+        "8": "Consumidor secundário.",
+        "9": "Diminua o número de produtores e aumente a competição entre os herbívoros.",
+        "10": "Produtores e decompositores."
+    }
+]

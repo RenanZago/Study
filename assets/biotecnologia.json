@@ -1,0 +1,88 @@
+[
+    {
+        "1": "Há milhares de anos o homem faz uso da biotecnologia para a produção de alimentos como pães, cervejas e vinhos. Na fabricação de pães, por exemplo, são usados fungos unicelulares, chamados de leveduras, que são comercializados como fermento biológico. Eles são usados para promover o crescimento da massa, deixando-a leve e macia. O crescimento da massa do pão pelo processo citado é resultante da",
+        "2": "Sobre genética e biotecnologia, assinale o que for CORRETO.",
+        "3": "A produção de insulina pela técnica do DNA recombinante tem, como consequência,",
+        "4": "O milho transgênico é produzido a partir da manipulação do milho original, com a transferência, para este, de um gene de interesse retirado de outro organismo de espécie diferente.  A característica de interesse será manifestada em decorrência",
+        "5": "Na década de 1930, geneticistas japoneses produziram melancias sem sementes. O método de produção foi baseado na exposição de sementes de melancias normais a substâncias químicas que dobravam seu número de cromossomos. Depois cruzavam as melancias de sementes modificadas com melancias de sementes com número normal de cromossomos. Os descendentes desses cruzamentos não podiam produzir suas próprias sementes porque possuíam um número anormal de cromossomos. Sobre o uso da biotecnologia aplicada na dieta e na saúde humanas, é correto afirmar que:",
+        "6": "A palavra biotecnologia surgiu no século XX, quando o cientista Herbert Boyer introduziu a informação responsável pela fabricação da insulina humana em uma bactéria, para que ela passasse a produzir a substância. As bactérias modificadas por Herbert Boyer passaram a produzir insulina humana porque receberam:",
+        "7": "Pesticidas são contaminantes ambientais altamente tóxicos aos seres vivos e, geralmente, com grande persistência ambiental. A busca por novas formas de eliminação dos pesticidas tem aumentado nos últimos anos, uma vez que as técnicas atuais são economicamente dispendiosas e paliativas. A biorremediação de pesticidas utilizando microrganismos tem se mostrado uma técnica muito promissora para essa finalidade, por apresentar vantagens econômicas e ambientais. Para ser utilizado nesta técnica promissora, um microrganismo deve ser capaz de",
+        "8": "A Cevada BR 2, criada pela Embrapa-Centro Nacional de Pesquisa de Trigo (CNPT), originou-se a partir de descendentes F3 de duas linhagens puras. A BR 2 é a primeira cevada brasileira resistente a Pyrenophora teres, agente causal da mancha-reticular, principal moléstia da cevada no Brasil. A descrição da cevada BR 2 indica que foi obtida por um processo de",
+        "9": "Com relação à biotecnologia e à engenharia genética, assinale a alternativa correta",
+        "10": "Um novo método para produzir insulina artificial que utiliza tecnologia de DNA recombinante foi desenvolvido por pesquisadores da Universidade de Brasília. Os pesquisadores modificaram geneticamente a bactéria Escherichia coli para torná-la capaz de sintetizar o hormônio. O processo permitiu fabricar insulina em maior quantidade e em apenas 30 dias, um terço do tempo necessário para obtê-la pelo método tradicional, que consiste na extração do hormônio a partir do pâncreas de animais abatidos. A produção de insulina pela técnica do DNA recombinante tem, como consequência,"
+    },
+    {
+        "1": {
+            "a": "liberação de gás carbônico",
+            "b": "formação de ácido lático.",
+            "c": "formação de água.",
+            "d": "produção de ATP."
+        },
+        "2": {
+            "a": "O material genético dos vírus é unicamente o DNA;",
+            "b": "As células nervosas são diferentes das células musculares porque contêm genes diferentes;",
+            "c": "O tipo sanguíneo O é mais frequente e, por esse motivo, o alelo responsável por sua expressão é dominante sobre os demais;",
+            "d": "Terapia gênica consiste em substituir o alelo anormal que causa doença pelo alelo normal;"
+        },
+        "3": {
+            "a": "o aperfeiçoamento do processo de extração de insulina a partir do pâncreas suíno.",
+            "b": "a seleção de microrganismos resistentes a antibióticos.",
+            "c": "o progresso na técnica da síntese química de hormônios.",
+            "d": "impacto favorável na saúde de indivíduos diabéticos."
+        },
+        "4": {
+            "a": "da tradução do RNA mensageiro sintetizado a partir do DNA recombinante.",
+            "b": "do incremento do DNA a partir da duplicação do gene transferido.",
+            "c": "da transcrição do RNA transportador a partir do gene transferido.",
+            "d": "da expressão de proteínas sintetizadas a partir do DNA não hibridizado."
+        },
+        "5": {
+            "a": "as melancias obtidas pelos japoneses são um dos muitos exemplos de plantas transgênicas.",
+            "b": "mutações no DNA, portanto no genoma dos seres vivos, fazem parte do processo da evolução biológica e podem ocorrer em qualquer ser vivo.",
+            "c": "a seleção artificial não leva ao aparecimento de novas variedades de um animal ou planta.",
+            "d": "aves como Chester e Fiesta, vendidas comercialmente, são obtidas por meio da transferência de genes."
+        },
+        "6": {
+            "a": "a sequência de DNA codificante de insulina humana.",
+            "b": "um cromossomo da espécie humana.",
+            "c": "o RNA mensageiro de insulina humana.",
+            "d": "a proteína sintetizada por células humanas"
+        },
+        "7": {
+            "a": "transferir o contaminante do solo para a água.",
+            "b": "metabolizar o contaminante, liberando subprodutos menos tóxicos ou atóxicos.",
+            "c": "estimular o sistema imunológico do homem contra o contaminante.",
+            "d": "apresentar alta taxa de mutação ao longo das gerações."
+        },
+        "8": {
+            "a": "tecnologia de DNA recombinante",
+            "b": "criação de transgênicos",
+            "c": "cruzamento e seleção",
+            "d": "genômica e de bioinformática"
+        },
+        "9": {
+            "a": "A utilização do conhecimento genético para obter organismos com características úteis à nossa espécie é chamada de clonagem.",
+            "b": "As enzimas de restrição são encontradas no interior de qualquer célula viva e inibem a síntese de DNA a partir de RNA.",
+            "c": "Os transgênicos são organismos geneticamente modificados exclusivamente por mutações.",
+            "d": "O fato de o genoma humano ter sido sequenciado significa que foi determinada a sequência de nucleotídeos do DNA humano."
+        },
+        "10": {
+            "a": "a criação de animais transgênicos.",
+            "b": "impacto favorável na saúde de indivíduos diabéticos.",
+            "c": "o progresso na técnica da síntese química de hormônios.",
+            "d": "a seleção de microrganismos resistentes a antibióticos."
+        }
+    },
+    {
+        "1": "liberação de gás carbônico",
+        "2": "Terapia gênica consiste em substituir o alelo anormal que causa doença pelo alelo normal;",
+        "3": "o progresso na técnica da síntese química de hormônios.",
+        "4": "da tradução do RNA mensageiro sintetizado a partir do DNA recombinante.",
+        "5": "mutações no DNA, portanto no genoma dos seres vivos, fazem parte do processo da evolução biológica e podem ocorrer em qualquer ser vivo.",
+        "6": "a sequência de DNA codificante de insulina humana.",
+        "7": "metabolizar o contaminante, liberando subprodutos menos tóxicos ou atóxicos.",
+        "8": "cruzamento e seleção",
+        "9": "O fato de o genoma humano ter sido sequenciado significa que foi determinada a sequência de nucleotídeos do DNA humano.",
+        "10": "impacto favorável na saúde de indivíduos diabéticos."
+    }
+]
