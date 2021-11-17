@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
-import 'package:study/pages/bem_vindo.dart';
+import 'package:study/resto/bem_vindo.dart';
 
 class LoginPage extends StatefulWidget {
   @override

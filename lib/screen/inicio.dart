@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-// ignore: implementation_imports
-import 'package:provider/src/provider.dart';
-import 'package:study/controllers/BotaoDeNavegacao.dart';
-import 'package:study/pages/Configuracao.dart';
-import 'package:study/pages/Creditos.dart';
-import 'package:study/pages/Estudos.dart';
-import 'package:study/pages/Simulados.dart';
-import 'package:study/services/authservice.dart';
-import 'Materias.dart';
+import 'package:study/components/custom_drawer.dart';
+import 'package:study/screen/estudos.dart';
+import 'package:study/screen/simulado/simulados.dart';
+import 'materias.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -48,7 +43,7 @@ class _HomePageState extends State<HomePage> {
                     builder: (BuildContext context) => Estudos()));
         },
         child: Material(
-          color: Colors.blue,
+          color: Colors.blue.shade800,
           elevation: 15.0,
           borderRadius: BorderRadius.circular(40.0),
           child: Container(
@@ -103,66 +98,10 @@ class _HomePageState extends State<HomePage> {
         [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "Study",
-          style: TextStyle(
-            fontFamily: "Quando",
-          ),
-        ),
+        backgroundColor: Colors.blue.shade800,
+        title: Text(''),
       ),
-      drawer: Drawer(
-        child: Column(
-          children: [
-            UserAccountsDrawerHeader(
-              currentAccountPicture: CircleAvatar(
-                backgroundImage: AssetImage("images/123.jpeg"),
-              ),
-              accountName: Text('zago'),
-              accountEmail: Text('renanzago1308@gmail.com'),
-            ),
-            ListTile(
-              leading: Icon(Icons.home),
-              title: Text('Início'),
-              subtitle: Text('Tela de início'),
-              onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context) =>
-                            MyBottomNavigationBar()));
-              },
-            ),
-            ListTile(
-              leading: Icon(Icons.logout),
-              title: Text('Logout'),
-              subtitle: Text('Finalizar sessão'),
-              onTap: () => context.read<AuthService>().logout(),
-            ),
-            ListTile(
-              leading: Icon(Icons.settings),
-              title: Text('Configuração'),
-              subtitle: Text('Ir para as configurações'),
-              onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context) => Configuracao()));
-              },
-            ),
-            ListTile(
-              leading: Icon(Icons.article),
-              title: Text('Sobre Nós'),
-              subtitle: Text('Veja quem somos'),
-              onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context) => Creditos()));
-              },
-            ),
-          ],
-        ),
-      ),
+      drawer: CustomDrawer(),
       body: ListView(
         children: <Widget>[
           card("Questões", images[0]),
@@ -170,6 +109,7 @@ class _HomePageState extends State<HomePage> {
           card("Estudos", images[2]),
         ],
       ),
+      
     );
   }
 }

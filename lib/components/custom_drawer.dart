@@ -1,27 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:study/controllers/BotaoDeNavegacao.dart';
-import 'package:study/pages/Login.dart';
-import 'Configuracao.dart';
-import 'Creditos.dart';
+// ignore: implementation_imports
+import 'package:provider/src/provider.dart';
+import 'package:study/screen/configuracao.dart';
+import 'package:study/screen/quem_somos.dart';
+import 'package:study/services/authservice.dart';
 
-class Slaoq extends StatefulWidget {
-  @override
-  _SlaoqState createState() => _SlaoqState();
-}
+import 'botão_de_navegação.dart';
 
-class _SlaoqState extends State<Slaoq> {
+class CustomDrawer extends StatelessWidget {
+  const CustomDrawer({ Key? key }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          "Anotações",
-          style: TextStyle(
-            fontFamily: "Quando",
-          ),
-        ),
-      ),
-      drawer: Drawer(
+      return Drawer(
         child: Column(
           children: [
             UserAccountsDrawerHeader(
@@ -29,7 +20,7 @@ class _SlaoqState extends State<Slaoq> {
                 backgroundImage: AssetImage("images/123.jpeg"),
               ),
               accountName: Text('zago'),
-              accountEmail: Text('zago@gmail'),
+              accountEmail: Text('renanzago1308@gmail.com'),
             ),
             ListTile(
               leading: Icon(Icons.home),
@@ -47,12 +38,7 @@ class _SlaoqState extends State<Slaoq> {
               leading: Icon(Icons.logout),
               title: Text('Logout'),
               subtitle: Text('Finalizar sessão'),
-              onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context) => LoginPage()));
-              },
+              onTap: () => context.read<AuthService>().logout(),
             ),
             ListTile(
               leading: Icon(Icons.settings),
@@ -78,10 +64,7 @@ class _SlaoqState extends State<Slaoq> {
             ),
           ],
         ),
-      ),
-      body: Center(
-        child: Text('Aqui mostra as anotações'),
-      ),
     );
   }
 }
+    

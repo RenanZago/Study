@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:study/components/Resultado.dart';
+import 'package:study/screen/quest%C3%B5es/resultado_questoes.dart';
 
 //ignore: must_be_immutable
 class GetJsonFISICA extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:study/pages/simulado_json.dart';
+import 'package:study/screen/simulado/simulado_json.dart';
 
 class Simulados extends StatefulWidget {
   const Simulados({Key? key}) : super(key: key);
@@ -36,7 +36,7 @@ class _SimuladosState extends State<Simulados> {
           ));
         },
         child: Material(
-          color: Colors.blue,
+          color: Colors.blue.shade800,
           elevation: 17.0,
           borderRadius: BorderRadius.circular(15.0),
           child: Container(

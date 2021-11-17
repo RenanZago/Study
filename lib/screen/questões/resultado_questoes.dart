@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:study/pages/Materias.dart';
-
+import 'package:study/components/bot%C3%A3o_de_navega%C3%A7%C3%A3o.dart';
 
 // ignore: must_be_immutable
 class ResultPage extends StatefulWidget {
@@ -42,6 +41,7 @@ class ResultPageState extends State<ResultPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue.shade800,
         title: Text(
           "Resultado",
           style: TextStyle(
@@ -99,7 +99,7 @@ class ResultPageState extends State<ResultPage> {
                 ElevatedButton(
                   onPressed: (){
                     Navigator.of(context).pushReplacement(MaterialPageRoute(
-                      builder: (context) => Questoes(),
+                      builder: (context) => MyBottomNavigationBar(),
                     ));
                   },
                   child: Text(

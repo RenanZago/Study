@@ -1,33 +1,34 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:study/pages/Alternativas/Alternativas_Quimica.dart';
+import 'package:study/screen/Alternativas/Alternativas_Fisica.dart';
 
-class QuestoesQuimica extends StatefulWidget {
+
+class QuestoesFisica extends StatefulWidget {
   @override
-  HomePageStateQ createState() => HomePageStateQ();
+  HomePageStateM createState() => HomePageStateM();
 }
 
-class HomePageStateQ extends State<QuestoesQuimica> {
+class HomePageStateM extends State<QuestoesFisica> {
 
-  List<String> imagesQ = [
-    "images/Quimica_basica.png",
-    "images/Quimica_Geral.png",
-    "images/Fisico-Quimica.png",
-    "images/Quimica_Organica.png",
-    "images/Meio_Ambiente.png",
-    "images/Energia.png",
+  List<String> imagesF = [
+    "images/Fisica_Basica.png",
+    "images/Mecanica.png",
+    "images/Eletrecidade_e_Energia.png",
+    "images/Ondulatoria.png",
+    "images/Termologia.png",
+    "images/Optica.png",
   ];
 
-  List<String> desQ = [
-    "Faça questões de Química Básica",
-    "Faça questões de Química Geral",
-    "Faça questões de Físico-Química",
-    "Faça questões de Química Orgânica",
-    "Faça questões de Meio Ambiente",
-    "Faça questões de Energia",
+  List<String> desF = [
+    "Faça questões de Física Basica",
+    "Faça questões de Mecânica",
+    "Faça questões de Eletricidade e Energia",
+    "Faça questões de Ondulatória",
+    "Faça questões de Termologia",
+    "Faça questões de Óptica",
   ];
 
-  Widget customcard(String materiasQUIMICA, String imagemQ, String desQ){
+  Widget customcard(String materias, String imagemF, String desF){
     return Padding(
       padding: EdgeInsets.symmetric(
         vertical: 20.0,
@@ -36,11 +37,11 @@ class HomePageStateQ extends State<QuestoesQuimica> {
       child: InkWell(
         onTap: (){
           Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (context) => GetJsonQUIMICA(materiasQUIMICA),
+            builder: (context) => GetJsonFISICA(materias),
           ));
         },
         child: Material(
-          color: Colors.blue,
+          color: Colors.blue.shade800,
           elevation: 15.0,
           borderRadius: BorderRadius.circular(40.0),
           child: Container(
@@ -60,7 +61,7 @@ class HomePageStateQ extends State<QuestoesQuimica> {
                         child: Image(
                           fit: BoxFit.cover,
                           image: AssetImage(
-                            imagemQ,
+                            imagemF,
                           ),
                         ),
                       ),
@@ -69,7 +70,7 @@ class HomePageStateQ extends State<QuestoesQuimica> {
                 ),
                 Center(
                   child: Text(
-                    materiasQUIMICA,
+                    materias,
                     style: TextStyle(
                       fontSize: 20.0,
                       color: Colors.white,
@@ -81,7 +82,7 @@ class HomePageStateQ extends State<QuestoesQuimica> {
                 Container(
                   padding: EdgeInsets.all(20.0),
                   child: Text(
-                    desQ,
+                    desF,
                     style: TextStyle(
                       fontSize: 18.0,
                       color: Colors.white,
@@ -105,8 +106,9 @@ class HomePageStateQ extends State<QuestoesQuimica> {
     ]);
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue.shade800,
         title: Text(
-          "Questões",
+          "",
           style: TextStyle(
             fontFamily: "Quando",
           ),
@@ -114,12 +116,12 @@ class HomePageStateQ extends State<QuestoesQuimica> {
       ),
       body: ListView(
         children: <Widget>[
-          customcard("Química Básica", imagesQ[0], desQ[0]),
-          customcard("Química Geral", imagesQ[1], desQ[1]),
-          customcard("Físico-Química", imagesQ[2], desQ[2]),
-          customcard("Química Orgânica", imagesQ[3], desQ[3]),
-          customcard("Meio Ambiente", imagesQ[4], desQ[4]),
-          customcard("Energia", imagesQ[5], desQ[5]),
+          customcard("Física Basica", imagesF[0], desF[0]),
+          customcard("Mecânica", imagesF[1], desF[1]),
+          customcard("Eletricidade e Energia", imagesF[2], desF[2]),
+          customcard("Ondulatória", imagesF[3], desF[3]),
+          customcard("Termologia", imagesF[4], desF[4]),
+          customcard("Óptica", imagesF[5], desF[5]),
         ],
       ),
     );

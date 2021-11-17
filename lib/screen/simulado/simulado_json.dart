@@ -3,8 +3,9 @@ import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:study/components/Resultado.dart';
+import 'package:study/screen/quest%C3%B5es/resultado_questoes.dart';
 
+// ignore: must_be_immutable
 class GetJsonSIMULADO extends StatelessWidget {
   late String materias;
   GetJsonSIMULADO(this.materias);
@@ -33,8 +34,7 @@ class GetJsonSIMULADO extends StatelessWidget {
       future:
           DefaultAssetBundle.of(context).loadString(assettoload, cache: false),
       builder: (context, snapshot) {
-        List mydata = json.decode(snapshot.data.toString());
-        // ignore: unnecessary_null_comparison
+        List? mydata = json.decode(snapshot.data.toString());
         if (mydata == null) {
           return Scaffold(
             body: Center(
@@ -44,35 +44,35 @@ class GetJsonSIMULADO extends StatelessWidget {
             ),
           );
         } else {
-          return quizpage(mydata: mydata);
+          return Quizpage(mydata: mydata);
         }
       },
     );
   }
 }
 
-class quizpage extends StatefulWidget {
+class Quizpage extends StatefulWidget {
   final List mydata;
 
-  quizpage({Key? key, required this.mydata}) : super(key: key);
+  Quizpage({Key? key, required this.mydata}) : super(key: key);
   @override
-  _quizpageState createState() => _quizpageState(mydata);
+  QuizpageState createState() => QuizpageState(mydata);
 }
 
-class _quizpageState extends State<quizpage> {
+class QuizpageState extends State<Quizpage> {
   final List mydata;
-  _quizpageState(this.mydata);
+  QuizpageState(this.mydata);
 
-  Color colortoshow = Colors.indigoAccent;
+  Color colortoshow = Colors.blue;
   Color right = Colors.green;
   Color wrong = Colors.red;
   int pontos = 0;
   int i = 1;
   bool disableAnswer = false;
-  // extra varibale to iterate
   int j = 1;
-  int timer = 45;
-  String showtimer = "45";
+  int timer = 60;
+  String showtimer = "60";
+  // ignore: non_constant_identifier_names
   var random_array;
 
   Map<String, Color> btncolor = {
@@ -87,6 +87,7 @@ class _quizpageState extends State<quizpage> {
   genrandomarray() {
     var distinctIds = [];
     var rand = new Random();
+    // ignore: unused_local_variable
     for (int i = 0;;) {
       distinctIds.add(rand.nextInt(60) + 1);
       random_array = distinctIds.toSet().toList();
@@ -132,7 +133,7 @@ class _quizpageState extends State<quizpage> {
 
   void nextquestion() {
     canceltimer = false;
-    timer = 45;
+    timer = 60;
     setState(() {
       if (j < 60) {
         i = random_array[j];
@@ -181,7 +182,6 @@ class _quizpageState extends State<quizpage> {
             fontFamily: "Alike",
             fontSize: 16.0,
           ),
-          maxLines: 1,
         ),
         color: btncolor[k],
         minWidth: 200.0,
@@ -197,17 +197,21 @@ class _quizpageState extends State<quizpage> {
     SystemChrome.setPreferredOrientations(
         [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
     return Scaffold(
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+        backgroundColor: Colors.blue,
+      ),
       body: Column(
         children: <Widget>[
           Expanded(
             flex: 3,
             child: Container(
-              padding: EdgeInsets.all(15.0),
-              alignment: Alignment.bottomLeft,
+              padding: EdgeInsets.all(14.0),
+              alignment: Alignment.topLeft,
               child: Text(
                 mydata[0][i.toString()],
                 style: TextStyle(
-                  fontSize: 16.0,
+                  fontSize: 15.0,
                   fontFamily: "Quando",
                 ),
               ),

@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:study/controllers/BotaoDeNavegacao.dart';
+import 'package:study/components/bot%C3%A3o_de_navega%C3%A7%C3%A3o.dart';
 
 class SplashScreen extends StatefulWidget {
   @override

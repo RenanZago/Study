@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:study/auth_check.dart';
+import 'package:study/services/auth_check.dart';
 
 class BemVindo extends StatelessWidget {
   static String tag = 'bem_vindo';

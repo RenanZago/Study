@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:study/pages/quest%C3%B5es/Fisica.dart';
-import 'package:study/pages/quest%C3%B5es/Matematica.dart';
-import 'package:study/pages/quest%C3%B5es/Quimica.dart';
+import 'package:study/screen/quest%C3%B5es/fisica.dart';
+import 'package:study/screen/quest%C3%B5es/matematica.dart';
+import 'package:study/screen/quest%C3%B5es/quimica.dart';
 
 class Questoes extends StatefulWidget {
   @override
@@ -50,7 +50,7 @@ class HomePageState extends State<Questoes> {
                     builder: (BuildContext context) => QuestoesFisica()));
         },
         child: Material(
-          color: Colors.blue,
+          color: Colors.blue.shade800,
           elevation: 15.0,
           borderRadius: BorderRadius.circular(40.0),
           child: Container(
@@ -102,8 +102,9 @@ class HomePageState extends State<Questoes> {
     ]);
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue.shade800,
         title: Text(
-          "Matérias",
+          "",
           style: TextStyle(
             fontFamily: "Quando",
           ),

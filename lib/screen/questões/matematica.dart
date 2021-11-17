@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:study/pages/Alternativas/Alternativas_Matematica.dart';
+import 'package:study/screen/Alternativas/Alternativas_Matematica.dart';
 
 class QuestoesMatematica extends StatefulWidget {
   @override
@@ -40,7 +40,7 @@ class HomePageStateM extends State<QuestoesMatematica> {
           ));
         },
         child: Material(
-          color: Colors.blue,
+          color: Colors.blue.shade800,
           elevation: 15.0,
           borderRadius: BorderRadius.circular(40.0),
           child: Container(
@@ -105,8 +105,9 @@ class HomePageStateM extends State<QuestoesMatematica> {
     ]);
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue.shade800,
         title: Text(
-          "Questões",
+          "",
           style: TextStyle(
             fontFamily: "Quando",
           ),

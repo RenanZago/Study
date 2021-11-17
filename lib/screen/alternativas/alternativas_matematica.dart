@@ -2,27 +2,28 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:study/components/Resultado.dart';
+import 'package:flutter/services.dart';
+import 'package:study/screen/quest%C3%B5es/resultado_questoes.dart';
 
 //ignore: must_be_immutable
-class GetJsonQUIMICA extends StatelessWidget {
+class GetJsonMATEMATICA extends StatelessWidget {
   late String materias;
-   GetJsonQUIMICA(this.materias);
+  GetJsonMATEMATICA(this.materias);
   late String assettoload;
 
   setasset() {
-    if (materias == "Química Básica") {  
-      assettoload = "assets/quimica_basica.json";
-    } else if (materias == "Química Geral") {
-      assettoload = "assets/quimica_geral.json";
-    } else if (materias == "Físico-Química") {
-      assettoload = "assets/fisico_quimica.json";
-    } else if (materias == "Química Orgânica") {
-      assettoload = "assets/quimica_organica.json";
-    } else if (materias == "Meio Ambiente") {
-      assettoload = "assets/meio_ambiente.json";     
+    if (materias == "Matemática Basica") {
+      assettoload = "assets/matematica_basica.json";
+    } else if (materias == "Geometria") {
+      assettoload = "assets/geometria.json";
+    } else if (materias == "Escalas, Razão e Proporção") {
+      assettoload = "assets/escalas.json";
+    } else if (materias == "Aritmética") {
+      assettoload = "assets/aritmetica.json";
+    } else if (materias == "Gráficos e Tabelas") {
+      assettoload = "assets/graficos.json";
     } else {
-      assettoload = "assets/energia.json";
+      assettoload = "assets/funcoes.json";
     }
   }
 
@@ -53,7 +54,7 @@ class GetJsonQUIMICA extends StatelessWidget {
 class QuizPage extends StatefulWidget {
   final List mydata;
 
-  QuizPage({ Key? key, required this.mydata}) : super(key: key);
+  QuizPage({Key? key, required this.mydata}) : super(key: key);
   @override
   QuizPageState createState() => QuizPageState(mydata);
 }
@@ -68,7 +69,7 @@ class QuizPageState extends State<QuizPage> {
   int pontos = 0;
   int i = 1; //PRIMEIRA QUESTÃO
   bool disableAnswer = false;
-  int j = 1; //de qnts em qnts questões vai 
+  int j = 1; //de qnts em qnts questões vai
   var randomarray;
 
   Map<String, Color> btncolor = {
@@ -85,7 +86,8 @@ class QuizPageState extends State<QuizPage> {
     for (int i = 0;;) {
       distinctIds.add(rand.nextInt(10) + 1);
       randomarray = distinctIds.toSet().toList();
-      if (randomarray.length < 10)  {   //NUMERO DE QUESTÕES
+      if (randomarray.length < 10) {
+        //NUMERO DE QUESTÕES
         continue;
       } else {
         break;
@@ -139,11 +141,11 @@ class QuizPageState extends State<QuizPage> {
     Timer(Duration(seconds: 1), nextquestion);
   }
 
-  Widget choicebutton(String k) {
+   Widget choicebutton(String k) {
     return Padding(
       padding: EdgeInsets.symmetric(
-        vertical: 15.0,
-        horizontal: 30.0,
+        vertical: 10.0,
+        horizontal: 20.0,
       ),
       child: MaterialButton(
         onPressed: () => checkanswer(k),
@@ -154,39 +156,39 @@ class QuizPageState extends State<QuizPage> {
             fontFamily: "Alike",
             fontSize: 16.0,
           ),
-          maxLines: 3,
         ),
         color: btncolor[k],
         minWidth: 200.0,
         height: 45.0,
         shape:
-            RoundedRectangleBorder(borderRadius: BorderRadius.circular(17.0)),
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setPreferredOrientations(
+        [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
     return Scaffold(
-      backgroundColor: Color(0xffffffff),
       body: Column(
         children: <Widget>[
           Expanded(
-            flex: 3,
+            flex: 4,
             child: Container(
-              padding: EdgeInsets.all(5.0),
-              alignment: Alignment.topCenter,
+              padding: EdgeInsets.only(bottom: 20.0,top:50, left: 16, right: 16),
+              alignment: Alignment.bottomLeft,
               child: Text(
                 mydata[0][i.toString()],
                 style: TextStyle(
-                  fontSize: 14.0,
+                  fontSize: 16.0,
                   fontFamily: "Quando",
                 ),
               ),
             ),
           ),
           Expanded(
-            flex: 4,
+            flex: 6,
             child: AbsorbPointer(
               absorbing: disableAnswer,
               child: Container(

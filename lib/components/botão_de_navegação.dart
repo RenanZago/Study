@@ -1,9 +1,9 @@
 ///Macumba, não mexa
 ///Aqui é a parte da navegação da barra de baixo
 import 'package:flutter/material.dart';
-import 'package:study/pages/Configuracao.dart';
-import 'package:study/pages/Desempenho.dart';
-import 'package:study/pages/Inicio.dart';
+import 'package:study/screen/configuracao.dart';
+import 'package:study/screen/anota%C3%A7%C3%B5es.dart';
+import 'package:study/screen/inicio.dart';
 
 class MyApp extends StatelessWidget {
   final study = 'Study';

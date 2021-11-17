@@ -6,6 +6,7 @@ class Creditos extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xff2196f3),
       appBar: AppBar(
+        backgroundColor: Colors.blue.shade800,
         title: Text(
           "",
           style: TextStyle(
@@ -19,16 +20,6 @@ class Creditos extends StatelessWidget {
             maxHeight: MediaQuery.of(context).size.height,
             maxWidth: MediaQuery.of(context).size.width,
           ),
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                Colors.blue,
-                Colors.blue.shade500,
-              ],
-              begin: Alignment.topLeft,
-              end: Alignment.centerRight,
-            ),
-          ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -38,7 +29,7 @@ class Creditos extends StatelessWidget {
                 child: Container(
                   width: double.infinity,
                   decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: Colors.transparent,
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(60),
                       topRight: Radius.circular(60),

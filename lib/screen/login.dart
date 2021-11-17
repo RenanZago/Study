@@ -80,7 +80,7 @@ class _LoginPageState extends State<LoginPage> {
             decoration: BoxDecoration(
               gradient: LinearGradient(
                 colors: [
-                  Colors.blue,
+                  Colors.blue.shade600,
                   Colors.blue.shade800,
                 ],
                 begin: Alignment.topLeft,
