@@ -1,0 +1,88 @@
+[
+    {
+        "1": "O período colonial no Brasil teve início em:",
+        "2": "No período pré-colonial a atividade econômica que teve maior destaque foi:",
+        "3": "A primeira capital do Brasil foi:",
+        "4": "O Tratado de Tordesilhas foi um acordo entre:",
+        "5": "Oficialmente, a abolição da escravidão no Brasil ocorre através da:",
+        "6": "Sobre o período chamado Brasil Colônia, assinale a alternativa INCORRETA:",
+        "7": "Em 1534, a Coroa portuguesa dividiu o território em 15 partes que ficaram conhecidos como:",
+        "8": "O período chamado de Brasil colônia terminou com o:",
+        "9": "No período do Brasil colonial, outros países que invadiram as terras foram:",
+        "10": "No Brasil colônia, a pecuária teve um papel decisivo na:"
+    },
+    {
+        "1": {
+            "a": "1530",
+            "b": "1500",
+            "c": "1600",
+            "d": "1630"
+        },
+        "2": {
+            "a": "pau-brasil",
+            "b": "cana-de-açúcar",
+            "c": "café",
+            "d": "algodão"
+        },
+        "3": {
+            "a": "São Paulo",
+            "b": "Rio de Janeiro",
+            "c": "São Luís",
+            "d": "Salvador"
+        },
+        "4": {
+            "a": "Brasil e Portugal",
+            "b": "França e Portugal",
+            "c": "Portugal e Espanha",
+            "d": "Inglaterra e França"
+        },
+        "5": {
+            "a": "Lei Áurea",
+            "b": "Lei do Ventre Livre",
+            "c": "Lei Eusébio de Queirós",
+            "d": "Lei dos Sexagenários"
+        },
+        "6": {
+            "a": "O monte que os portugueses avistaram foi chamado de Monte Pascoal.",
+            "b": "A esquadra de Pedro Álvares Cabral saiu da Espanha.",
+            "c": "Quando chegaram nas terras brasileiras os portugueses rezaram uma missa.",
+            "d": "A motivação dos portugueses era conquistar novos territórios."
+        },
+        "7": {
+            "a": "capitanias hereditárias",
+            "b": "Tratado de Tordesilhas",
+            "c": "governos gerais",
+            "d": "Tratado de donatários"
+        },
+        "8": {
+            "a": "Tratado de Madrid",
+            "b": "Elevação do Brasil a Reino Unido",
+            "c": "Fim do tráfico negreiro",
+            "d": "Ciclo do ouro"
+        },
+        "9": {
+            "a": "Espanha e Inglaterra",
+            "b": "Holanda e Espanha",
+            "c": "França e Holanda",
+            "d": "Inglaterra e França"
+        },
+        "10": {
+            "a": "expulsão do assalariado do campo",
+            "b": "formação e exploração dos minifúndios",
+            "c": "fixação do escravo na agricultura",
+            "d": "expansão para o interior"
+        }
+    },
+    {
+        "1": "1500",
+        "2": "pau-brasil",
+        "3": "Salvador",
+        "4": "Portugal e Espanha",
+        "5": "Lei Áurea",
+        "6": "A esquadra de Pedro Álvares Cabral saiu da Espanha.",
+        "7": "capitanias hereditárias",
+        "8": "Elevação do Brasil a Reino Unido",
+        "9": "França e Holanda",
+        "10": "expansão para o interior"
+    }
+]
