@@ -102,8 +102,9 @@ class _SimuladosState extends State<Simulados> {
         [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue.shade800,
         title: Text(
-          "Simulados",
+          "",
           style: TextStyle(
             fontFamily: "Quando",
           ),

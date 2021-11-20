@@ -27,7 +27,7 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
   int _currentIndex = 0;
   final List<Widget> _children = [
     HomePage(),
-    Slaoq(),
+    Notes(),
     Configuracao(),
   ];
 
@@ -42,14 +42,17 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
     return Scaffold(
       body: _children[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: Colors.blue.shade800,
         onTap: onTappedBar,
         currentIndex: _currentIndex,
         items: [
           BottomNavigationBarItem(
+            
             icon: Icon(Icons.home),
             label: ("Home"),
           ),
           BottomNavigationBarItem(
+            
             icon: Icon(Icons.notes),
             label: ("Anotações"),
           ),

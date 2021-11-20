@@ -73,10 +73,10 @@ class QuizPageState extends State<QuizPage> {
   var randomarray;
 
   Map<String, Color> btncolor = {
-    "a": Colors.blue,
-    "b": Colors.blue,
-    "c": Colors.blue,
-    "d": Colors.blue,
+    "a": Colors.blue.shade800,
+    "b": Colors.blue.shade800,
+    "c": Colors.blue.shade800,
+    "d": Colors.blue.shade800,
   };
 
   genrandomarray() {
@@ -119,10 +119,10 @@ class QuizPageState extends State<QuizPage> {
           builder: (context) => ResultPage(pontos: pontos),
         ));
       }
-      btncolor["a"] = Colors.blue;
-      btncolor["b"] = Colors.blue;
-      btncolor["c"] = Colors.blue;
-      btncolor["d"] = Colors.blue;
+      btncolor["a"] = Colors.blue.shade800;
+      btncolor["b"] = Colors.blue.shade800;
+      btncolor["c"] = Colors.blue.shade800;
+      btncolor["d"] = Colors.blue.shade800;
       disableAnswer = false;
     });
   }
@@ -171,17 +171,21 @@ class QuizPageState extends State<QuizPage> {
     SystemChrome.setPreferredOrientations(
         [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
     return Scaffold(
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+        backgroundColor: Colors.blue.shade800,
+      ),
       body: Column(
         children: <Widget>[
           Expanded(
-            flex: 4,
+            flex: 3,
             child: Container(
-              padding: EdgeInsets.only(bottom: 20.0,top:50, left: 16, right: 16),
-              alignment: Alignment.bottomLeft,
+              padding: EdgeInsets.all(14.0),
+              alignment: Alignment.topLeft,
               child: Text(
                 mydata[0][i.toString()],
                 style: TextStyle(
-                  fontSize: 16.0,
+                  fontSize: 15.0,
                   fontFamily: "Quando",
                 ),
               ),

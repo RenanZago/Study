@@ -5,8 +5,6 @@ import 'package:study/screen/configuracao.dart';
 import 'package:study/screen/quem_somos.dart';
 import 'package:study/services/authservice.dart';
 
-import 'botão_de_navegação.dart';
-
 class CustomDrawer extends StatelessWidget {
   const CustomDrawer({ Key? key }) : super(key: key);
 
@@ -21,18 +19,6 @@ class CustomDrawer extends StatelessWidget {
               ),
               accountName: Text('zago'),
               accountEmail: Text('renanzago1308@gmail.com'),
-            ),
-            ListTile(
-              leading: Icon(Icons.home),
-              title: Text('Início'),
-              subtitle: Text('Tela de início'),
-              onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context) =>
-                            MyBottomNavigationBar()));
-              },
             ),
             ListTile(
               leading: Icon(Icons.logout),

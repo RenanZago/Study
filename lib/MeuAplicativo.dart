@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:study/components/preferencia_tema.dart';
 import 'services/auth_check.dart';
 
+
 class MeuAplicativo extends StatefulWidget {
   const MeuAplicativo({Key? key}) : super(key: key);
 

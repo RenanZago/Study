@@ -199,7 +199,7 @@ class QuizpageState extends State<Quizpage> {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.blue.shade800,
       ),
       body: Column(
         children: <Widget>[
