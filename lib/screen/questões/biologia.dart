@@ -1,33 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:study/screen/Alternativas/Alternativas_Matematica.dart';
+import 'package:study/screen/alternativas/alternativas_biologia.dart';
 
-class QuestoesMatematica extends StatefulWidget {
+class QuestoesBiologia extends StatefulWidget {
   @override
-  HomePageStateM createState() => HomePageStateM();
+  HomePageStateB createState() => HomePageStateB();
 }
 
-class HomePageStateM extends State<QuestoesMatematica> {
+class HomePageStateB extends State<QuestoesBiologia> {
 
-  List<String> imagesM = [
-    "images/Matematica_Basica.png",
-    "images/Geometria.png",
-    "images/Escalas_Razao_e_Proporcao.png",
-    "images/Aritmetica.png",
-    "images/Graficos_e_Tabelas.png",
-    "images/Funcoes.png",
+  List<String> imagesB = [
+    "images/biologia.png",
+    "images/humanidade e ambiente.png",
+    "images/citologia.png",
+    "images/histologia e fisiologia.png",
+    "images/biologia.png",
+    "images/biotecnologia.png",
   ];
 
-  List<String> desM = [
-    "Faça questões de Matemática Basica",
-    "Faça questões de Geometria",
-    "Faça questões de Escalas, Razão e Proporção",
-    "Faça questões de Aritmética",
-    "Faça questões de Gráficos e Tabelas",
-    "Faça questões de Funções",
+  List<String> desB = [
+    "Faça questões de Biologia Basica",
+    "Faça questões de Humanidade e Ambiente",
+    "Faça questões de Citologia",
+    "Faça questões de Histologia e Fisiologia",
+    "Faça questões de Fundamentos da Ecologia",
+    "Faça questões de Biotecnologia",
   ];
 
-  Widget customcard(String materias, String imagemM, String desM){
+  Widget customcard(String materias, String imagemB, String desB){
     return Padding(
       padding: EdgeInsets.symmetric(
         vertical: 20.0,
@@ -36,7 +36,7 @@ class HomePageStateM extends State<QuestoesMatematica> {
       child: InkWell(
         onTap: (){
           Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (context) => GetJsonMATEMATICA(materias),
+            builder: (context) => GetJsonBIOLOGIA(materias),
           ));
         },
         child: Material(
@@ -60,7 +60,7 @@ class HomePageStateM extends State<QuestoesMatematica> {
                         child: Image(
                           fit: BoxFit.cover,
                           image: AssetImage(
-                            imagemM,
+                            imagemB,
                           ),
                         ),
                       ),
@@ -81,7 +81,7 @@ class HomePageStateM extends State<QuestoesMatematica> {
                 Container(
                   padding: EdgeInsets.all(20.0),
                   child: Text(
-                    desM,
+                    desB,
                     style: TextStyle(
                       fontSize: 18.0,
                       color: Colors.white,
@@ -107,7 +107,7 @@ class HomePageStateM extends State<QuestoesMatematica> {
       appBar: AppBar(
         backgroundColor: Colors.blue.shade800,
         title: Text(
-          "Matemática",
+          "Biologia",
           style: TextStyle(
             fontFamily: "Quando",
           ),
@@ -115,12 +115,13 @@ class HomePageStateM extends State<QuestoesMatematica> {
       ),
       body: ListView(
         children: <Widget>[
-          customcard("Matemática Basica", imagesM[0], desM[0]),
-          customcard("Geometria", imagesM[1], desM[1]),
-          customcard("Escalas, Razão e Proporção", imagesM[2], desM[2]),
-          customcard("Aritmética", imagesM[3], desM[3]),
-          customcard("Gráficos e Tabelas", imagesM[4], desM[4]),
-          customcard("Funções", imagesM[5], desM[5]),
+          customcard("Biologia Basica", imagesB[0], desB[0]),
+          customcard("Humanidade e Ambiente", imagesB[1], desB[1]),
+          customcard("Citologia ", imagesB[2], desB[2]),
+          customcard("Histologia e Fisiologia", imagesB[3], desB[3]),
+          customcard("Fundamentos da Ecologia", imagesB[4], desB[4]),
+          customcard("Biotecnologia ", imagesB[5], desB[5]),
+          
         ],
       ),
     );

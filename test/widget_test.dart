@@ -6,7 +6,7 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:study/MeuAplicativo.dart';
+import 'package:study/meu_aplicativo.dart';
 
 void main() {
   testWidgets('', (WidgetTester tester) async {

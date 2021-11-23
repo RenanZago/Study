@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:study/screen/update_note.dart';
+import 'package:study/screen/notas/atualizar_nota.dart';
 
 // ignore: must_be_immutable
 class ViewNote extends StatefulWidget {
@@ -17,6 +17,7 @@ class _ViewNoteState extends State<ViewNote> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue.shade800,
         title: const Text(''),
       ),
       body: Container(
@@ -37,6 +38,7 @@ class _ViewNoteState extends State<ViewNote> {
         ),
       ),
       floatingActionButton: FloatingActionButton.extended(
+          backgroundColor: Colors.blue.shade800,
           onPressed: () {
             Navigator.push(
               context,
@@ -50,7 +52,13 @@ class _ViewNoteState extends State<ViewNote> {
             );
           },
           label: Row(
-            children: const [Icon(Icons.edit), Text("Editar nota")],
+            children: const [
+              Icon(Icons.edit, color: Colors.white,),
+              Text(
+                "Editar nota",
+                style: TextStyle(color: Colors.white),
+              )
+            ],
           )),
     );
   }

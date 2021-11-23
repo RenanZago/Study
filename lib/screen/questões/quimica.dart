@@ -107,7 +107,7 @@ class HomePageStateQ extends State<QuestoesQuimica> {
       appBar: AppBar(
         backgroundColor: Colors.blue.shade800,
         title: Text(
-          "",
+          "Química",
           style: TextStyle(
             fontFamily: "Quando",
           ),

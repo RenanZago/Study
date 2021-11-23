@@ -99,7 +99,13 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue.shade800,
-        title: Text(''),
+        centerTitle: true,
+        title: Text(
+          'Study',
+          style: TextStyle(
+            fontFamily: "Quando",
+          ),
+        ),
       ),
       drawer: CustomDrawer(),
       body: ListView(
@@ -109,7 +115,6 @@ class _HomePageState extends State<HomePage> {
           card("Estudos", images[2]),
         ],
       ),
-      
     );
   }
 }

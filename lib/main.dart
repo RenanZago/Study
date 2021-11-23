@@ -2,7 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:study/services/authservice.dart';
 import 'package:provider/provider.dart';
-import 'MeuAplicativo.dart';
+import 'meu_aplicativo.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

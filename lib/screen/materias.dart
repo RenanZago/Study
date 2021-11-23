@@ -1,8 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:study/screen/quest%C3%B5es/biologia.dart';
+import 'package:study/screen/quest%C3%B5es/espanhol.dart';
+import 'package:study/screen/quest%C3%B5es/filosofia.dart';
 import 'package:study/screen/quest%C3%B5es/fisica.dart';
+import 'package:study/screen/quest%C3%B5es/geografia.dart';
+import 'package:study/screen/quest%C3%B5es/historia.dart';
+import 'package:study/screen/quest%C3%B5es/ingles.dart';
 import 'package:study/screen/quest%C3%B5es/matematica.dart';
+import 'package:study/screen/quest%C3%B5es/portugues.dart';
 import 'package:study/screen/quest%C3%B5es/quimica.dart';
+import 'package:study/screen/quest%C3%B5es/sociologia.dart';
 
 class Questoes extends StatefulWidget {
   @override
@@ -48,6 +56,46 @@ class HomePageState extends State<Questoes> {
                 context,
                 MaterialPageRoute(
                     builder: (BuildContext context) => QuestoesFisica()));
+                    if (materias == 'Biologia')
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (BuildContext context) => QuestoesBiologia()));
+                    if (materias == 'Geografia')
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (BuildContext context) => QuestoesGeografia()));
+                    if (materias == 'História')
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (BuildContext context) => QuestoesHistoria())); 
+                    if (materias == 'Sociologia')
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (BuildContext context) => QuestoesSociologia())); 
+                    if (materias == 'Português')
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (BuildContext context) => QuestoesPortugues())); 
+                    if (materias == 'Inglês')
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (BuildContext context) => QuestoesIngles())); 
+                    if (materias == 'Filosofia')
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (BuildContext context) => QuestoesFilosofia())); 
+                    if (materias == 'Espanhol')
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (BuildContext context) => QuestoesEspanhol())); 
         },
         child: Material(
           color: Colors.blue.shade800,
@@ -104,7 +152,7 @@ class HomePageState extends State<Questoes> {
       appBar: AppBar(
         backgroundColor: Colors.blue.shade800,
         title: Text(
-          "",
+          "Questões",
           style: TextStyle(
             fontFamily: "Quando",
           ),

@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:study/screen/Alternativas/Alternativas_Matematica.dart';
 
-class QuestoesMatematica extends StatefulWidget {
+class QuestoesEspanhol extends StatefulWidget {
   @override
   HomePageStateM createState() => HomePageStateM();
 }
 
-class HomePageStateM extends State<QuestoesMatematica> {
+class HomePageStateM extends State<QuestoesEspanhol> {
 
   List<String> imagesM = [
     "images/Matematica_Basica.png",
@@ -107,7 +107,7 @@ class HomePageStateM extends State<QuestoesMatematica> {
       appBar: AppBar(
         backgroundColor: Colors.blue.shade800,
         title: Text(
-          "Matemática",
+          "Espanhol",
           style: TextStyle(
             fontFamily: "Quando",
           ),

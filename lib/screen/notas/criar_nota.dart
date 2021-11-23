@@ -1,38 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:study/services/db_service.dart';
 
-// ignore: must_be_immutable
-class UpdateNotePage extends StatefulWidget {
-  UpdateNotePage({Key? key, this.id, this.title, this.body}) : super(key: key);
-
-  String? id;
-  String? title;
-  String? body;
+class CreateNotePage extends StatefulWidget {
+  const CreateNotePage({Key? key}) : super(key: key);
 
   @override
-  _UpdateNotePageState createState() => _UpdateNotePageState();
+  _CreateNotePageState createState() => _CreateNotePageState();
 }
 
-class _UpdateNotePageState extends State<UpdateNotePage> {
+class _CreateNotePageState extends State<CreateNotePage> {
   GlobalKey<FormState> key = GlobalKey();
   TextEditingController title = TextEditingController();
   TextEditingController body = TextEditingController();
 
   @override
-  void initState() {
-    super.initState();
-
-    setState(() {
-      title.text = widget.title!;
-      body.text = widget.body!;
-    });
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Editar nota"),
+        backgroundColor: Colors.blue.shade800,
+        title: const Text("Adicionar nota"),
       ),
       body: CustomScrollView(
         slivers: [
@@ -70,8 +56,7 @@ class _UpdateNotePageState extends State<UpdateNotePage> {
                           }
                         },
                         decoration: const InputDecoration(
-                            label: Text('Nota'),
-                            border: OutlineInputBorder()))
+                            label: Text('Nota'), border: OutlineInputBorder()))
                   ],
                 ),
               ),
@@ -80,14 +65,12 @@ class _UpdateNotePageState extends State<UpdateNotePage> {
         ],
       ),
       floatingActionButton: FloatingActionButton.extended(
+          backgroundColor: Colors.blue.shade800,
           onPressed: () {
             if (key.currentState!.validate()) {
               ///Save dat to firebase
               DbHelper()
-                  .update(
-                      id: widget.id,
-                      title: title.text.trim(),
-                      body: body.text.trim())
+                  .add(title: title.text.trim(), body: body.text.trim())
                   .then((value) {
                 ScaffoldMessenger.of(context)
                     .showSnackBar(SnackBar(content: Text(value)));
@@ -95,7 +78,13 @@ class _UpdateNotePageState extends State<UpdateNotePage> {
             }
           },
           label: Row(
-            children: const [Icon(Icons.add), Text("Salvar nota")],
+            children: const [
+              Icon(Icons.add, color: Colors.white,),
+              Text(
+                "Salvar nota",
+                style: TextStyle(color: Colors.white),
+              )
+            ],
           )),
     );
   }

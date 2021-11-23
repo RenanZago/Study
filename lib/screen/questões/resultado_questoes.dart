@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:study/components/bot%C3%A3o_de_navega%C3%A7%C3%A3o.dart';
+import 'package:study/services/auth_check.dart';
 
 // ignore: must_be_immutable
 class ResultPage extends StatefulWidget {
@@ -12,9 +12,9 @@ class ResultPage extends StatefulWidget {
 class ResultPageState extends State<ResultPage> {
 
   List<String> imagens = [
-    "images/success.jpg",
-    "images/good.jpg",
-    "images/bad.jpg",
+    "images/success.png",
+    "images/good.png",
+    "images/bad.png",
   ];
 
   late String mensagem; //TESTAR ISSO PRA COLOCAR IMAGENS
@@ -99,7 +99,7 @@ class ResultPageState extends State<ResultPage> {
                 ElevatedButton(
                   onPressed: (){
                     Navigator.of(context).pushReplacement(MaterialPageRoute(
-                      builder: (context) => MyBottomNavigationBar(),
+                      builder: (context) => AuthCheck(),
                     ));
                   },
                   child: Text(

@@ -108,7 +108,7 @@ class HomePageStateM extends State<QuestoesFisica> {
       appBar: AppBar(
         backgroundColor: Colors.blue.shade800,
         title: Text(
-          "",
+          "Física",
           style: TextStyle(
             fontFamily: "Quando",
           ),

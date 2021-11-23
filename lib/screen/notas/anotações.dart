@@ -3,9 +3,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 // ignore: unused_import
 import 'package:intl/intl.dart';
+import 'package:study/components/custom_drawer.dart';
 import 'package:study/services/db_service.dart';
-import '../view_note.dart';
-import 'create_note.dart';
+import 'ver_nota.dart';
+import 'criar_nota.dart';
 
 class Notes extends StatefulWidget {
   const Notes({Key? key}) : super(key: key);
@@ -23,15 +24,20 @@ class _HomePageState extends State<Notes> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Minhas notas"),
+        backgroundColor: Colors.blue.shade800,
+        title: const Text(
+          "Notas",
+          style: TextStyle(fontFamily: "Quando"),
+        ),
       ),
+      drawer: CustomDrawer(),
       body: StreamBuilder<QuerySnapshot>(
         stream: dbCollection.doc(user!.uid).collection('MyNotes').snapshots(),
         builder: (context, AsyncSnapshot<QuerySnapshot> snapshot) {
           if (snapshot.hasData) {
             if (snapshot.data!.docs.isEmpty) {
               return const Center(
-                child: Text("Nenhuma nota !"),
+                child: Text("Nenhuma nota!"),
               );
             } else {
               return ListView(
@@ -43,29 +49,29 @@ class _HomePageState extends State<Notes> {
                     String id = data.id;
 
                     return ListTile(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (_) => ViewNote(
-                                title: title,
-                                body: body,
-                                id : id,
-                              ),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => ViewNote(
+                              title: title,
+                              body: body,
+                              id: id,
                             ),
-                          );
-                        },
-                        title: Text(title),
-                        subtitle: Text("$time"),
-                        trailing: IconButton(
-                            onPressed: () {
-                              DbHelper().delete(id: id).then((value) {
-                                ScaffoldMessenger.of(context).showSnackBar(
-                                    SnackBar(content: Text(value)));
-                              });
-                            },
-                            icon: const Icon(Icons.delete)),
+                          ),
                         );
+                      },
+                      title: Text(title),
+                      subtitle: Text("$time"),
+                      trailing: IconButton(
+                          onPressed: () {
+                            DbHelper().delete(id: id).then((value) {
+                              ScaffoldMessenger.of(context)
+                                  .showSnackBar(SnackBar(content: Text(value)));
+                            });
+                          },
+                          icon: const Icon(Icons.delete)),
+                    );
                   }),
                   const SizedBox(
                     height: 80,
@@ -85,6 +91,7 @@ class _HomePageState extends State<Notes> {
         },
       ),
       floatingActionButton: FloatingActionButton.extended(
+          backgroundColor: Colors.blue.shade800,
           onPressed: () {
             Navigator.push(
               context,
@@ -92,7 +99,16 @@ class _HomePageState extends State<Notes> {
             );
           },
           label: Row(
-            children: const [Icon(Icons.add), Text("Nota")],
+            children: const [
+              Icon(
+                Icons.add,
+                color: Colors.white,
+              ),
+              Text(
+                "Nota",
+                style: TextStyle(color: Colors.white),
+              ),
+            ],
           )),
     );
   }
