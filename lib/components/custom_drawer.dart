@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 // ignore: implementation_imports
 import 'package:provider/src/provider.dart';
-import 'package:study/screen/configuracao.dart';
-import 'package:study/screen/quem_somos.dart';
+import 'package:study/screen/drawer/quem_somos.dart';
 import 'package:study/services/auth_check.dart';
 import 'package:study/services/authservice.dart';
 
@@ -68,28 +67,7 @@ class CustomDrawer extends StatelessWidget {
             onTap: () => context.read<AuthService>().logout(),
           ),
           ListTile(
-            leading: Icon(Icons.settings),
-            title: Text(
-              'Configuração',
-              style: TextStyle(
-                fontFamily: "Quando",
-              ),
-            ),
-            subtitle: Text(
-              'Ir para as configurações',
-              style: TextStyle(
-                fontFamily: "Quando",
-              ),
-            ),
-            onTap: () {
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (BuildContext context) => Configuracao()));
-            },
-          ),
-          ListTile(
-            leading: Icon(Icons.article),
+            leading: Icon(Icons.groups),
             title: Text(
               'Sobre Nós',
               style: TextStyle(

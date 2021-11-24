@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:study/screen/simulado/simulado_json.dart';
+import 'package:study/screen/simulados/simulado_json.dart';
 
 class Simulados extends StatefulWidget {
   const Simulados({Key? key}) : super(key: key);
@@ -25,17 +25,17 @@ class _SimuladosState extends State<Simulados> {
   ];
 
   List<String> des = [
-    "Faça um simulado de matemática\n\nQuestões de:\n\nMatemática Básica,\n Geometria,\n Escalas,\n Razão,\n Proporção,\n Arítmetica,\n Gráficos,\n Tabelas,\n Funções.",
-    "Faça um simulado de quimica\n\nQuestões de:\n\n",
-    "Faça um simulado de fisica\n\nQuestões de:\n\n",
-    "Faça um simulado de biologia\n\nQuestões de:\n\n",
-    "Faça um simulado de geografia\n\nQuestões de:\n\n",
-    "Faça um simulado de história\n\nQuestões de:\n\n",
-    "Faça um simulado de sociologia\n\nQuestões de:\n\n",
-    "Faça um simulado de portugues\n\nQuestões de:\n\n",
-    "Faça um simulado de inglês\n\nQuestões de:\n\n",
-    "Faça um simulado de espanhol\n\nQuestões de:\n\n",
-    "Faça um simulado de filosofia\n\nQuestões de:\n\n",
+    "Faça um simulado de matemática\n\nQuestões de:\n\nMatemática Básica\nGeometria\nEscalas\nRazão\nProporção\nArítmetica\nGráficos\nTabelas\nFunções",
+    "Faça um simulado de quimica\n\nQuestões de:\n\nQuímica Básica\nFísico-Química\nQuímica Geral\nQuímica Orgânica\nMeio Ambiente\nEnergia",
+    "Faça um simulado de fisica\n\nQuestões de:\n\nFísica Básica\nMecânica\nEletricidade e Energia\nOndulatória\nTermologia\nÓptica",
+    "Faça um simulado de biologia\n\nQuestões de:\n\nBiologia Básica\nHumanidade e Ambiente\nCitologia\nHistologia e Fisiologia\nFundamentos da Ecologia\nBiotecnologia",
+    "Faça um simulado de geografia\n\nQuestões de:\n\nGeografia Agrária\nMeio Ambiente\nQuestões Econômicas e\nGlobalização\nGeografia Física\nGeografia Urbana",
+    "Faça um simulado de história\n\nQuestões de:\n\nHistória geral\nIdade Contemporânea\nBrasil Colônia\nBrasil Império\nHistória Política\nPatrimônio Histórico\n-Cultural e Memória",
+    "Faça um simulado de sociologia\n\nQuestões de:\n\nMundo do Trabalho\nCultura e Indústria Cultural\nIdeologia\nMeios de Comunicação\nTecnologia\nCultura de Massa\nCidadania",
+    "Faça um simulado de portugues\n\nQuestões de:\n\nLeitura e Interpretação de Textos\nEstrutura Textual\nAnálise de Discurso\nLeituras e Artes\nGênero Textual\nLiteratura",
+    "Faça um simulado de inglês\n\nQuestões de:\n\nLeitura e Interpretação de Textos\nLeitura e Interpretação de \nCartuns, Tiras e Charges\nDomínio Lexical\nAnálise e Interpretação \nde Poemas e Canções\nIdentificação da Função do Texto",
+    "Faça um simulado de espanhol\n\nQuestões de:\n\nLeitura e Interpretação de Textos\nSemântica e Domínio Lexical\nAnálise de Texto Literário em Prosa\nIdentificação de Função do Texto\nAnálise e interpretação de \npoemas e canções",
+    "Faça um simulado de filosofia\n\nQuestões de:\n\nÉtica e Justiça\nFilosofia Antiga\nFilosofia Contemporânea\nNatureza do Conhecimento\nFilosofia Moderna",
   ];
 
   Widget customcard(String materias, String imagem, String des) {
@@ -116,7 +116,7 @@ class _SimuladosState extends State<Simulados> {
       appBar: AppBar(
         backgroundColor: Colors.blue.shade800,
         title: Text(
-          "",
+          "Simulados",
           style: TextStyle(
             fontFamily: "Quando",
           ),

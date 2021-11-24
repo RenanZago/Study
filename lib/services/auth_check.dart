@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:study/components/bot%C3%A3o_de_navega%C3%A7%C3%A3o.dart';
-import 'package:study/screen/login.dart';
+import 'package:study/screen/login/login.dart';
 import 'authservice.dart';
 
 class AuthCheck extends StatefulWidget {

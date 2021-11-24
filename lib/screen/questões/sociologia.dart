@@ -1,33 +1,31 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:study/screen/Alternativas/Alternativas_Matematica.dart';
+import 'package:study/screen/alternativas/alternativas_sociologia.dart';
 
 class QuestoesSociologia extends StatefulWidget {
   @override
-  HomePageStateM createState() => HomePageStateM();
+  HomePageStateS createState() => HomePageStateS();
 }
 
-class HomePageStateM extends State<QuestoesSociologia> {
+class HomePageStateS extends State<QuestoesSociologia> {
 
-  List<String> imagesM = [
-    "images/Matematica_Basica.png",
-    "images/Geometria.png",
-    "images/Escalas_Razao_e_Proporcao.png",
-    "images/Aritmetica.png",
-    "images/Graficos_e_Tabelas.png",
-    "images/Funcoes.png",
+  List<String> imagesS = [
+    "images/mundo do trabalho.png",
+    "images/cultura e industria cultural.png",
+    "images/ideologia.png",
+    "images/meios de comuniçação e tecnologia.png",
+    "images/cidadania.png",
   ];
 
-  List<String> desM = [
-    "Faça questões de Matemática Basica",
-    "Faça questões de Geometria",
-    "Faça questões de Escalas, Razão e Proporção",
-    "Faça questões de Aritmética",
-    "Faça questões de Gráficos e Tabelas",
-    "Faça questões de Funções",
+  List<String> desS = [
+    "Faça questões de Mundo do Trabalho",
+    "Faça questões de Cultura e Indústria Cultural ",
+    "Faça questões de Ideologia ",
+    "Faça questões de Meios de Comunicação e Tecnologia ",
+    "Faça questões de Cidadania ",
   ];
 
-  Widget customcard(String materias, String imagemM, String desM){
+  Widget customcard(String materias, String imagemS, String desS){
     return Padding(
       padding: EdgeInsets.symmetric(
         vertical: 20.0,
@@ -36,7 +34,7 @@ class HomePageStateM extends State<QuestoesSociologia> {
       child: InkWell(
         onTap: (){
           Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (context) => GetJsonMATEMATICA(materias),
+            builder: (context) => GetJsonSOCIOLOGIA(materias),
           ));
         },
         child: Material(
@@ -60,7 +58,7 @@ class HomePageStateM extends State<QuestoesSociologia> {
                         child: Image(
                           fit: BoxFit.cover,
                           image: AssetImage(
-                            imagemM,
+                            imagemS,
                           ),
                         ),
                       ),
@@ -81,7 +79,7 @@ class HomePageStateM extends State<QuestoesSociologia> {
                 Container(
                   padding: EdgeInsets.all(20.0),
                   child: Text(
-                    desM,
+                    desS,
                     style: TextStyle(
                       fontSize: 18.0,
                       color: Colors.white,
@@ -115,12 +113,11 @@ class HomePageStateM extends State<QuestoesSociologia> {
       ),
       body: ListView(
         children: <Widget>[
-          customcard("Matemática Basica", imagesM[0], desM[0]),
-          customcard("Geometria", imagesM[1], desM[1]),
-          customcard("Escalas, Razão e Proporção", imagesM[2], desM[2]),
-          customcard("Aritmética", imagesM[3], desM[3]),
-          customcard("Gráficos e Tabelas", imagesM[4], desM[4]),
-          customcard("Funções", imagesM[5], desM[5]),
+          customcard("Mundo do Trabalho", imagesS[0], desS[0]),
+          customcard("Cultura e Indústria Cultural ", imagesS[1], desS[1]),
+          customcard("Ideologia ", imagesS[2], desS[2]),
+          customcard("Meios de Comunicação", imagesS[3], desS[3]),
+          customcard("Cidadania", imagesS[4], desS[4]),
         ],
       ),
     );

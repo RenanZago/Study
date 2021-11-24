@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:study/screen/quest%C3%B5es/resultado_questoes.dart';
+import 'package:study/components/resultado_questoes.dart';
 
 //ignore: must_be_immutable
 class GetJsonBIOLOGIA extends StatelessWidget {

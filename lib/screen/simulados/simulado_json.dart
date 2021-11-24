@@ -5,25 +5,35 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:study/components/resultado_questoes.dart';
 
-//ignore: must_be_immutable
-class GetJsonMATEMATICA extends StatelessWidget {
+// ignore: must_be_immutable
+class GetJsonSIMULADO extends StatelessWidget {
   late String materias;
-  GetJsonMATEMATICA(this.materias);
+  GetJsonSIMULADO(this.materias);
   late String assettoload;
 
   setasset() {
-    if (materias == "Matemática Basica") {
-      assettoload = "assets/matematica_basica.json";
-    } else if (materias == "Geometria") {
-      assettoload = "assets/geometria.json";
-    } else if (materias == "Escalas, Razão e Proporção") {
-      assettoload = "assets/escalas.json";
-    } else if (materias == "Aritmética") {
-      assettoload = "assets/aritmetica.json";
-    } else if (materias == "Gráficos e Tabelas") {
-      assettoload = "assets/graficos.json";
+    if (materias == "Simulado Matemática") {
+      assettoload = "assets/matematica_simulado.json";
+    } else if (materias == "Simulado Química") {
+      assettoload = "assets/quimica_basica.json";
+    } else if (materias == "Simulado Física") {
+      assettoload = "assets/fisica_basica.json";
+    } else if (materias == "Simulado Biologia") {
+      assettoload = "assets/biologia_simulado.json";
+    } else if (materias == "Simulado Geografia") {
+      assettoload = "assets/geografia_agraria.json";
+      } else if (materias == "Simulado História") {
+      assettoload = "assets/brasil_colonia.json";
+      } else if (materias == "Simulado Sociologia") {
+      assettoload = "assets/etica_e_justica.json";
+      } else if (materias == "Simulado Português") {
+      assettoload = "assets/literatura.json";
+      } else if (materias == "Simulado Inglês") {
+      assettoload = "assets/ingles_leitura_e_interpretacao_textual.json";
+      } else if (materias == "Simulado Espanhol") {
+      assettoload = "assets/espanhol_leitura_e_interpretacao.json";
     } else {
-      assettoload = "assets/funcoes.json";
+      assettoload = "assets/cultura_e_industria_cultural.json";
     }
   }
 
@@ -32,72 +42,77 @@ class GetJsonMATEMATICA extends StatelessWidget {
     setasset();
     return FutureBuilder(
       future:
-          DefaultAssetBundle.of(context).loadString(assettoload, cache: true),
+          DefaultAssetBundle.of(context).loadString(assettoload, cache: false),
       builder: (context, snapshot) {
         List? mydata = json.decode(snapshot.data.toString());
         if (mydata == null) {
           return Scaffold(
             body: Center(
               child: Text(
-                "Carregando",
+                "Loading",
               ),
             ),
           );
         } else {
-          return QuizPage(mydata: mydata);
+          return Quizpage(mydata: mydata);
         }
       },
     );
   }
 }
 
-class QuizPage extends StatefulWidget {
+class Quizpage extends StatefulWidget {
   final List mydata;
 
-  QuizPage({Key? key, required this.mydata}) : super(key: key);
+  Quizpage({Key? key, required this.mydata}) : super(key: key);
   @override
-  QuizPageState createState() => QuizPageState(mydata);
+  QuizpageState createState() => QuizpageState(mydata);
 }
 
-class QuizPageState extends State<QuizPage> {
+class QuizpageState extends State<Quizpage> {
   final List mydata;
-  QuizPageState(this.mydata);
+  QuizpageState(this.mydata);
 
   Color colortoshow = Colors.blue;
   Color right = Colors.green;
   Color wrong = Colors.red;
   int pontos = 0;
-  int i = 1; //PRIMEIRA QUESTÃO
+  int i = 1;
   bool disableAnswer = false;
-  int j = 1; //de qnts em qnts questões vai
-  var randomarray;
+  int j = 1;
+  int timer = 60;
+  String showtimer = "60";
+  // ignore: non_constant_identifier_names
+  var random_array;
 
   Map<String, Color> btncolor = {
-    "a": Colors.blue.shade800,
-    "b": Colors.blue.shade800,
-    "c": Colors.blue.shade800,
-    "d": Colors.blue.shade800,
+    "a": Colors.blue,
+    "b": Colors.blue,
+    "c": Colors.blue,
+    "d": Colors.blue,
   };
+
+  bool canceltimer = false;
 
   genrandomarray() {
     var distinctIds = [];
     var rand = new Random();
     // ignore: unused_local_variable
     for (int i = 0;;) {
-      distinctIds.add(rand.nextInt(10) + 1);
-      randomarray = distinctIds.toSet().toList();
-      if (randomarray.length < 10) {
-        //NUMERO DE QUESTÕES
+      distinctIds.add(rand.nextInt(60) + 1);
+      random_array = distinctIds.toSet().toList();
+      if (random_array.length < 60) {
         continue;
       } else {
         break;
       }
     }
-    print(randomarray);
+    print(random_array);
   }
 
   @override
   void initState() {
+    starttimer();
     genrandomarray();
     super.initState();
   }
@@ -109,22 +124,42 @@ class QuizPageState extends State<QuizPage> {
     }
   }
 
+  void starttimer() async {
+    const onesec = Duration(seconds: 1);
+    Timer.periodic(onesec, (Timer t) {
+      setState(() {
+        if (timer < 1) {
+          t.cancel();
+          nextquestion();
+        } else if (canceltimer == true) {
+          t.cancel();
+        } else {
+          timer = timer - 1;
+        }
+        showtimer = timer.toString();
+      });
+    });
+  }
+
   void nextquestion() {
+    canceltimer = false;
+    timer = 60;
     setState(() {
-      if (j < 10) {
-        i = randomarray[j];
+      if (j < 60) {
+        i = random_array[j];
         j++;
       } else {
         Navigator.of(context).pushReplacement(MaterialPageRoute(
           builder: (context) => ResultPage(pontos: pontos),
         ));
       }
-      btncolor["a"] = Colors.blue.shade800;
-      btncolor["b"] = Colors.blue.shade800;
-      btncolor["c"] = Colors.blue.shade800;
-      btncolor["d"] = Colors.blue.shade800;
+      btncolor["a"] = Colors.blue;
+      btncolor["b"] = Colors.blue;
+      btncolor["c"] = Colors.blue;
+      btncolor["d"] = Colors.blue;
       disableAnswer = false;
     });
+    starttimer();
   }
 
   void checkanswer(String k) {
@@ -136,9 +171,10 @@ class QuizPageState extends State<QuizPage> {
     }
     setState(() {
       btncolor[k] = colortoshow;
+      canceltimer = true;
       disableAnswer = true;
     });
-    Timer(Duration(seconds: 1), nextquestion);
+    Timer(Duration(seconds: 2), nextquestion);
   }
 
   Widget choicebutton(String k) {
@@ -204,6 +240,22 @@ class QuizPageState extends State<QuizPage> {
                     choicebutton('c'),
                     choicebutton('d'),
                   ],
+                ),
+              ),
+            ),
+          ),
+          Expanded(
+            flex: 1,
+            child: Container(
+              alignment: Alignment.topCenter,
+              child: Center(
+                child: Text(
+                  showtimer,
+                  style: TextStyle(
+                    fontSize: 35.0,
+                    fontWeight: FontWeight.w700,
+                    fontFamily: 'Times New Roman',
+                  ),
                 ),
               ),
             ),

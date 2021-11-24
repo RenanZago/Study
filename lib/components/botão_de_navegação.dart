@@ -1,7 +1,6 @@
 ///Macumba, não mexa
 ///Aqui é a parte da navegação da barra de baixo
 import 'package:flutter/material.dart';
-import 'package:study/screen/configuracao.dart';
 import 'package:study/screen/notas/anota%C3%A7%C3%B5es.dart';
 import 'package:study/screen/inicio.dart';
 
@@ -28,7 +27,6 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
   final List<Widget> _children = [
     HomePage(),
     Notes(),
-    Configuracao(),
   ];
 
   void onTappedBar(int index) {

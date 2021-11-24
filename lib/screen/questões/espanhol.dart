@@ -1,33 +1,31 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:study/screen/Alternativas/Alternativas_Matematica.dart';
+import 'package:study/screen/alternativas/alternativas_espanhol.dart';
 
 class QuestoesEspanhol extends StatefulWidget {
   @override
-  HomePageStateM createState() => HomePageStateM();
+  HomePageStateE createState() => HomePageStateE();
 }
 
-class HomePageStateM extends State<QuestoesEspanhol> {
+class HomePageStateE extends State<QuestoesEspanhol> {
 
-  List<String> imagesM = [
-    "images/Matematica_Basica.png",
-    "images/Geometria.png",
-    "images/Escalas_Razao_e_Proporcao.png",
-    "images/Aritmetica.png",
-    "images/Graficos_e_Tabelas.png",
-    "images/Funcoes.png",
+  List<String> imagesE = [
+    "images/espanhol leitura e interpretação.png",
+    "images/espanhol semantica.png",
+    "images/estrutura textual e analise de discurso.png",
+    "images/genero textual.png",
+    "images/espanhol analise de poemas.png",
   ];
 
-  List<String> desM = [
-    "Faça questões de Matemática Basica",
-    "Faça questões de Geometria",
-    "Faça questões de Escalas, Razão e Proporção",
-    "Faça questões de Aritmética",
-    "Faça questões de Gráficos e Tabelas",
-    "Faça questões de Funções",
+  List<String> desE = [
+    "Faça questões de Leitura e Interpretação de Textos",
+    "Faça questões de Semântica e Domínio Lexical ",
+    "Faça questões de Análise de Texto Literário em Prosa",
+    "Faça questões de Identificação de Função do Texto",
+    "Faça questões de Análise e interpretação de poemas e canções",
   ];
 
-  Widget customcard(String materias, String imagemM, String desM){
+  Widget customcard(String materias, String imagemE, String desE){
     return Padding(
       padding: EdgeInsets.symmetric(
         vertical: 20.0,
@@ -36,7 +34,7 @@ class HomePageStateM extends State<QuestoesEspanhol> {
       child: InkWell(
         onTap: (){
           Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (context) => GetJsonMATEMATICA(materias),
+            builder: (context) => GetJsonESPANHOL(materias),
           ));
         },
         child: Material(
@@ -60,7 +58,7 @@ class HomePageStateM extends State<QuestoesEspanhol> {
                         child: Image(
                           fit: BoxFit.cover,
                           image: AssetImage(
-                            imagemM,
+                            imagemE,
                           ),
                         ),
                       ),
@@ -81,7 +79,7 @@ class HomePageStateM extends State<QuestoesEspanhol> {
                 Container(
                   padding: EdgeInsets.all(20.0),
                   child: Text(
-                    desM,
+                    desE,
                     style: TextStyle(
                       fontSize: 18.0,
                       color: Colors.white,
@@ -115,12 +113,11 @@ class HomePageStateM extends State<QuestoesEspanhol> {
       ),
       body: ListView(
         children: <Widget>[
-          customcard("Matemática Basica", imagesM[0], desM[0]),
-          customcard("Geometria", imagesM[1], desM[1]),
-          customcard("Escalas, Razão e Proporção", imagesM[2], desM[2]),
-          customcard("Aritmética", imagesM[3], desM[3]),
-          customcard("Gráficos e Tabelas", imagesM[4], desM[4]),
-          customcard("Funções", imagesM[5], desM[5]),
+          customcard("Leitura e Interpretação de Textos ", imagesE[0], desE[0]),
+          customcard("Semântica e Domínio Lexical ", imagesE[1], desE[1]),
+          customcard("Análise de Texto Literário em Prosa", imagesE[2], desE[2]),
+          customcard("Identificação de Função do Texto", imagesE[3], desE[3]),
+          customcard("Análise e interpretação de poemas e canções", imagesE[4], desE[4]),
         ],
       ),
     );

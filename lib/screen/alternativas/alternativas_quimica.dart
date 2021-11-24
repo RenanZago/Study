@@ -2,16 +2,16 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:study/screen/quest%C3%B5es/resultado_questoes.dart';
+import 'package:study/components/resultado_questoes.dart';
 
 //ignore: must_be_immutable
 class GetJsonQUIMICA extends StatelessWidget {
   late String materias;
-   GetJsonQUIMICA(this.materias);
+  GetJsonQUIMICA(this.materias);
   late String assettoload;
 
   setasset() {
-    if (materias == "Química Básica") {  
+    if (materias == "Química Básica") {
       assettoload = "assets/quimica_basica.json";
     } else if (materias == "Química Geral") {
       assettoload = "assets/quimica_geral.json";
@@ -20,7 +20,7 @@ class GetJsonQUIMICA extends StatelessWidget {
     } else if (materias == "Química Orgânica") {
       assettoload = "assets/quimica_organica.json";
     } else if (materias == "Meio Ambiente") {
-      assettoload = "assets/meio_ambiente.json";     
+      assettoload = "assets/meio_ambiente.json";
     } else {
       assettoload = "assets/energia.json";
     }
@@ -53,7 +53,7 @@ class GetJsonQUIMICA extends StatelessWidget {
 class QuizPage extends StatefulWidget {
   final List mydata;
 
-  QuizPage({ Key? key, required this.mydata}) : super(key: key);
+  QuizPage({Key? key, required this.mydata}) : super(key: key);
   @override
   QuizPageState createState() => QuizPageState(mydata);
 }
@@ -68,7 +68,7 @@ class QuizPageState extends State<QuizPage> {
   int pontos = 0;
   int i = 1; //PRIMEIRA QUESTÃO
   bool disableAnswer = false;
-  int j = 1; //de qnts em qnts questões vai 
+  int j = 1; //de qnts em qnts questões vai
   var randomarray;
 
   Map<String, Color> btncolor = {
@@ -85,7 +85,8 @@ class QuizPageState extends State<QuizPage> {
     for (int i = 0;;) {
       distinctIds.add(rand.nextInt(10) + 1);
       randomarray = distinctIds.toSet().toList();
-      if (randomarray.length < 10)  {   //NUMERO DE QUESTÕES
+      if (randomarray.length < 10) {
+        //NUMERO DE QUESTÕES
         continue;
       } else {
         break;
@@ -166,7 +167,7 @@ class QuizPageState extends State<QuizPage> {
 
   @override
   Widget build(BuildContext context) {
-     return Scaffold(
+    return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
         backgroundColor: Colors.blue.shade800,

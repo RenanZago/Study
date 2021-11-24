@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+// ignore: unused_import
 import 'package:flutter/services.dart';
 import 'package:study/components/custom_drawer.dart';
-import 'package:study/screen/estudos.dart';
-import 'package:study/screen/simulado/simulados.dart';
-import 'materias.dart';
+import 'package:study/screen/simulados/simulados.dart';
+import 'estudos/estudos.dart';
+import 'questões/materias.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -94,8 +95,6 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setPreferredOrientations(
-        [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue.shade800,

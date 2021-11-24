@@ -4,11 +4,11 @@ class Creditos extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff2196f3),
       appBar: AppBar(
         backgroundColor: Colors.blue.shade800,
+        centerTitle: true,
         title: Text(
-          "",
+          "Quem somos?",
           style: TextStyle(
             fontFamily: "Quando",
           ),
@@ -42,17 +42,7 @@ class Creditos extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Text(
-                          'Quem somos?',
-                          style: TextStyle(
-                            fontSize: 25.0,
-                            fontWeight: FontWeight.w800,
-                          ),
-                        ),
-                        SizedBox(
-                          height: 40.0,
-                        ),
-                        Text(
-                          'Esse projeto trata-se de um TCC feito por um grupo de 4 alunos: Ana Flávia Andrade, Ana Laura Denadai, Raphael Henrique Romera e Renan Alves Zago.',
+                          'Esse aplicativo trata-se de um Trabalho de Conclusão de Curso realizado em 2021, por quatro alunos cursantes do Ensino Técnico de Desenvolvimento de Sistemas Integrado ao Médio, na Etec Elias Nechar Catanduva.\n\nTais alunos são:\nAna Flávia Andrade,\nAna Laura Denadai,\nRaphael Henrique Romera,\nRenan Alves Zago.\n\nA Ideia da criação do Study surgiu da necessidade de unir o útil ao agradável, conciliando os estudos à praticidade e portabilidade de um smartphone.\n\nEsperamos que você, ao utilizar nosso app, possa encontrar um ambiente acolhedor para estudar, realizar anotações, revisar conteúdos e muito mais.\n\nAgradecemos imensamente a todos que possibilitaram, apesar das dificuldades, nossa trajetória até aqui, e principalmente aos mestres, sem eles não seria possível.\n\nDe estudantes, para estudantes.',
                           style: TextStyle(
                             fontSize: 16.0,
                             fontWeight: FontWeight.w400,
@@ -61,14 +51,21 @@ class Creditos extends StatelessWidget {
                         SizedBox(
                           height: 20.0,
                         ),
-                        Text(
-                          'Realizado no ano de 2021, ano de conclusão do Curso de Desenvolvimento de Sistemas na ETEC Elias Nechar.\n\nProfessores: Alessandro e Pelicano\nTurma: 3I3',
-                          style: TextStyle(
-                            fontSize: 16.0,
-                            fontWeight: FontWeight.w400,
-                          ),
-                        ),
+                        Card(
+          child: ListTile(
+            title: Text("\nDúvidas, sugestões? Mande um e-mail para o Feliqin!\n\nfeliqinstudy@gmail.com\n"),
+            
+          ),
+          elevation: 8,
+          shadowColor: Colors.blue.shade800,
+          margin: EdgeInsets.all(20),
+          shape:  OutlineInputBorder(
+              borderRadius: BorderRadius.circular(10),
+              borderSide: BorderSide(color: Colors.blue.shade800, width: 1)
+          ),
+        )
                       ],
+                      
                     ),
                   ),
                 ),

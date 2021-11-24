@@ -6,24 +6,16 @@ import 'package:flutter/services.dart';
 import 'package:study/components/resultado_questoes.dart';
 
 //ignore: must_be_immutable
-class GetJsonMATEMATICA extends StatelessWidget {
+class GetJsonINGLES extends StatelessWidget {
   late String materias;
-  GetJsonMATEMATICA(this.materias);
+  GetJsonINGLES(this.materias);
   late String assettoload;
 
   setasset() {
     if (materias == "Matemática Basica") {
       assettoload = "assets/matematica_basica.json";
-    } else if (materias == "Geometria") {
-      assettoload = "assets/geometria.json";
-    } else if (materias == "Escalas, Razão e Proporção") {
-      assettoload = "assets/escalas.json";
-    } else if (materias == "Aritmética") {
-      assettoload = "assets/aritmetica.json";
-    } else if (materias == "Gráficos e Tabelas") {
-      assettoload = "assets/graficos.json";
     } else {
-      assettoload = "assets/funcoes.json";
+      assettoload = "assets/ingles_leitura_e_interpretacao_textual.json";
     }
   }
 
@@ -141,7 +133,7 @@ class QuizPageState extends State<QuizPage> {
     Timer(Duration(seconds: 1), nextquestion);
   }
 
-  Widget choicebutton(String k) {
+   Widget choicebutton(String k) {
     return Padding(
       padding: EdgeInsets.symmetric(
         vertical: 10.0,
